@@ -27,7 +27,7 @@ function HomepageHeader() {
           </Link>
           <Link
             className="button button--outline button--secondary button--lg"
-            to="/docs/periodic-table/reactive/prompts">
+            to="/docs/periodic-table">
             Explore the Periodic Table
           </Link>
         </div>

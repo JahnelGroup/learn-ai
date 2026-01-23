@@ -34,13 +34,13 @@ Expert-level elements are at the cutting edge. Focus on **deep understanding and
 
 | Element | Concept | What to Master |
 |---------|---------|----------------|
-| [**Ft**](/docs/periodic-table/retrieval/fine-tuning) | Fine-tuning | Prepare datasets and fine-tune models. Know when fine-tuning beats RAG and vice versa. |
-| [**Rt**](/docs/periodic-table/validation/red-team) | Red Teaming | Adversarial testing, prompt injection defense, security assessment. Find vulnerabilities systematically. |
-| [**Ma**](/docs/periodic-table/reactive/multi-agent) | Multi-agent | Design and implement multi-agent orchestration. Understand coordination, specialization, and failure modes. |
-| [**Sy**](/docs/periodic-table/retrieval/synthetic) | Synthetic Data | Generate and validate synthetic training data. Understand quality, diversity, and contamination risks. |
-| [**In**](/docs/periodic-table/validation/interpretability) | Interpretability | Debug model behavior, understand attention patterns, root-cause failures. Know the limits of explainability. |
-| [**Th**](/docs/periodic-table/models/thinking) | Thinking Models | Architect solutions using reasoning models. Know when to invest compute in thinking vs. generation. |
-| [**Mc**](/docs/periodic-table/orchestration/mcp) | MCP/Protocols | Understand emerging standards. Evaluate and implement protocol-based architectures. |
+| [**Ft**](/docs/periodic-table/retrieval#ft--fine-tuning) | Fine-tuning | Prepare datasets and fine-tune models. Know when fine-tuning beats RAG and vice versa. |
+| [**Rt**](/docs/periodic-table/validation#rt--red-teaming) | Red Teaming | Adversarial testing, prompt injection defense, security assessment. Find vulnerabilities systematically. |
+| [**Ma**](/docs/periodic-table/reactive#ma--multi-agent) | Multi-agent | Design and implement multi-agent orchestration. Understand coordination, specialization, and failure modes. |
+| [**Sy**](/docs/periodic-table/retrieval#sy--synthetic-data) | Synthetic Data | Generate and validate synthetic training data. Understand quality, diversity, and contamination risks. |
+| [**In**](/docs/periodic-table/validation#in--interpretability) | Interpretability | Debug model behavior, understand attention patterns, root-cause failures. Know the limits of explainability. |
+| [**Th**](/docs/periodic-table/models#th--thinking-models) | Thinking Models | Architect solutions using reasoning models. Know when to invest compute in thinking vs. generation. |
+| [**Mc**](/docs/periodic-table/orchestration#mc--mcp) | MCP/Protocols | Understand emerging standards. Evaluate and implement protocol-based architectures. |
 
 <TierPeriodicTable highlightedElements={['Ft', 'Rt', 'Ma', 'Sy', 'In', 'Th', 'Mc']} />
 
