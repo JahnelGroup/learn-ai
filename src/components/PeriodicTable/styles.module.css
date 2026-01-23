@@ -91,7 +91,8 @@
   transition: transform 0.2s, box-shadow 0.2s;
   cursor: pointer;
   border: 2px solid transparent;
-  min-height: 65px;
+  height: 80px;
+  box-sizing: border-box;
 }
 
 .element:hover {
@@ -107,10 +108,14 @@
 }
 
 .name {
-  font-size: 1.1rem;
+  font-size: 1.05rem;
   text-align: center;
   margin-top: 0.25rem;
   line-height: 1.2;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  max-width: 100%;
 }
 
 /* Element Dimmed State */
@@ -227,6 +232,36 @@
 }
 
 /* Responsive */
+@media (max-width: 1340px) {
+  .headerRow {
+    grid-template-columns: repeat(5, 1fr);
+  }
+
+  .elementRow {
+    grid-template-columns: repeat(5, 1fr);
+  }
+
+  .cornerCell,
+  .rowLabel {
+    display: none;
+  }
+}
+
+@media (max-width: 900px) {
+  .element {
+    height: 75px;
+    padding: 0.65rem 0.45rem;
+  }
+
+  .symbol {
+    font-size: 0.95rem;
+  }
+
+  .name {
+    font-size: 1rem;
+  }
+}
+
 @media (max-width: 768px) {
   .headerRow,
   .elementRow {
@@ -235,16 +270,16 @@
   }
 
   .element {
-    min-height: 60px;
+    height: 70px;
     padding: 0.6rem 0.4rem;
   }
 
   .symbol {
-    font-size: 0.95rem;
+    font-size: 0.9rem;
   }
 
   .name {
-    font-size: 0.95rem;
+    font-size: 0.9rem;
   }
 
   .familyName {
@@ -264,16 +299,16 @@
   }
 
   .element {
-    min-height: 55px;
+    height: 65px;
     padding: 0.5rem 0.3rem;
   }
 
   .symbol {
-    font-size: 0.9rem;
+    font-size: 0.85rem;
   }
 
   .name {
-    font-size: 0.85rem;
+    font-size: 0.8rem;
   }
 
   .familyName {
@@ -293,12 +328,12 @@
   }
 
   .element {
-    min-height: 50px;
+    height: 55px;
     padding: 0.4rem 0.2rem;
   }
 
   .symbol {
-    font-size: 0.85rem;
+    font-size: 0.8rem;
   }
 
   .name {
