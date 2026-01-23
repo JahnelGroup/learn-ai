@@ -7,8 +7,8 @@ const config = {
   tagline: 'Your Guide to Mastering AI — Jahnel Group',
   favicon: 'img/favicon.ico',
 
-  url: 'https://jahnelgroup.github.io',
-  baseUrl: '/learn-ai/',
+  url: 'https://learnai.jahnelgroup.com',
+  baseUrl: '/',
 
   organizationName: 'jahnelgroup',
   projectName: 'learn-ai',
