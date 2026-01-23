@@ -46,7 +46,7 @@ const config = {
         title: 'Learn AI',
         logo: {
           alt: 'Jahnel Group Logo',
-          src: 'img/logo.svg',
+          src: 'img/logo.png',
         },
         items: [
           {
