@@ -4,6 +4,8 @@ title: "Tier 2: Practitioner"
 sidebar_position: 3
 ---
 
+import TierPeriodicTable from '@site/src/components/PeriodicTable/TierTable';
+
 # Tier 2: Practitioner
 
 > *"I can build and deploy AI-powered features in production systems."*
@@ -38,6 +40,8 @@ These are the concepts to understand at Practitioner level. Focus on **hands-on 
 | [**Fw**](/docs/periodic-table/orchestration/frameworks) | Frameworks | Gain proficiency in at least one major AI framework. Understand abstractions, patterns, and when to use them. |
 | [**Sm**](/docs/periodic-table/models/small-models) | Small Models | Know when and how to use smaller models. Understand cost/latency/quality tradeoffs. |
 | [**Cw**](/docs/periodic-table/orchestration/context) | Context Windows | Manage context effectively. Understand token limits, context stuffing, and optimization strategies. |
+
+<TierPeriodicTable highlightedElements={['Fc', 'Vx', 'Rg', 'Mm', 'Ag', 'Fw', 'Sm', 'Cw']} />
 
 ---
 
