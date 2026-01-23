@@ -4,6 +4,8 @@ title: "Tier 1: Foundation"
 sidebar_position: 2
 ---
 
+import TierPeriodicTable from '@site/src/components/PeriodicTable/TierTable';
+
 # Tier 1: Foundation
 
 > *"I can have an intelligent conversation about AI and use it effectively."*
@@ -32,6 +34,8 @@ These are the concepts to understand at Foundation. You don't need to master imp
 | [**Gr**](/docs/periodic-table/validation/guardrails) | Guardrails | AI safety, bias, ethical considerations, and why guardrails matter in production systems. |
 | [**Rg**](/docs/periodic-table/orchestration/rag) | RAG | The RAG pattern conceptually: retrieval, augmentation, generation. Know when and why to use it. |
 | [**Ev**](/docs/periodic-table/validation/evaluation) | Evaluation | How AI quality is measured. Common metrics, benchmarks, and the importance of human evaluation. |
+
+<TierPeriodicTable highlightedElements={['Pr', 'Lg', 'Em', 'Gr', 'Rg', 'Ev']} />
 
 ---
 

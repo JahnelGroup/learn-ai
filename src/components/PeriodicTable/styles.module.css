@@ -123,6 +123,17 @@
   line-height: 1.2;
 }
 
+/* Element Dimmed State */
+.elementDimmed {
+  opacity: 0.3;
+  pointer-events: none;
+}
+
+.elementDimmed:hover {
+  transform: none;
+  box-shadow: none;
+}
+
 /* Element Family Colors */
 .elementReactive {
   background-color: #fadbd8;

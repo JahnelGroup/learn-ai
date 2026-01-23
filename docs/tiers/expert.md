@@ -4,6 +4,8 @@ title: "Tier 3: Expert"
 sidebar_position: 4
 ---
 
+import TierPeriodicTable from '@site/src/components/PeriodicTable/TierTable';
+
 # Tier 3: Expert
 
 > *"I can architect AI systems, make strategic technology decisions, and advance organizational capability."*
@@ -39,6 +41,8 @@ Expert-level elements are at the cutting edge. Focus on **deep understanding and
 | [**In**](/docs/periodic-table/validation/interpretability) | Interpretability | Debug model behavior, understand attention patterns, root-cause failures. Know the limits of explainability. |
 | [**Th**](/docs/periodic-table/models/thinking) | Thinking Models | Architect solutions using reasoning models. Know when to invest compute in thinking vs. generation. |
 | [**Mc**](/docs/periodic-table/orchestration/mcp) | MCP/Protocols | Understand emerging standards. Evaluate and implement protocol-based architectures. |
+
+<TierPeriodicTable highlightedElements={['Ft', 'Rt', 'Ma', 'Sy', 'In', 'Th', 'Mc']} />
 
 ---
 
