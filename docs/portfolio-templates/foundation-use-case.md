@@ -139,7 +139,7 @@ Before submitting, confirm you can answer these:
 For Foundation portfolio completion, ensure you have:
 
 - [ ] **3 documented use cases** using this template
-- [ ] **Real work tasks** (not contrived examples)
+- [ ] **Real hands on work** (not just theoretical understanding)
 - [ ] **Iteration shown** (not just final result)
 - [ ] **Honest reflection** on what worked and didn't
 - [ ] **Periodic table connections** identified
