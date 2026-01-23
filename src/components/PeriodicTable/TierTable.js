@@ -70,7 +70,6 @@ function Element({ symbol, name, family, path, rowName, isHighlighted }) {
 function FamilyHeader({ family }) {
   return (
     <div className={`${styles.familyHeader} ${styles[`header${family.id.charAt(0).toUpperCase() + family.id.slice(1)}`]}`}>
-      <span className={styles.familyShort}>{family.shortName}</span>
       <span className={styles.familyName}>{family.name}</span>
     </div>
   );
@@ -79,7 +78,6 @@ function FamilyHeader({ family }) {
 function RowLabel({ row }) {
   return (
     <div className={styles.rowLabel}>
-      <span className={styles.rowNumber}>Row {row.number}</span>
       <span className={styles.rowName}>{row.name}</span>
     </div>
   );
@@ -113,18 +111,6 @@ export default function TierPeriodicTable({ highlightedElements = [] }) {
         </div>
       ))}
 
-      {/* Legend */}
-      <div className={styles.legend}>
-        <div className={styles.legendTitle}>Families:</div>
-        <div className={styles.legendItems}>
-          {families.map((family) => (
-            <div key={family.id} className={styles.legendItem}>
-              <span className={`${styles.legendDot} ${styles[`dot${family.id.charAt(0).toUpperCase() + family.id.slice(1)}`]}`}></span>
-              <span>{family.name}</span>
-            </div>
-          ))}
-        </div>
-      </div>
     </div>
   );
 }
