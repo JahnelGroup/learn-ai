@@ -1,0 +1,209 @@
+---
+id: practitioner
+title: "Tier 2: Practitioner"
+sidebar_position: 3
+---
+
+# Tier 2: Practitioner
+
+> *"I can build and deploy AI-powered features in production systems."*
+
+---
+
+## Prerequisites
+
+**Foundation understanding is expected** before diving into Practitioner concepts. If you haven't worked through Foundation, start there—the concepts here build on that base.
+
+---
+
+## What This Level Means
+
+Practitioner demonstrates that you can **independently build AI-powered features and deploy them to production**. You understand technical implementation details, can make architecture decisions for standard AI patterns, and can troubleshoot issues when things go wrong.
+
+At this level, you're ready to take on AI work on client projects with appropriate guidance. You can turn AI concepts into working code.
+
+---
+
+## Elements to Explore
+
+These are the concepts to understand at Practitioner level. Focus on **hands-on implementation**—building real things, not just reading about them.
+
+| Element | Concept | What to Build |
+|---------|---------|---------------|
+| [**Fc**](/docs/periodic-table/reactive/function-calling) | Function Calling | Implement tool use and API integration with LLMs. Design function schemas, handle responses, manage errors. |
+| [**Vx**](/docs/periodic-table/retrieval/vector-db) | Vector Databases | Set up and query vector databases. Understand indexing, similarity metrics, and performance tradeoffs. |
+| [**Rg**](/docs/periodic-table/orchestration/rag) | RAG (Advanced) | Build complete RAG pipelines. Implement chunking strategies, retrieval optimization, and context management. |
+| [**Mm**](/docs/periodic-table/models/multi-modal) | Multi-modal | Work with vision and audio models. Understand input processing, use cases, and limitations. |
+| [**Ag**](/docs/periodic-table/reactive/agents) | Agents | Implement basic agentic loops. Understand planning, tool selection, observation, and termination conditions. |
+| [**Fw**](/docs/periodic-table/orchestration/frameworks) | Frameworks | Gain proficiency in at least one major AI framework. Understand abstractions, patterns, and when to use them. |
+| [**Sm**](/docs/periodic-table/models/small-models) | Small Models | Know when and how to use smaller models. Understand cost/latency/quality tradeoffs. |
+| [**Cw**](/docs/periodic-table/orchestration/context) | Context Windows | Manage context effectively. Understand token limits, context stuffing, and optimization strategies. |
+
+---
+
+## Portfolio: Ship Something Real
+
+Practitioner portfolio requires **at least one AI-powered feature shipped to production** (internal or client). This is where theory meets reality.
+
+### What to Document
+
+**1. Architecture Decisions**
+- Which periodic table elements are in play?
+- Why did you choose this approach over alternatives?
+- What tradeoffs did you accept?
+
+**2. Technical Implementation**
+- How does the system work?
+- What frameworks/tools did you use?
+- Show the key code patterns.
+
+**3. Challenges and Solutions**
+- What went wrong?
+- How did you debug issues?
+- What would you do differently?
+
+**4. Measurable Outcomes**
+- Accuracy/quality metrics
+- Latency numbers
+- Cost analysis
+- User feedback
+
+### Example Projects
+
+Good Practitioner projects might include:
+- A RAG system against internal documentation with measured retrieval quality
+- An agent that completes a multi-step workflow with observable reasoning
+- A function-calling integration with external APIs and error handling
+- A multi-modal feature processing images or audio
+
+**Use the [Practitioner Portfolio Template](/docs/portfolio-templates/practitioner-feature) to structure your documentation.**
+
+---
+
+## Skills to Develop
+
+### Function Calling
+
+Can you:
+- [ ] Design function schemas with clear descriptions?
+- [ ] Handle function call responses and errors gracefully?
+- [ ] Implement parallel and sequential function patterns?
+- [ ] Debug when the model calls the wrong function?
+
+### Vector Databases
+
+Can you:
+- [ ] Set up a vector database (Pinecone, Chroma, etc.)?
+- [ ] Design chunking strategies for different document types?
+- [ ] Implement and measure retrieval quality?
+- [ ] Optimize for your latency and cost requirements?
+
+### RAG Implementation
+
+Can you:
+- [ ] Build an end-to-end RAG pipeline?
+- [ ] Implement reranking for better results?
+- [ ] Handle documents that don't fit in context?
+- [ ] Measure and improve retrieval quality?
+
+### Agents
+
+Can you:
+- [ ] Implement a think-act-observe loop?
+- [ ] Design appropriate termination conditions?
+- [ ] Handle agent failures gracefully?
+- [ ] Observe and debug agent reasoning?
+
+### Frameworks
+
+Can you:
+- [ ] Build with LangChain, LlamaIndex, or equivalent?
+- [ ] Understand what the abstractions do underneath?
+- [ ] Know when to use framework vs. direct API?
+- [ ] Debug issues within framework code?
+
+---
+
+## Assessment Approach
+
+Practitioner assessment includes:
+
+### Technical Demonstration
+Walk through your production feature live. Show it working. Explain the architecture. Answer questions about implementation choices.
+
+### Code Review
+An Expert-level colleague reviews your code. They'll look at:
+- Code quality and patterns
+- Error handling
+- Security considerations
+- Architecture decisions
+
+### Technical Discussion
+Deeper dive into your understanding. Questions might include:
+- "Why did you choose X over Y?"
+- "What would break if Z happened?"
+- "How would you improve this system?"
+
+### What "Passing" Means
+You've demonstrated you can build real AI features. You understand implementation details well enough to troubleshoot issues and make architecture decisions.
+
+---
+
+## Learning Path Suggestions
+
+### Start Here
+1. Ensure Foundation concepts are solid
+2. Pick a project idea that's meaningful to you
+3. Start building immediately—learn by doing
+
+### Build Your Feature
+4. Work through each element hands-on
+5. Document decisions and learnings as you go
+6. Get feedback from others early and often
+
+### Ship It
+7. Deploy to production (internal is fine)
+8. Measure real-world performance
+9. Iterate based on what you learn
+
+### Prepare for Assessment
+10. Complete your portfolio documentation
+11. Review your code for quality
+12. Practice explaining your architecture
+
+---
+
+## Common Questions
+
+**Q: What counts as "production"?**
+
+Internal tools count. The key is it's used by real people for real purposes—not just a demo that sits on your laptop.
+
+**Q: Can I use a personal project?**
+
+Preferably something work-related, but a substantial personal project that demonstrates the skills can work. Discuss with whoever will assess you.
+
+**Q: What if my project fails?**
+
+Document the failure. What went wrong? What did you learn? A thoughtful analysis of a failed project can be more valuable than a lucky success.
+
+**Q: Do I need to know every framework?**
+
+No. Proficiency in one major framework is sufficient. Understanding how to evaluate and learn new ones matters more than knowing all of them.
+
+---
+
+## What's Next?
+
+Practitioner gives you the ability to build. [Expert](/docs/tiers/expert) is about designing systems, leading others, and pushing into emerging territory.
+
+**[Explore Expert Tier →](/docs/tiers/expert)**
+
+---
+
+## Ready to Start?
+
+1. Pick a meaningful project
+2. Start building—you'll learn fastest by doing
+3. Document as you go with the [portfolio template](/docs/portfolio-templates/practitioner-feature)
+4. Get feedback early and often
