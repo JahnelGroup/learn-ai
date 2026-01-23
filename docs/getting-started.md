@@ -72,7 +72,7 @@ When you reach Practitioner and Expert levels, mentoring others becomes part of 
 
 Every expert was once a beginner. Every complex system is built from simple elements.
 
-Pick up the periodic table, identify where you are, and take the next step.
+Read the periodic table, identify where you are, and take the next step.
 
 The path is clear. The resources are here. The only thing left is to begin.
 
