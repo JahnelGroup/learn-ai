@@ -21,10 +21,17 @@ Quality isn't optional—it's what separates demos from production. Evaluation m
 
 ## Ev — Evaluation
 
-| | |
-|---|---|
-| **Symbol** | Ev |
-| **Row** | 1 - Primitives |
+```
+Position in Periodic Table:
+
+G4: Validation Family
+┌──────────────────────────┐
+│  → [Evaluation]          │  Row 1: Primitives
+│     Guardrails           │  Row 2: Compositions
+│     Red Teaming          │  Row 3: Deployment
+│     Interpretability     │  Row 4: Emerging
+└──────────────────────────┘
+```
 
 ### What It Is
 
@@ -114,10 +121,17 @@ Automated metrics are proxies. They correlate with quality but don't capture eve
 
 ## Gr — Guardrails
 
-| | |
-|---|---|
-| **Symbol** | Gr |
-| **Row** | 2 - Compositions |
+```
+Position in Periodic Table:
+
+G4: Validation Family
+┌──────────────────────────┐
+│     Evaluation           │  Row 1: Primitives
+│  → [Guardrails]          │  Row 2: Compositions
+│     Red Teaming          │  Row 3: Deployment
+│     Interpretability     │  Row 4: Emerging
+└──────────────────────────┘
+```
 
 ### What It Is
 
@@ -225,10 +239,17 @@ Input → Input Guardrails → Model → Output Guardrails → Response
 
 ## Rt — Red Teaming
 
-| | |
-|---|---|
-| **Symbol** | Rt |
-| **Row** | 3 - Deployment |
+```
+Position in Periodic Table:
+
+G4: Validation Family
+┌──────────────────────────┐
+│     Evaluation           │  Row 1: Primitives
+│     Guardrails           │  Row 2: Compositions
+│  → [Red Teaming]         │  Row 3: Deployment
+│     Interpretability     │  Row 4: Emerging
+└──────────────────────────┘
+```
 
 ### What It Is
 
@@ -326,10 +347,17 @@ Malicious content in retrieved documents
 
 ## In — Interpretability
 
-| | |
-|---|---|
-| **Symbol** | In |
-| **Row** | 4 - Emerging |
+```
+Position in Periodic Table:
+
+G4: Validation Family
+┌──────────────────────────┐
+│     Evaluation           │  Row 1: Primitives
+│     Guardrails           │  Row 2: Compositions
+│     Red Teaming          │  Row 3: Deployment
+│  → [Interpretability]    │  Row 4: Emerging
+└──────────────────────────┘
+```
 
 ### What It Is
 

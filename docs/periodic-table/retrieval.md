@@ -21,10 +21,17 @@ Three time scales of memory: runtime (context), persistent (vector databases), a
 
 ## Em — Embeddings
 
-| | |
-|---|---|
-| **Symbol** | Em |
-| **Row** | 1 - Primitives |
+```
+Position in Periodic Table:
+
+G2: Retrieval Family
+┌──────────────────────┐
+│  → [Embeddings]      │  Row 1: Primitives
+│     Vector DB        │  Row 2: Compositions
+│     Fine-tuning      │  Row 3: Deployment
+│     Synthetic Data   │  Row 4: Emerging
+└──────────────────────┘
+```
 
 ### What It Is
 
@@ -81,10 +88,17 @@ Embeddings unlock semantic understanding. Instead of searching for exact keyword
 
 ## Vx — Vector DB
 
-| | |
-|---|---|
-| **Symbol** | Vx |
-| **Row** | 2 - Compositions |
+```
+Position in Periodic Table:
+
+G2: Retrieval Family
+┌──────────────────────┐
+│     Embeddings       │  Row 1: Primitives
+│  → [Vector DB]       │  Row 2: Compositions
+│     Fine-tuning      │  Row 3: Deployment
+│     Synthetic Data   │  Row 4: Emerging
+└──────────────────────┘
+```
 
 ### What It Is
 
@@ -145,10 +159,17 @@ You can't do semantic search at scale without specialized storage. Vector databa
 
 ## Ft — Fine-tuning
 
-| | |
-|---|---|
-| **Symbol** | Ft |
-| **Row** | 3 - Deployment |
+```
+Position in Periodic Table:
+
+G2: Retrieval Family
+┌──────────────────────┐
+│     Embeddings       │  Row 1: Primitives
+│     Vector DB        │  Row 2: Compositions
+│  → [Fine-tuning]     │  Row 3: Deployment
+│     Synthetic Data   │  Row 4: Emerging
+└──────────────────────┘
+```
 
 ### What It Is
 
@@ -215,10 +236,17 @@ Fine-tuning enables:
 
 ## Sy — Synthetic Data
 
-| | |
-|---|---|
-| **Symbol** | Sy |
-| **Row** | 4 - Emerging |
+```
+Position in Periodic Table:
+
+G2: Retrieval Family
+┌──────────────────────┐
+│     Embeddings       │  Row 1: Primitives
+│     Vector DB        │  Row 2: Compositions
+│     Fine-tuning      │  Row 3: Deployment
+│  → [Synthetic Data]  │  Row 4: Emerging
+└──────────────────────┘
+```
 
 ### What It Is
 

@@ -21,10 +21,17 @@ All the orchestration, retrieval, and validation in the world doesn't matter wit
 
 ## Lg — LLM
 
-| | |
-|---|---|
-| **Symbol** | Lg |
-| **Row** | 1 - Primitives |
+```
+Position in Periodic Table:
+
+G5: Models Family
+┌──────────────────────────┐
+│  → [LLM]                 │  Row 1: Primitives
+│     Multi-modal          │  Row 2: Compositions
+│     Small Models         │  Row 3: Deployment
+│     Thinking Models      │  Row 4: Emerging
+└──────────────────────────┘
+```
 
 ### What It Is
 
@@ -121,10 +128,17 @@ LLMs are the foundation of modern AI:
 
 ## Mm — Multi-modal
 
-| | |
-|---|---|
-| **Symbol** | Mm |
-| **Row** | 2 - Compositions |
+```
+Position in Periodic Table:
+
+G5: Models Family
+┌──────────────────────────┐
+│     LLM                  │  Row 1: Primitives
+│  → [Multi-modal]         │  Row 2: Compositions
+│     Small Models         │  Row 3: Deployment
+│     Thinking Models      │  Row 4: Emerging
+└──────────────────────────┘
+```
 
 ### What It Is
 
@@ -227,10 +241,17 @@ Images are tokenized differently than text:
 
 ## Sm — Small Models
 
-| | |
-|---|---|
-| **Symbol** | Sm |
-| **Row** | 3 - Deployment |
+```
+Position in Periodic Table:
+
+G5: Models Family
+┌──────────────────────────┐
+│     LLM                  │  Row 1: Primitives
+│     Multi-modal          │  Row 2: Compositions
+│  → [Small Models]        │  Row 3: Deployment
+│     Thinking Models      │  Row 4: Emerging
+└──────────────────────────┘
+```
 
 ### What It Is
 
@@ -351,10 +372,17 @@ Savings: 95%+ reduction in ongoing costs
 
 ## Th — Thinking Models
 
-| | |
-|---|---|
-| **Symbol** | Th |
-| **Row** | 4 - Emerging |
+```
+Position in Periodic Table:
+
+G5: Models Family
+┌──────────────────────────┐
+│     LLM                  │  Row 1: Primitives
+│     Multi-modal          │  Row 2: Compositions
+│     Small Models         │  Row 3: Deployment
+│  → [Thinking Models]     │  Row 4: Emerging
+└──────────────────────────┘
+```
 
 ### What It Is
 

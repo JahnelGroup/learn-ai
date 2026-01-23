@@ -21,10 +21,17 @@ This is the action family—from giving instructions to autonomous operation. A 
 
 ## Pr — Prompts
 
-| | |
-|---|---|
-| **Symbol** | Pr |
-| **Row** | 1 - Primitives |
+```
+Position in Periodic Table:
+
+G1: Reactive Family
+┌──────────────────────┐
+│  → [Prompts]         │  Row 1: Primitives
+│     Function Call    │  Row 2: Compositions
+│     Agents           │  Row 3: Deployment
+│     Multi-Agent      │  Row 4: Emerging
+└──────────────────────┘
+```
 
 ### What It Is
 
@@ -93,10 +100,17 @@ Code to review:
 
 ## Fc — Function Calling
 
-| | |
-|---|---|
-| **Symbol** | Fc |
-| **Row** | 2 - Compositions |
+```
+Position in Periodic Table:
+
+G1: Reactive Family
+┌──────────────────────┐
+│     Prompts          │  Row 1: Primitives
+│  → [Function Call]   │  Row 2: Compositions
+│     Agents           │  Row 3: Deployment
+│     Multi-Agent      │  Row 4: Emerging
+└──────────────────────┘
+```
 
 ### What It Is
 
@@ -167,10 +181,17 @@ Function calling transforms LLMs from text generators into action takers. It's t
 
 ## Ag — Agents
 
-| | |
-|---|---|
-| **Symbol** | Ag |
-| **Row** | 3 - Deployment |
+```
+Position in Periodic Table:
+
+G1: Reactive Family
+┌──────────────────────┐
+│     Prompts          │  Row 1: Primitives
+│     Function Call    │  Row 2: Compositions
+│  → [Agents]          │  Row 3: Deployment
+│     Multi-Agent      │  Row 4: Emerging
+└──────────────────────┘
+```
 
 ### What It Is
 
@@ -246,10 +267,17 @@ Agents represent a shift from AI as a tool to AI as a worker. Instead of asking 
 
 ## Ma — Multi-agent
 
-| | |
-|---|---|
-| **Symbol** | Ma |
-| **Row** | 4 - Emerging |
+```
+Position in Periodic Table:
+
+G1: Reactive Family
+┌──────────────────────┐
+│     Prompts          │  Row 1: Primitives
+│     Function Call    │  Row 2: Compositions
+│     Agents           │  Row 3: Deployment
+│  → [Multi-Agent]     │  Row 4: Emerging
+└──────────────────────┘
+```
 
 ### What It Is
 

@@ -21,10 +21,17 @@ You can't orchestrate one thing—this family only exists through combination. C
 
 ## Cw — Context Windows
 
-| | |
-|---|---|
-| **Symbol** | Cw |
-| **Row** | 1 - Primitives |
+```
+Position in Periodic Table:
+
+G3: Orchestration Family
+┌──────────────────────────┐
+│  → [Context Windows]     │  Row 1: Primitives
+│     RAG                  │  Row 2: Compositions
+│     Frameworks           │  Row 3: Deployment
+│     MCP                  │  Row 4: Emerging
+└──────────────────────────┘
+```
 
 ### What It Is
 
@@ -87,10 +94,17 @@ Research shows models pay most attention to:
 
 ## Rg — RAG
 
-| | |
-|---|---|
-| **Symbol** | Rg |
-| **Row** | 2 - Compositions |
+```
+Position in Periodic Table:
+
+G3: Orchestration Family
+┌──────────────────────────┐
+│     Context Windows      │  Row 1: Primitives
+│  → [RAG]                 │  Row 2: Compositions
+│     Frameworks           │  Row 3: Deployment
+│     MCP                  │  Row 4: Emerging
+└──────────────────────────┘
+```
 
 ### What It Is
 
@@ -162,10 +176,17 @@ Retrieved Docs + Query → Augmented Prompt → LLM → Grounded Response
 
 ## Fw — Frameworks
 
-| | |
-|---|---|
-| **Symbol** | Fw |
-| **Row** | 3 - Deployment |
+```
+Position in Periodic Table:
+
+G3: Orchestration Family
+┌──────────────────────────┐
+│     Context Windows      │  Row 1: Primitives
+│     RAG                  │  Row 2: Compositions
+│  → [Frameworks]          │  Row 3: Deployment
+│     MCP                  │  Row 4: Emerging
+└──────────────────────────┘
+```
 
 ### What It Is
 
@@ -235,10 +256,17 @@ Frameworks accelerate development by:
 
 ## Mc — MCP
 
-| | |
-|---|---|
-| **Symbol** | Mc |
-| **Row** | 4 - Emerging |
+```
+Position in Periodic Table:
+
+G3: Orchestration Family
+┌──────────────────────────┐
+│     Context Windows      │  Row 1: Primitives
+│     RAG                  │  Row 2: Compositions
+│     Frameworks           │  Row 3: Deployment
+│  → [MCP]                 │  Row 4: Emerging
+└──────────────────────────┘
+```
 
 ### What It Is
 
