@@ -185,7 +185,7 @@ function CallToAction() {
           Every expert was once a beginner. Every complex system is built from simple elements.
         </p>
         <p>
-          Pick up the periodic table, identify where you are, and take the next step.
+          Read the periodic table, identify where you are, and take the next step.
         </p>
         <div className={styles.buttons}>
           <Link
