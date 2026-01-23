@@ -120,6 +120,4 @@ This is a living document. As you learn:
 
 ## License
 
-Internal use only — Jahnel Group
-
 AI Periodic Table concept by IBM Technology — used with appreciation
