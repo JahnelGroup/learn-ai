@@ -32,14 +32,14 @@ These are the concepts to understand at Practitioner level. Focus on **hands-on 
 
 | Element | Concept | What to Build |
 |---------|---------|---------------|
-| [**Fc**](/docs/periodic-table/reactive/function-calling) | Function Calling | Implement tool use and API integration with LLMs. Design function schemas, handle responses, manage errors. |
-| [**Vx**](/docs/periodic-table/retrieval/vector-db) | Vector Databases | Set up and query vector databases. Understand indexing, similarity metrics, and performance tradeoffs. |
-| [**Rg**](/docs/periodic-table/orchestration/rag) | RAG (Advanced) | Build complete RAG pipelines. Implement chunking strategies, retrieval optimization, and context management. |
-| [**Mm**](/docs/periodic-table/models/multi-modal) | Multi-modal | Work with vision and audio models. Understand input processing, use cases, and limitations. |
-| [**Ag**](/docs/periodic-table/reactive/agents) | Agents | Implement basic agentic loops. Understand planning, tool selection, observation, and termination conditions. |
-| [**Fw**](/docs/periodic-table/orchestration/frameworks) | Frameworks | Gain proficiency in at least one major AI framework. Understand abstractions, patterns, and when to use them. |
-| [**Sm**](/docs/periodic-table/models/small-models) | Small Models | Know when and how to use smaller models. Understand cost/latency/quality tradeoffs. |
-| [**Cw**](/docs/periodic-table/orchestration/context) | Context Windows | Manage context effectively. Understand token limits, context stuffing, and optimization strategies. |
+| [**Fc**](/docs/periodic-table/reactive#fc--function-calling) | Function Calling | Implement tool use and API integration with LLMs. Design function schemas, handle responses, manage errors. |
+| [**Vx**](/docs/periodic-table/retrieval#vx--vector-db) | Vector Databases | Set up and query vector databases. Understand indexing, similarity metrics, and performance tradeoffs. |
+| [**Rg**](/docs/periodic-table/orchestration#rg--rag) | RAG (Advanced) | Build complete RAG pipelines. Implement chunking strategies, retrieval optimization, and context management. |
+| [**Mm**](/docs/periodic-table/models#mm--multi-modal) | Multi-modal | Work with vision and audio models. Understand input processing, use cases, and limitations. |
+| [**Ag**](/docs/periodic-table/reactive#ag--agents) | Agents | Implement basic agentic loops. Understand planning, tool selection, observation, and termination conditions. |
+| [**Fw**](/docs/periodic-table/orchestration#fw--frameworks) | Frameworks | Gain proficiency in at least one major AI framework. Understand abstractions, patterns, and when to use them. |
+| [**Sm**](/docs/periodic-table/models#sm--small-models) | Small Models | Know when and how to use smaller models. Understand cost/latency/quality tradeoffs. |
+| [**Cw**](/docs/periodic-table/orchestration#cw--context-windows) | Context Windows | Manage context effectively. Understand token limits, context stuffing, and optimization strategies. |
 
 <TierPeriodicTable highlightedElements={['Fc', 'Vx', 'Rg', 'Mm', 'Ag', 'Fw', 'Sm', 'Cw']} />
 

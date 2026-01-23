@@ -28,12 +28,12 @@ These are the concepts to understand at Foundation. You don't need to master imp
 
 | Element | Concept | What to Understand |
 |---------|---------|-------------------|
-| [**Pr**](/docs/periodic-table/reactive/prompts) | Prompts | How to write effective prompts with clear instructions, context, examples, and constraints. Understand prompt patterns and iteration. |
-| [**Lg**](/docs/periodic-table/models/llm) | LLMs | What LLMs are, how they work at a high level, their capabilities, limitations, and hallucination risks. |
-| [**Em**](/docs/periodic-table/retrieval/embeddings) | Embeddings | How semantic similarity works conceptually and why it matters for AI applications. |
-| [**Gr**](/docs/periodic-table/validation/guardrails) | Guardrails | AI safety, bias, ethical considerations, and why guardrails matter in production systems. |
-| [**Rg**](/docs/periodic-table/orchestration/rag) | RAG | The RAG pattern conceptually: retrieval, augmentation, generation. Know when and why to use it. |
-| [**Ev**](/docs/periodic-table/validation/evaluation) | Evaluation | How AI quality is measured. Common metrics, benchmarks, and the importance of human evaluation. |
+| [**Pr**](/docs/periodic-table/reactive#pr--prompts) | Prompts | How to write effective prompts with clear instructions, context, examples, and constraints. Understand prompt patterns and iteration. |
+| [**Lg**](/docs/periodic-table/models#lg--llm) | LLMs | What LLMs are, how they work at a high level, their capabilities, limitations, and hallucination risks. |
+| [**Em**](/docs/periodic-table/retrieval#em--embeddings) | Embeddings | How semantic similarity works conceptually and why it matters for AI applications. |
+| [**Gr**](/docs/periodic-table/validation#gr--guardrails) | Guardrails | AI safety, bias, ethical considerations, and why guardrails matter in production systems. |
+| [**Rg**](/docs/periodic-table/orchestration#rg--rag) | RAG | The RAG pattern conceptually: retrieval, augmentation, generation. Know when and why to use it. |
+| [**Ev**](/docs/periodic-table/validation#ev--evaluation) | Evaluation | How AI quality is measured. Common metrics, benchmarks, and the importance of human evaluation. |
 
 <TierPeriodicTable highlightedElements={['Pr', 'Lg', 'Em', 'Gr', 'Rg', 'Ev']} />
 
@@ -132,12 +132,12 @@ Assessment confirms you've built a solid foundation. If there are gaps, that's v
 
 ### Start Here
 1. Read through the [AI Periodic Table](/docs/periodic-table) overview
-2. Deep dive into [Prompts](/docs/periodic-table/reactive/prompts) and [LLMs](/docs/periodic-table/models/llm)
+2. Deep dive into [Prompts](/docs/periodic-table/reactive#pr--prompts) and [LLMs](/docs/periodic-table/models#lg--llm)
 3. Start documenting AI use in your daily work immediately
 
 ### Build Understanding
-4. Explore [Embeddings](/docs/periodic-table/retrieval/embeddings) and [RAG](/docs/periodic-table/orchestration/rag)
-5. Study [Guardrails](/docs/periodic-table/validation/guardrails) and [Evaluation](/docs/periodic-table/validation/evaluation)
+4. Explore [Embeddings](/docs/periodic-table/retrieval#em--embeddings) and [RAG](/docs/periodic-table/orchestration#rg--rag)
+5. Study [Guardrails](/docs/periodic-table/validation#gr--guardrails) and [Evaluation](/docs/periodic-table/validation#ev--evaluation)
 6. Practice explaining concepts to others
 
 ### Solidify
