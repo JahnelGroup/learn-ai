@@ -1,0 +1,292 @@
+/**
+ * Jahnel Group AI Competency Program
+ * Custom Docusaurus Theme
+ */
+
+:root {
+  /* Jahnel Group Blue */
+  --ifm-color-primary: #2e8bc0;
+  --ifm-color-primary-dark: #2979a8;
+  --ifm-color-primary-darker: #27729e;
+  --ifm-color-primary-darkest: #205e82;
+  --ifm-color-primary-light: #3a9dd0;
+  --ifm-color-primary-lighter: #4aa5d4;
+  --ifm-color-primary-lightest: #6bb6dc;
+  --ifm-code-font-size: 95%;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+
+  /* Periodic Table Family Colors */
+  --color-reactive: #e74c3c;
+  --color-reactive-light: #fadbd8;
+  --color-retrieval: #f39c12;
+  --color-retrieval-light: #fdebd0;
+  --color-orchestration: #3498db;
+  --color-orchestration-light: #d6eaf8;
+  --color-validation: #27ae60;
+  --color-validation-light: #d5f4e6;
+  --color-models: #9b59b6;
+  --color-models-light: #e8daef;
+}
+
+[data-theme='dark'] {
+  --ifm-color-primary: #4aa5d4;
+  --ifm-color-primary-dark: #2e93c9;
+  --ifm-color-primary-darker: #2b8abd;
+  --ifm-color-primary-darkest: #23729c;
+  --ifm-color-primary-light: #6bb6dc;
+  --ifm-color-primary-lighter: #7bbfe0;
+  --ifm-color-primary-lightest: #a5d3ea;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+}
+
+/* Hero Section */
+.hero--primary {
+  background: linear-gradient(135deg, #2e8bc0 0%, #1a5276 100%);
+}
+
+/* Credit Section */
+.credit-section {
+  background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+  border-left: 4px solid var(--ifm-color-primary);
+  padding: 1.5rem;
+  margin: 2rem 0;
+  border-radius: 0 8px 8px 0;
+}
+
+[data-theme='dark'] .credit-section {
+  background: linear-gradient(135deg, #1a1a1a 0%, #2d2d2d 100%);
+}
+
+.credit-section h3 {
+  margin-top: 0;
+  color: var(--ifm-color-primary);
+}
+
+/* Periodic Table Grid */
+.periodic-table {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 8px;
+  max-width: 900px;
+  margin: 2rem auto;
+}
+
+.periodic-element {
+  aspect-ratio: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 8px;
+  padding: 0.5rem;
+  text-decoration: none;
+  transition: transform 0.2s, box-shadow 0.2s;
+  cursor: pointer;
+  border: 2px solid transparent;
+}
+
+.periodic-element:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+  text-decoration: none;
+}
+
+.periodic-element .symbol {
+  font-size: 1.8rem;
+  font-weight: 700;
+  line-height: 1;
+}
+
+.periodic-element .name {
+  font-size: 0.7rem;
+  text-align: center;
+  margin-top: 0.25rem;
+}
+
+.periodic-element .row-label {
+  font-size: 0.6rem;
+  opacity: 0.7;
+  margin-top: 0.25rem;
+}
+
+/* Family Colors */
+.element-reactive {
+  background-color: var(--color-reactive-light);
+  color: var(--color-reactive);
+  border-color: var(--color-reactive);
+}
+
+.element-retrieval {
+  background-color: var(--color-retrieval-light);
+  color: #b7791f;
+  border-color: var(--color-retrieval);
+}
+
+.element-orchestration {
+  background-color: var(--color-orchestration-light);
+  color: #2874a6;
+  border-color: var(--color-orchestration);
+}
+
+.element-validation {
+  background-color: var(--color-validation-light);
+  color: #1e8449;
+  border-color: var(--color-validation);
+}
+
+.element-models {
+  background-color: var(--color-models-light);
+  color: #7d3c98;
+  border-color: var(--color-models);
+}
+
+[data-theme='dark'] .element-reactive {
+  background-color: rgba(231, 76, 60, 0.2);
+  color: #e74c3c;
+}
+
+[data-theme='dark'] .element-retrieval {
+  background-color: rgba(243, 156, 18, 0.2);
+  color: #f39c12;
+}
+
+[data-theme='dark'] .element-orchestration {
+  background-color: rgba(52, 152, 219, 0.2);
+  color: #3498db;
+}
+
+[data-theme='dark'] .element-validation {
+  background-color: rgba(39, 174, 96, 0.2);
+  color: #27ae60;
+}
+
+[data-theme='dark'] .element-models {
+  background-color: rgba(155, 89, 182, 0.2);
+  color: #9b59b6;
+}
+
+/* Row Headers */
+.row-header {
+  grid-column: 1 / -1;
+  font-weight: 600;
+  padding: 0.5rem 0;
+  margin-top: 1rem;
+  border-bottom: 2px solid var(--ifm-color-primary);
+}
+
+.row-header:first-child {
+  margin-top: 0;
+}
+
+/* Tier Cards */
+.tier-card {
+  border-radius: 12px;
+  padding: 1.5rem;
+  margin: 1rem 0;
+  border-left: 4px solid;
+}
+
+.tier-foundation {
+  background: linear-gradient(135deg, #e8f6f3 0%, #d1f2eb 100%);
+  border-color: #27ae60;
+}
+
+.tier-practitioner {
+  background: linear-gradient(135deg, #ebf5fb 0%, #d6eaf8 100%);
+  border-color: #3498db;
+}
+
+.tier-expert {
+  background: linear-gradient(135deg, #f5eef8 0%, #e8daef 100%);
+  border-color: #9b59b6;
+}
+
+[data-theme='dark'] .tier-foundation {
+  background: linear-gradient(135deg, rgba(39, 174, 96, 0.1) 0%, rgba(39, 174, 96, 0.2) 100%);
+}
+
+[data-theme='dark'] .tier-practitioner {
+  background: linear-gradient(135deg, rgba(52, 152, 219, 0.1) 0%, rgba(52, 152, 219, 0.2) 100%);
+}
+
+[data-theme='dark'] .tier-expert {
+  background: linear-gradient(135deg, rgba(155, 89, 182, 0.1) 0%, rgba(155, 89, 182, 0.2) 100%);
+}
+
+/* Feature Cards on Homepage */
+.feature-card {
+  text-align: center;
+  padding: 2rem;
+}
+
+.feature-card svg {
+  height: 100px;
+  width: 100px;
+}
+
+/* Strategic Goals Section */
+.strategic-goals {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1.5rem;
+  margin: 2rem 0;
+}
+
+.goal-card {
+  background: var(--ifm-background-surface-color);
+  border-radius: 8px;
+  padding: 1.5rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  border-top: 3px solid var(--ifm-color-primary);
+}
+
+/* Element Detail Pages */
+.element-header {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.element-badge {
+  width: 80px;
+  height: 80px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 8px;
+  font-weight: 700;
+}
+
+.element-badge .symbol {
+  font-size: 2rem;
+  line-height: 1;
+}
+
+.element-badge .row {
+  font-size: 0.75rem;
+  opacity: 0.8;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .periodic-table {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 6px;
+  }
+
+  .periodic-element .symbol {
+    font-size: 1.4rem;
+  }
+
+  .periodic-element .name {
+    font-size: 0.6rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .periodic-table {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}

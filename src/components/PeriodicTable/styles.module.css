@@ -1,0 +1,349 @@
+.tableContainer {
+  max-width: 100%;
+  overflow-x: auto;
+  margin: 2rem 0;
+}
+
+/* Header Row */
+.headerRow {
+  display: grid;
+  grid-template-columns: 100px repeat(5, 1fr);
+  gap: 8px;
+  margin-bottom: 8px;
+}
+
+.cornerCell {
+  /* Empty corner */
+}
+
+.familyHeader {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 0.5rem;
+  border-radius: 8px 8px 0 0;
+  font-weight: 600;
+}
+
+.familyShort {
+  font-size: 0.75rem;
+  opacity: 0.8;
+}
+
+.familyName {
+  font-size: 0.85rem;
+}
+
+/* Family Header Colors */
+.headerReactive {
+  background: linear-gradient(180deg, #fadbd8 0%, #f5b7b1 100%);
+  color: #c0392b;
+}
+
+.headerRetrieval {
+  background: linear-gradient(180deg, #fdebd0 0%, #f9e79f 100%);
+  color: #b7791f;
+}
+
+.headerOrchestration {
+  background: linear-gradient(180deg, #d6eaf8 0%, #aed6f1 100%);
+  color: #2874a6;
+}
+
+.headerValidation {
+  background: linear-gradient(180deg, #d5f4e6 0%, #a9dfbf 100%);
+  color: #1e8449;
+}
+
+.headerModels {
+  background: linear-gradient(180deg, #e8daef 0%, #d2b4de 100%);
+  color: #7d3c98;
+}
+
+/* Element Row */
+.elementRow {
+  display: grid;
+  grid-template-columns: 100px repeat(5, 1fr);
+  gap: 8px;
+  margin-bottom: 8px;
+}
+
+/* Row Label */
+.rowLabel {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-right: 0.5rem;
+  text-align: right;
+}
+
+.rowNumber {
+  font-size: 0.7rem;
+  color: var(--ifm-color-emphasis-600);
+}
+
+.rowName {
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: var(--ifm-color-emphasis-800);
+}
+
+/* Element Cell */
+.element {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 8px;
+  padding: 0.75rem 0.5rem;
+  text-decoration: none;
+  transition: transform 0.2s, box-shadow 0.2s;
+  cursor: pointer;
+  border: 2px solid transparent;
+  min-height: 65px;
+}
+
+.element:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+  text-decoration: none;
+}
+
+.symbol {
+  font-size: 1rem;
+  font-weight: 700;
+  line-height: 1;
+}
+
+.name {
+  font-size: 1.3rem;
+  text-align: center;
+  margin-top: 0.25rem;
+  line-height: 1.2;
+}
+
+/* Element Family Colors */
+.elementReactive {
+  background-color: #fadbd8;
+  color: #c0392b;
+  border-color: #e74c3c;
+}
+
+.elementReactive:hover {
+  color: #c0392b;
+}
+
+.elementRetrieval {
+  background-color: #fdebd0;
+  color: #b7791f;
+  border-color: #f39c12;
+}
+
+.elementRetrieval:hover {
+  color: #b7791f;
+}
+
+.elementOrchestration {
+  background-color: #d6eaf8;
+  color: #2874a6;
+  border-color: #3498db;
+}
+
+.elementOrchestration:hover {
+  color: #2874a6;
+}
+
+.elementValidation {
+  background-color: #d5f4e6;
+  color: #1e8449;
+  border-color: #27ae60;
+}
+
+.elementValidation:hover {
+  color: #1e8449;
+}
+
+.elementModels {
+  background-color: #e8daef;
+  color: #7d3c98;
+  border-color: #9b59b6;
+}
+
+.elementModels:hover {
+  color: #7d3c98;
+}
+
+/* Dark mode adjustments */
+:global([data-theme='dark']) .elementReactive {
+  background-color: rgba(231, 76, 60, 0.2);
+  color: #e74c3c;
+}
+
+:global([data-theme='dark']) .elementRetrieval {
+  background-color: rgba(243, 156, 18, 0.2);
+  color: #f39c12;
+}
+
+:global([data-theme='dark']) .elementOrchestration {
+  background-color: rgba(52, 152, 219, 0.2);
+  color: #5dade2;
+}
+
+:global([data-theme='dark']) .elementValidation {
+  background-color: rgba(39, 174, 96, 0.2);
+  color: #58d68d;
+}
+
+:global([data-theme='dark']) .elementModels {
+  background-color: rgba(155, 89, 182, 0.2);
+  color: #bb8fce;
+}
+
+:global([data-theme='dark']) .headerReactive {
+  background: linear-gradient(180deg, rgba(231, 76, 60, 0.3) 0%, rgba(231, 76, 60, 0.2) 100%);
+  color: #e74c3c;
+}
+
+:global([data-theme='dark']) .headerRetrieval {
+  background: linear-gradient(180deg, rgba(243, 156, 18, 0.3) 0%, rgba(243, 156, 18, 0.2) 100%);
+  color: #f39c12;
+}
+
+:global([data-theme='dark']) .headerOrchestration {
+  background: linear-gradient(180deg, rgba(52, 152, 219, 0.3) 0%, rgba(52, 152, 219, 0.2) 100%);
+  color: #5dade2;
+}
+
+:global([data-theme='dark']) .headerValidation {
+  background: linear-gradient(180deg, rgba(39, 174, 96, 0.3) 0%, rgba(39, 174, 96, 0.2) 100%);
+  color: #58d68d;
+}
+
+:global([data-theme='dark']) .headerModels {
+  background: linear-gradient(180deg, rgba(155, 89, 182, 0.3) 0%, rgba(155, 89, 182, 0.2) 100%);
+  color: #bb8fce;
+}
+
+/* Legend */
+.legend {
+  margin-top: 1.5rem;
+  padding-top: 1rem;
+  border-top: 1px solid var(--ifm-color-emphasis-200);
+}
+
+.legendTitle {
+  font-size: 0.8rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+  color: var(--ifm-color-emphasis-600);
+}
+
+.legendItems {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.legendItem {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 0.8rem;
+}
+
+.legendDot {
+  width: 12px;
+  height: 12px;
+  border-radius: 3px;
+}
+
+.dotReactive {
+  background-color: #e74c3c;
+}
+
+.dotRetrieval {
+  background-color: #f39c12;
+}
+
+.dotOrchestration {
+  background-color: #3498db;
+}
+
+.dotValidation {
+  background-color: #27ae60;
+}
+
+.dotModels {
+  background-color: #9b59b6;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .headerRow,
+  .elementRow {
+    grid-template-columns: 60px repeat(5, 1fr);
+    gap: 4px;
+  }
+
+  .element {
+    min-height: 50px;
+    padding: 0.5rem 0.25rem;
+  }
+
+  .symbol {
+    font-size: 0.85rem;
+  }
+
+  .name {
+    font-size: 1rem;
+  }
+
+  .familyName {
+    display: none;
+  }
+
+  .familyShort {
+    font-size: 0.85rem;
+  }
+
+  .rowNumber {
+    display: none;
+  }
+
+  .rowName {
+    font-size: 0.65rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .headerRow,
+  .elementRow {
+    grid-template-columns: 40px repeat(5, 1fr);
+    gap: 2px;
+  }
+
+  .element {
+    min-height: 40px;
+    border-radius: 4px;
+    padding: 0.4rem 0.2rem;
+  }
+
+  .symbol {
+    font-size: 0.7rem;
+  }
+
+  .name {
+    font-size: 0.85rem;
+  }
+
+  .rowLabel {
+    padding-right: 0.25rem;
+  }
+
+  .rowName {
+    font-size: 0.5rem;
+    writing-mode: vertical-rl;
+    text-orientation: mixed;
+  }
+}
