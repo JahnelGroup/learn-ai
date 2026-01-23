@@ -56,7 +56,7 @@ const config = {
             label: 'Learn',
           },
           {
-            to: '/docs/periodic-table/reactive/prompts',
+            to: '/docs/periodic-table/',
             label: 'Periodic Table',
             position: 'left',
           },
@@ -89,7 +89,7 @@ const config = {
               },
               {
                 label: 'Periodic Table',
-                to: '/docs/periodic-table/reactive/prompts',
+                to: '/docs/periodic-table/',
               },
               {
                 label: 'Learning Tiers',

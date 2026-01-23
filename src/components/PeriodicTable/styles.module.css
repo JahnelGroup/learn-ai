@@ -26,13 +26,8 @@
   font-weight: 600;
 }
 
-.familyShort {
-  font-size: 0.75rem;
-  opacity: 0.8;
-}
-
 .familyName {
-  font-size: 0.85rem;
+  font-size: 0.9rem;
 }
 
 /* Family Header Colors */
@@ -72,19 +67,14 @@
 /* Row Label */
 .rowLabel {
   display: flex;
-  flex-direction: column;
-  justify-content: center;
+  align-items: center;
+  justify-content: flex-end;
   padding-right: 0.5rem;
   text-align: right;
 }
 
-.rowNumber {
-  font-size: 0.7rem;
-  color: var(--ifm-color-emphasis-600);
-}
-
 .rowName {
-  font-size: 0.8rem;
+  font-size: 0.85rem;
   font-weight: 600;
   color: var(--ifm-color-emphasis-800);
 }
@@ -117,7 +107,7 @@
 }
 
 .name {
-  font-size: 1.3rem;
+  font-size: 1.1rem;
   text-align: center;
   margin-top: 0.25rem;
   line-height: 1.2;
@@ -236,61 +226,66 @@
   color: #bb8fce;
 }
 
-/* Legend */
-.legend {
-  margin-top: 1.5rem;
-  padding-top: 1rem;
-  border-top: 1px solid var(--ifm-color-emphasis-200);
-}
-
-.legendTitle {
-  font-size: 0.8rem;
-  font-weight: 600;
-  margin-bottom: 0.5rem;
-  color: var(--ifm-color-emphasis-600);
-}
-
-.legendItems {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 1rem;
-}
-
-.legendItem {
-  display: flex;
-  align-items: center;
-  gap: 0.5rem;
-  font-size: 0.8rem;
-}
-
-.legendDot {
-  width: 12px;
-  height: 12px;
-  border-radius: 3px;
-}
-
-.dotReactive {
-  background-color: #e74c3c;
-}
-
-.dotRetrieval {
-  background-color: #f39c12;
-}
-
-.dotOrchestration {
-  background-color: #3498db;
-}
-
-.dotValidation {
-  background-color: #27ae60;
-}
-
-.dotModels {
-  background-color: #9b59b6;
-}
-
 /* Responsive */
 @media (max-width: 768px) {
+  .headerRow,
+  .elementRow {
+    grid-template-columns: 80px repeat(5, 1fr);
+    gap: 6px;
+  }
+
+  .element {
+    min-height: 60px;
+    padding: 0.6rem 0.4rem;
+  }
+
+  .symbol {
+    font-size: 0.95rem;
+  }
+
+  .name {
+    font-size: 0.95rem;
+  }
+
+  .familyName {
+    font-size: 0.8rem;
+  }
+
+  .rowName {
+    font-size: 0.75rem;
+  }
+}
+
+@media (max-width: 640px) {
+  .headerRow,
+  .elementRow {
+    grid-template-columns: 70px repeat(5, 1fr);
+    gap: 5px;
+  }
+
+  .element {
+    min-height: 55px;
+    padding: 0.5rem 0.3rem;
+  }
+
+  .symbol {
+    font-size: 0.9rem;
+  }
+
+  .name {
+    font-size: 0.85rem;
+  }
+
+  .familyName {
+    font-size: 0.75rem;
+  }
+
+  .rowName {
+    font-size: 0.7rem;
+  }
+}
+
+@media (max-width: 520px) {
   .headerRow,
   .elementRow {
     grid-template-columns: 60px repeat(5, 1fr);
@@ -299,62 +294,22 @@
 
   .element {
     min-height: 50px;
-    padding: 0.5rem 0.25rem;
-  }
-
-  .symbol {
-    font-size: 0.85rem;
-  }
-
-  .name {
-    font-size: 1rem;
-  }
-
-  .familyName {
-    display: none;
-  }
-
-  .familyShort {
-    font-size: 0.85rem;
-  }
-
-  .rowNumber {
-    display: none;
-  }
-
-  .rowName {
-    font-size: 0.65rem;
-  }
-}
-
-@media (max-width: 480px) {
-  .headerRow,
-  .elementRow {
-    grid-template-columns: 40px repeat(5, 1fr);
-    gap: 2px;
-  }
-
-  .element {
-    min-height: 40px;
-    border-radius: 4px;
     padding: 0.4rem 0.2rem;
   }
 
   .symbol {
-    font-size: 0.7rem;
-  }
-
-  .name {
     font-size: 0.85rem;
   }
 
-  .rowLabel {
-    padding-right: 0.25rem;
+  .name {
+    display: none;
+  }
+
+  .familyName {
+    font-size: 0.7rem;
   }
 
   .rowName {
-    font-size: 0.5rem;
-    writing-mode: vertical-rl;
-    text-orientation: mixed;
+    font-size: 0.65rem;
   }
 }
