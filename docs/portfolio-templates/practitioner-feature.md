@@ -14,7 +14,7 @@ Use this template to document your production AI feature for Practitioner portfo
 
 **Date Deployed:** [When it went to production]
 
-**Environment:** [Internal tool / Client project / etc.]
+**Environment:** [Where was this work done]
 
 **Status:** [In production / Deprecated / etc.]
 

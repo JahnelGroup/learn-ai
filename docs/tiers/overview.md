@@ -17,8 +17,10 @@ Think of it like learning a musical instrument: saying you're at a "beginner," "
 | | Foundation | Practitioner | Expert |
 |---|------------|--------------|--------|
 | **Core Question** | Can you understand and use AI effectively? | Can you build and deploy AI features? | Can you architect AI systems and lead others? |
-| **Primary Focus** | Row 1 (Primitives) + Row 2 concepts | Row 2 (Compositions) + Row 3 intro | Row 3 (Deployment) + Row 4 (Emerging) |
 | **Analogy** | Understanding the rules and controls | Being able to drive anywhere safely | Teaching others to drive and designing better roads |
+| **Primary Focus** | Primitives (R1) &<br/>Compositions (R2) | Compositions (R2) &<br/> Deployment (R3) | Deployment (R3) &<br/> Emerging (R4) |
+| **Portfolio** | 3 documented AI use cases | 1 production feature shipped | 1 architecture led + mentorship |
+| **Assessment** | Written portfolio + review | Technical demo + code review | Architecture presentation + peer review |
 
 ---
 
