@@ -65,15 +65,13 @@ Start at your current level and work toward the next:
 </div>
 <div className="col col--6">
 
-**By Role**
+**[By Role](/docs/ai-productivity/by-role)**
 
-Find guidance specific to your work:
-- [Developers](/docs/ai-productivity/roles/developers)
-- [QA Engineers](/docs/ai-productivity/roles/qa-engineers)
-- [Designers](/docs/ai-productivity/roles/designers)
-- [Business Analysts](/docs/ai-productivity/roles/business-analysts)
-- [Project Managers](/docs/ai-productivity/roles/project-managers)
-- [Tech Leads](/docs/ai-productivity/roles/tech-leads)
+See how the 5 levels apply to your specific work:
+- Developers, QA Engineers, Designers
+- Business Analysts, Project Managers, Tech Leads
+
+All in one consolidated matrix view.
 
 </div>
 </div>

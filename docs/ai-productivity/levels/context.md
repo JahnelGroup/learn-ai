@@ -39,45 +39,11 @@ This is a significant leap. The difference between "I have a React component wit
 | AI imagines your context | AI sees your context |
 | Quick answers | Deeper analysis |
 
----
-
-## By Role: What Context Looks Like
-
-### Developers
-- Paste entire functions or files for review
-- Upload error screenshots with stack traces
-- Provide multiple related files for refactoring advice
-- Share architecture diagrams for feedback
-
-### QA Engineers
-- Upload screenshots of bugs
-- Paste test logs for analysis
-- Share test scripts for optimization suggestions
-- Provide requirement docs to generate test cases
-
-### Designers
-- Upload mockups for accessibility review
-- Share design systems for consistency checks
-- Provide wireframes for UX feedback
-- Screenshot competitor designs for analysis
-
-### Business Analysts
-- Attach requirement documents for review
-- Share process diagrams for optimization
-- Paste user interview notes for theme extraction
-- Upload spreadsheets for data analysis
-
-### Project Managers
-- Share project timelines for risk analysis
-- Upload status reports for trend identification
-- Paste team communications for summary
-- Provide meeting recordings for action item extraction
-
-### Tech Leads
-- Upload architecture diagrams for review
-- Share code review diffs for feedback
-- Provide performance reports for analysis
-- Paste system logs for troubleshooting
+**Common use cases:**
+- Pasting code, documents, or data for specific analysis
+- Uploading screenshots of bugs, errors, or designs
+- Sharing multiple related files for comprehensive review
+- Providing diagrams or visuals for feedback
 
 ---
 

@@ -39,69 +39,32 @@ This is the transition from "using AI" to "working with AI."
 | Conversations are separate | Assistance is inline |
 | Copy suggestions back | AI applies changes directly |
 
----
-
-## By Role: What Connected Looks Like
-
-### Developers
-- **IDE integration**: Cursor, Copilot, Cody with full codebase access
-- **CLI tools**: Claude Code for terminal-based development
-- **MCP servers**: Connect AI to databases, APIs, documentation
-- Ask "What does this codebase do?" and get answers from actual code
-
-### QA Engineers
-- Test generation tools connected to your test framework
-- AI that reads existing tests and suggests missing coverage
-- Bug analysis tools that access logs and error tracking
-- Automation assistants that understand your test architecture
-
-### Designers
-- Figma plugins with AI-powered suggestions
-- Design tools that understand your design system
-- AI that reads your component library
-- Tools that connect designs to actual implementation
-
-### Business Analysts
-- AI integrated with Jira, Confluence, or Azure DevOps
-- Tools that read existing requirements for consistency
-- Documentation assistants with access to your wiki
-- Analysis tools connected to project data
-
-### Project Managers
-- AI connected to project management tools
-- Status aggregation from multiple sources
-- Risk analysis with access to actual project data
-- Automated reporting from connected systems
-
-### Tech Leads
-- MCP servers providing real-time codebase analysis
-- AI that understands your architecture and conventions
-- Code review assistants with full context
-- Tools that connect to monitoring and metrics
+**Common use cases:**
+- Asking questions that require reading multiple files
+- Getting AI assistance inline as you work
+- Having AI apply changes directly instead of copy-paste
+- Analyzing patterns across your entire project
 
 ---
 
 ## Getting to This Level
 
-### For Developers
-
-**Option 1: IDE Integration**
+### IDE Integration (Developers)
 - **[Cursor](https://cursor.sh)** — VS Code fork with built-in AI
 - **[GitHub Copilot](https://github.com/features/copilot)** — Works in VS Code, JetBrains, etc.
 - **[Cody](https://sourcegraph.com/cody)** — Sourcegraph's AI with codebase understanding
 
-**Option 2: CLI Tools**
+### CLI Tools (Developers)
 - **[Claude Code](https://docs.anthropic.com/en/docs/claude-code)** — Anthropic's agentic CLI tool
 - Use in terminal alongside your editor
 - Full read/write access to your project
 
-**Option 3: MCP (Model Context Protocol)**
+### MCP (Model Context Protocol)
 - Connect AI to external tools and data sources
 - Database access, API documentation, internal tools
 - See [MCP documentation](https://modelcontextprotocol.io)
 
-### For Other Roles
-
+### Tool-Specific AI Features
 Look for AI integrations in your primary tools:
 - **Design**: Figma AI plugins, Adobe Firefly integration
 - **PM**: AI features in Jira, Asana, Monday.com

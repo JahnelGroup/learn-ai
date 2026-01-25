@@ -25,7 +25,7 @@ The [AI Periodic Table](https://www.youtube.com/watch?v=ESBMgZHzfG0) presented b
 
 ### Revealed Unknown Unknowns
 
-You don't know what you don't know. That's not a criticism—it's human nature. This framework systematically exposes the gaps in your knowledge so you can fill them intentionally rather than discovering them in front of a client or during a critical project.
+One of the biggest roadblocks to growth is that you don’t know what you don’t know. This framework systematically exposes the gaps in your knowledge so you can fill them intentionally rather than discovering them in front of a client or during a critical project.
 
 ### Clear Growth Path
 
@@ -42,6 +42,37 @@ AI proficiency is becoming table stakes in our industry. This framework helps yo
 ### Practical Application
 
 Every element connects to real work. You'll build things, not just study theory. The best way to understand a concept is to use it, and this is designed around that principle.
+
+---
+
+## Two Tracks of AI Learning
+
+This guide has two complementary tracks:
+
+### Building AI Systems (The Periodic Table & Learning Tiers)
+Understanding how AI works and building intelligent systems. This track covers:
+- The 20 elements of the AI Periodic Table
+- Foundation → Practitioner → Expert progression
+- Portfolio projects and assessments
+
+This is primarily for developers and technical roles who will architect and implement AI features.
+
+### Working with AI (AI Productivity)
+Becoming more effective by integrating AI into daily work. This track covers:
+- 5 levels of AI integration depth
+- Key concepts like prompt preparation and context files
+- Practical workflows for any role
+
+This applies to **everyone**—developers, QA, designers, BAs, PMs, etc.
+
+### How They Intertwine
+
+These tracks reinforce each other:
+- **Understanding helps usage**: Knowing how embeddings work (Periodic Table) helps you understand why context matters (AI Productivity Level 2-3)
+- **Usage builds intuition**: Daily AI interaction (Productivity) builds instincts that inform system design (Learning Tiers)
+- **Same tools, different depths**: You might use Claude Code at Level 3 (Productivity) while studying how agents work (Practitioner tier)
+
+Most team members should progress on **both tracks simultaneously**—using AI more effectively while building deeper understanding.
 
 ---
 

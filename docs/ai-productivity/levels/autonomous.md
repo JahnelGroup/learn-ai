@@ -39,45 +39,12 @@ This is where AI becomes a genuine force multiplier.
 | Interactive assistance | Delegated execution |
 | Real-time collaboration | Asynchronous work |
 
----
-
-## By Role: What Autonomous Looks Like
-
-### Developers
-- "Implement the user profile page with edit functionality"
-- AI creates components, hooks, API routes, tests across multiple files
-- You review the PR, provide feedback, AI iterates
-- Complex refactoring across the codebase with your approval
-
-### QA Engineers
-- "Generate comprehensive test coverage for the checkout flow"
-- AI analyzes code, writes test suites, reports coverage
-- AI identifies edge cases you might miss
-- Automated test maintenance as code changes
-
-### Designers
-- "Create variations of this dashboard for different user personas"
-- AI generates multiple design options based on criteria
-- Exploration of design space you couldn't manually cover
-- Automated accessibility audits and fixes
-
-### Business Analysts
-- "Draft complete requirements from these stakeholder interview notes"
-- AI synthesizes multiple sources into structured requirements
-- Consistency checking across requirement sets
-- Gap analysis and question generation
-
-### Project Managers
-- "Prepare the weekly stakeholder update from all project sources"
-- AI aggregates data, identifies risks, drafts communications
-- Automated routine reporting with your review
-- Cross-project analysis and resource recommendations
-
-### Tech Leads
-- "Refactor our authentication system to use the new pattern"
-- AI plans the migration, executes across files, runs tests
-- Architecture documentation kept in sync automatically
-- Code review augmentation with AI pre-review
+**Common use cases:**
+- "Implement this feature" — AI creates multiple files, you review
+- "Generate comprehensive test coverage" — AI writes test suites
+- "Draft complete requirements from these notes" — AI synthesizes sources
+- "Prepare the weekly update from all sources" — AI aggregates and drafts
+- Complex refactoring or migration with your approval at checkpoints
 
 ---
 
