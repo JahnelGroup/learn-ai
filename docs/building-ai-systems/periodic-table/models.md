@@ -51,7 +51,7 @@ LLMs are the foundation of modern AI:
 2. **Prediction:** Given input tokens, predict the next token
 3. **Generation:** Repeat prediction to produce text
 4. **Instruction tuning:** Fine-tuned to follow instructions
-5. **RLHF:** Refined via human feedback
+5. **RLHF:** Reinforcement Learning from Human Feedback (refined via human feedback)
 
 ### Key Properties
 
