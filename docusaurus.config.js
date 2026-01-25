@@ -34,11 +34,39 @@ const config = {
         theme: {
           customCss: './src/css/custom.css',
         },
-        gtag: {
-          trackingID: 'G-XXXXXXXXXX', // Replace with your GA4 Measurement ID
-          anonymizeIP: true, // Optional: anonymize IP addresses for privacy
-        },
+        // gtag: {
+        //   trackingID: 'G-XXXXXXXXXX', // Replace with your GA4 Measurement ID when ready
+        //   anonymizeIP: true,
+        // },
       }),
+    ],
+  ],
+
+  plugins: [
+    [
+      '@docusaurus/plugin-client-redirects',
+      {
+        redirects: [
+          { from: '/docs/getting-started', to: '/docs/building-ai-systems/' },
+          { from: '/docs/tiers/overview', to: '/docs/building-ai-systems/tiers/overview' },
+          { from: '/docs/tiers/foundation', to: '/docs/building-ai-systems/tiers/foundation' },
+          { from: '/docs/tiers/practitioner', to: '/docs/building-ai-systems/tiers/practitioner' },
+          { from: '/docs/tiers/expert', to: '/docs/building-ai-systems/tiers/expert' },
+        ],
+        createRedirects(existingPath) {
+          if (existingPath.includes('/building-ai-systems/periodic-table')) {
+            return [
+              existingPath.replace('/building-ai-systems/periodic-table', '/periodic-table'),
+            ];
+          }
+          if (existingPath.includes('/building-ai-systems/portfolio-templates')) {
+            return [
+              existingPath.replace('/building-ai-systems/portfolio-templates', '/portfolio-templates'),
+            ];
+          }
+          return undefined;
+        },
+      },
     ],
   ],
 
@@ -60,18 +88,13 @@ const config = {
             label: 'Intro',
           },
           {
-            to: '/docs/periodic-table/',
+            to: '/docs/building-ai-systems/',
             label: 'Building AI Systems',
             position: 'left',
           },
           {
             to: '/docs/ai-productivity/',
             label: 'AI Productivity',
-            position: 'left',
-          },
-          {
-            to: '/docs/tiers/overview',
-            label: 'Learning Tiers',
             position: 'left',
           },
           {
@@ -98,11 +121,15 @@ const config = {
               },
               {
                 label: 'Building AI Systems',
-                to: '/docs/periodic-table/',
+                to: '/docs/building-ai-systems/',
+              },
+              {
+                label: 'The Periodic Table',
+                to: '/docs/building-ai-systems/periodic-table/',
               },
               {
                 label: 'Learning Tiers',
-                to: '/docs/tiers/overview',
+                to: '/docs/building-ai-systems/tiers/overview',
               },
               {
                 label: 'AI Productivity',

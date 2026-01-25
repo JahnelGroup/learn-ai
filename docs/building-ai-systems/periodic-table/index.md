@@ -29,10 +29,10 @@ From atomic primitives to cutting-edge emerging technologies:
 
 | Row | Name | Description |
 |-----|------|-------------|
-| **Row 1** | Primitives | The atomic building blocks that can't be broken down further |
-| **Row 2** | Compositions | Combinations of primitives that form practical tools |
-| **Row 3** | Deployment | Production-ready systems and practices |
-| **Row 4** | Emerging | Cutting-edge developments still rapidly evolving |
+| **R1** | Primitives | The atomic building blocks that can't be broken down further |
+| **R2** | Compositions | Combinations of primitives that form practical tools |
+| **R3** | Deployment | Production-ready systems and practices |
+| **R4** | Emerging | Cutting-edge developments still rapidly evolving |
 
 ### Groups (Columns) = Functional Families
 

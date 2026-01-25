@@ -32,14 +32,14 @@ These are the concepts to understand at Practitioner level. Focus on **hands-on 
 
 | Element | Concept | What to Build |
 |---------|---------|---------------|
-| [**Fc**](/docs/periodic-table/reactive#fc--function-calling) | Function Calling | Implement tool use and API integration with LLMs. Design function schemas, handle responses, manage errors. |
-| [**Vx**](/docs/periodic-table/retrieval#vx--vector-db) | Vector Databases | Set up and query vector databases. Understand indexing, similarity metrics, and performance tradeoffs. |
-| [**Rg**](/docs/periodic-table/orchestration#rg--rag) | RAG (Advanced) | Build complete RAG pipelines. Implement chunking strategies, retrieval optimization, and context management. |
-| [**Mm**](/docs/periodic-table/models#mm--multi-modal) | Multi-modal | Work with vision and audio models. Understand input processing, use cases, and limitations. |
-| [**Ag**](/docs/periodic-table/reactive#ag--agents) | Agents | Implement basic agentic loops. Understand planning, tool selection, observation, and termination conditions. |
-| [**Fw**](/docs/periodic-table/orchestration#fw--frameworks) | Frameworks | Gain proficiency in at least one major AI framework. Understand abstractions, patterns, and when to use them. |
-| [**Sm**](/docs/periodic-table/models#sm--small-models) | Small Models | Know when and how to use smaller models. Understand cost/latency/quality tradeoffs. |
-| [**Cw**](/docs/periodic-table/orchestration#cw--context-windows) | Context Windows | Manage context effectively. Understand token limits, context stuffing, and optimization strategies. |
+| [**Fc**](/docs/building-ai-systems/periodic-table/reactive#fc--function-calling) | Function Calling | Implement tool use and API integration with LLMs. Design function schemas, handle responses, manage errors. |
+| [**Vx**](/docs/building-ai-systems/periodic-table/retrieval#vx--vector-db) | Vector Databases | Set up and query vector databases. Understand indexing, similarity metrics, and performance tradeoffs. |
+| [**Rg**](/docs/building-ai-systems/periodic-table/orchestration#rg--rag) | RAG (Advanced) | Build complete RAG pipelines. Implement chunking strategies, retrieval optimization, and context management. |
+| [**Mm**](/docs/building-ai-systems/periodic-table/models#mm--multi-modal) | Multi-modal | Work with vision and audio models. Understand input processing, use cases, and limitations. |
+| [**Ag**](/docs/building-ai-systems/periodic-table/reactive#ag--agents) | Agents | Implement basic agentic loops. Understand planning, tool selection, observation, and termination conditions. |
+| [**Fw**](/docs/building-ai-systems/periodic-table/orchestration#fw--frameworks) | Frameworks | Gain proficiency in at least one major AI framework. Understand abstractions, patterns, and when to use them. |
+| [**Sm**](/docs/building-ai-systems/periodic-table/models#sm--small-models) | Small Models | Know when and how to use smaller models. Understand cost/latency/quality tradeoffs. |
+| [**Cw**](/docs/building-ai-systems/periodic-table/orchestration#cw--context-windows) | Context Windows | Manage context effectively. Understand token limits, context stuffing, and optimization strategies. |
 
 <TierPeriodicTable highlightedElements={['Fc', 'Vx', 'Rg', 'Mm', 'Ag', 'Fw', 'Sm', 'Cw']} />
 
@@ -80,7 +80,7 @@ Good Practitioner projects might include:
 - A function-calling integration with external APIs and error handling
 - A multi-modal feature processing images or audio
 
-**Use the [Practitioner Portfolio Template](/docs/portfolio-templates/practitioner-feature) to structure your documentation.**
+**Use the [Practitioner Portfolio Template](/docs/building-ai-systems/portfolio-templates/practitioner-feature) to structure your documentation.**
 
 ---
 
@@ -199,9 +199,9 @@ No. Proficiency in one major framework is sufficient. Understanding how to evalu
 
 ## What's Next?
 
-Practitioner gives you the ability to build. [Expert](/docs/tiers/expert) is about designing systems, leading others, and pushing into emerging territory.
+Practitioner gives you the ability to build. [Expert](/docs/building-ai-systems/tiers/expert) is about designing systems, leading others, and pushing into emerging territory.
 
-**[Explore Expert Tier →](/docs/tiers/expert)**
+**[Explore Expert Tier →](/docs/building-ai-systems/tiers/expert)**
 
 ---
 
@@ -209,5 +209,5 @@ Practitioner gives you the ability to build. [Expert](/docs/tiers/expert) is abo
 
 1. Pick a meaningful project
 2. Start building—you'll learn fastest by doing
-3. Document as you go with the [portfolio template](/docs/portfolio-templates/practitioner-feature)
+3. Document as you go with the [portfolio template](/docs/building-ai-systems/portfolio-templates/practitioner-feature)
 4. Get feedback early and often

@@ -102,4 +102,4 @@ Think of it like fitness. You don't "complete" being healthy—you maintain it, 
 
 The portfolio work exists because building things is how you truly learn. The assessments exist to help identify gaps and confirm understanding. But the real value is in the journey itself—in the conversations you'll have, the projects you'll build, and the confidence you'll develop.
 
-**Ready to start?** Head to the [Getting Started](/docs/getting-started) guide, or explore the [AI Periodic Table](/docs/periodic-table) to see the full landscape.
+**Ready to start?** Head to the [Building AI Systems](/docs/building-ai-systems/) guide, or explore the [AI Periodic Table](/docs/building-ai-systems/periodic-table/) to see the full landscape.

@@ -73,29 +73,38 @@ npm run build
 
 ```
 ├── docs/
-│   ├── intro.md                    # Why this exists
-│   ├── getting-started.md          # How to begin
-│   ├── periodic-table/             # Element documentation
-│   │   ├── reactive/               # G1 family elements
-│   │   ├── retrieval/              # G2 family elements
-│   │   ├── orchestration/          # G3 family elements
-│   │   ├── validation/             # G4 family elements
-│   │   └── models/                 # G5 family elements
-│   ├── tiers/                      # Learning tier documentation
-│   │   ├── overview.md
-│   │   ├── foundation.md
-│   │   ├── practitioner.md
-│   │   └── expert.md
-│   └── portfolio-templates/        # Templates for portfolio work
+│   ├── intro.md                         # Why this exists
+│   ├── building-ai-systems/             # Building AI Systems track
+│   │   ├── index.md                     # Getting started with AI systems
+│   │   ├── periodic-table/              # Element documentation
+│   │   │   ├── index.md
+│   │   │   ├── reactive.md              # G1 family elements
+│   │   │   ├── retrieval.md             # G2 family elements
+│   │   │   ├── orchestration.md         # G3 family elements
+│   │   │   ├── validation.md            # G4 family elements
+│   │   │   └── models.md                # G5 family elements
+│   │   ├── tiers/                       # Learning tier documentation
+│   │   │   ├── overview.md
+│   │   │   ├── foundation.md
+│   │   │   ├── practitioner.md
+│   │   │   └── expert.md
+│   │   └── portfolio-templates/         # Templates for portfolio work
+│   │       ├── foundation-use-case.md
+│   │       ├── practitioner-feature.md
+│   │       └── expert-architecture.md
+│   └── ai-productivity/                 # AI Productivity track
+│       ├── index.md
+│       ├── levels/                      # 5 levels of AI integration
+│       └── concepts/                    # Key productivity concepts
 ├── src/
 │   ├── components/
-│   │   └── PeriodicTable/          # Interactive periodic table component
+│   │   └── PeriodicTable/               # Interactive periodic table component
 │   ├── pages/
-│   │   └── index.js                # Homepage
+│   │   └── index.js                     # Homepage
 │   └── css/
-│       └── custom.css              # Custom styling
-├── docusaurus.config.js            # Site configuration
-└── sidebars.js                     # Navigation configuration
+│       └── custom.css                   # Custom styling
+├── docusaurus.config.js                 # Site configuration
+└── sidebars.js                          # Navigation configuration
 ```
 
 ---

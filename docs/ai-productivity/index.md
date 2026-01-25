@@ -105,7 +105,7 @@ See the **[Tools Reference](/docs/ai-productivity/tools-reference)** for a compr
 | Integration depth | Technical understanding |
 | 5 levels of adoption | 3 tiers of competency |
 
-Both frameworks matter. This section helps everyone work **with** AI more effectively. The [Learning Tiers](/docs/tiers/overview) help developers understand AI **deeply** enough to build intelligent systems.
+Both frameworks matter. This section helps everyone work **with** AI more effectively. The [Learning Tiers](/docs/building-ai-systems/tiers/overview) help developers understand AI **deeply** enough to build intelligent systems.
 
 ---
 

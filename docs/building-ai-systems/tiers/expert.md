@@ -34,13 +34,13 @@ Expert-level elements are at the cutting edge. Focus on **deep understanding and
 
 | Element | Concept | What to Master |
 |---------|---------|----------------|
-| [**Ft**](/docs/periodic-table/retrieval#ft--fine-tuning) | Fine-tuning | Prepare datasets and fine-tune models. Know when fine-tuning beats RAG and vice versa. |
-| [**Rt**](/docs/periodic-table/validation#rt--red-teaming) | Red Teaming | Adversarial testing, prompt injection defense, security assessment. Find vulnerabilities systematically. |
-| [**Ma**](/docs/periodic-table/reactive#ma--multi-agent) | Multi-agent | Design and implement multi-agent orchestration. Understand coordination, specialization, and failure modes. |
-| [**Sy**](/docs/periodic-table/retrieval#sy--synthetic-data) | Synthetic Data | Generate and validate synthetic training data. Understand quality, diversity, and contamination risks. |
-| [**In**](/docs/periodic-table/validation#in--interpretability) | Interpretability | Debug model behavior, understand attention patterns, root-cause failures. Know the limits of explainability. |
-| [**Th**](/docs/periodic-table/models#th--thinking-models) | Thinking Models | Architect solutions using reasoning models. Know when to invest compute in thinking vs. generation. |
-| [**Mc**](/docs/periodic-table/orchestration#mc--mcp) | MCP/Protocols | Understand emerging standards. Evaluate and implement protocol-based architectures. |
+| [**Ft**](/docs/building-ai-systems/periodic-table/retrieval#ft--fine-tuning) | Fine-tuning | Prepare datasets and fine-tune models. Know when fine-tuning beats RAG and vice versa. |
+| [**Rt**](/docs/building-ai-systems/periodic-table/validation#rt--red-teaming) | Red Teaming | Adversarial testing, prompt injection defense, security assessment. Find vulnerabilities systematically. |
+| [**Ma**](/docs/building-ai-systems/periodic-table/reactive#ma--multi-agent) | Multi-agent | Design and implement multi-agent orchestration. Understand coordination, specialization, and failure modes. |
+| [**Sy**](/docs/building-ai-systems/periodic-table/retrieval#sy--synthetic-data) | Synthetic Data | Generate and validate synthetic training data. Understand quality, diversity, and contamination risks. |
+| [**In**](/docs/building-ai-systems/periodic-table/validation#in--interpretability) | Interpretability | Debug model behavior, understand attention patterns, root-cause failures. Know the limits of explainability. |
+| [**Th**](/docs/building-ai-systems/periodic-table/models#th--thinking-models) | Thinking Models | Architect solutions using reasoning models. Know when to invest compute in thinking vs. generation. |
+| [**Mc**](/docs/building-ai-systems/periodic-table/orchestration#mc--mcp) | MCP/Protocols | Understand emerging standards. Evaluate and implement protocol-based architectures. |
 
 <TierPeriodicTable highlightedElements={['Ft', 'Rt', 'Ma', 'Sy', 'In', 'Th', 'Mc']} />
 
@@ -103,7 +103,7 @@ Expert contributions might include:
 - Mentoring a colleague from Foundation through Practitioner
 - Publishing an internal guide on an advanced topic
 
-**Use the [Expert Portfolio Template](/docs/portfolio-templates/expert-architecture) to structure your documentation.**
+**Use the [Expert Portfolio Template](/docs/building-ai-systems/portfolio-templates/expert-architecture) to structure your documentation.**
 
 ---
 

@@ -5,35 +5,35 @@ import styles from './styles.module.css';
 const elements = {
   // Row 1 - Primitives
   row1: [
-    { symbol: 'Pr', name: 'Prompts', family: 'reactive', path: '/docs/periodic-table/reactive#pr--prompts' },
-    { symbol: 'Em', name: 'Embeddings', family: 'retrieval', path: '/docs/periodic-table/retrieval#em--embeddings' },
-    { symbol: 'Cw', name: 'Context', family: 'orchestration', path: '/docs/periodic-table/orchestration#cw--context-windows' },
-    { symbol: 'Ev', name: 'Evaluation', family: 'validation', path: '/docs/periodic-table/validation#ev--evaluation' },
-    { symbol: 'Lg', name: 'LLM', family: 'models', path: '/docs/periodic-table/models#lg--llm' },
+    { symbol: 'Pr', name: 'Prompts', family: 'reactive', path: '/docs/building-ai-systems/periodic-table/reactive#pr--prompts' },
+    { symbol: 'Em', name: 'Embeddings', family: 'retrieval', path: '/docs/building-ai-systems/periodic-table/retrieval#em--embeddings' },
+    { symbol: 'Cw', name: 'Context', family: 'orchestration', path: '/docs/building-ai-systems/periodic-table/orchestration#cw--context-windows' },
+    { symbol: 'Ev', name: 'Evaluation', family: 'validation', path: '/docs/building-ai-systems/periodic-table/validation#ev--evaluation' },
+    { symbol: 'Lg', name: 'LLM', family: 'models', path: '/docs/building-ai-systems/periodic-table/models#lg--llm' },
   ],
   // Row 2 - Compositions
   row2: [
-    { symbol: 'Fc', name: 'Function Call', family: 'reactive', path: '/docs/periodic-table/reactive#fc--function-calling' },
-    { symbol: 'Vx', name: 'Vector DB', family: 'retrieval', path: '/docs/periodic-table/retrieval#vx--vector-db' },
-    { symbol: 'Rg', name: 'RAG', family: 'orchestration', path: '/docs/periodic-table/orchestration#rg--rag' },
-    { symbol: 'Gr', name: 'Guardrails', family: 'validation', path: '/docs/periodic-table/validation#gr--guardrails' },
-    { symbol: 'Mm', name: 'Multi-modal', family: 'models', path: '/docs/periodic-table/models#mm--multi-modal' },
+    { symbol: 'Fc', name: 'Function Call', family: 'reactive', path: '/docs/building-ai-systems/periodic-table/reactive#fc--function-calling' },
+    { symbol: 'Vx', name: 'Vector DB', family: 'retrieval', path: '/docs/building-ai-systems/periodic-table/retrieval#vx--vector-db' },
+    { symbol: 'Rg', name: 'RAG', family: 'orchestration', path: '/docs/building-ai-systems/periodic-table/orchestration#rg--rag' },
+    { symbol: 'Gr', name: 'Guardrails', family: 'validation', path: '/docs/building-ai-systems/periodic-table/validation#gr--guardrails' },
+    { symbol: 'Mm', name: 'Multi-modal', family: 'models', path: '/docs/building-ai-systems/periodic-table/models#mm--multi-modal' },
   ],
   // Row 3 - Deployment
   row3: [
-    { symbol: 'Ag', name: 'Agents', family: 'reactive', path: '/docs/periodic-table/reactive#ag--agents' },
-    { symbol: 'Ft', name: 'Fine-tuning', family: 'retrieval', path: '/docs/periodic-table/retrieval#ft--fine-tuning' },
-    { symbol: 'Fw', name: 'Frameworks', family: 'orchestration', path: '/docs/periodic-table/orchestration#fw--frameworks' },
-    { symbol: 'Rt', name: 'Red Team', family: 'validation', path: '/docs/periodic-table/validation#rt--red-teaming' },
-    { symbol: 'Sm', name: 'Small Models', family: 'models', path: '/docs/periodic-table/models#sm--small-models' },
+    { symbol: 'Ag', name: 'Agents', family: 'reactive', path: '/docs/building-ai-systems/periodic-table/reactive#ag--agents' },
+    { symbol: 'Ft', name: 'Fine-tuning', family: 'retrieval', path: '/docs/building-ai-systems/periodic-table/retrieval#ft--fine-tuning' },
+    { symbol: 'Fw', name: 'Frameworks', family: 'orchestration', path: '/docs/building-ai-systems/periodic-table/orchestration#fw--frameworks' },
+    { symbol: 'Rt', name: 'Red Team', family: 'validation', path: '/docs/building-ai-systems/periodic-table/validation#rt--red-teaming' },
+    { symbol: 'Sm', name: 'Small Models', family: 'models', path: '/docs/building-ai-systems/periodic-table/models#sm--small-models' },
   ],
   // Row 4 - Emerging
   row4: [
-    { symbol: 'Ma', name: 'Multi-agent', family: 'reactive', path: '/docs/periodic-table/reactive#ma--multi-agent' },
-    { symbol: 'Sy', name: 'Synthetic', family: 'retrieval', path: '/docs/periodic-table/retrieval#sy--synthetic-data' },
-    { symbol: 'Mc', name: 'MCP', family: 'orchestration', path: '/docs/periodic-table/orchestration#mc--mcp' },
-    { symbol: 'In', name: 'Interpret.', family: 'validation', path: '/docs/periodic-table/validation#in--interpretability' },
-    { symbol: 'Th', name: 'Thinking', family: 'models', path: '/docs/periodic-table/models#th--thinking-models' },
+    { symbol: 'Ma', name: 'Multi-agent', family: 'reactive', path: '/docs/building-ai-systems/periodic-table/reactive#ma--multi-agent' },
+    { symbol: 'Sy', name: 'Synthetic', family: 'retrieval', path: '/docs/building-ai-systems/periodic-table/retrieval#sy--synthetic-data' },
+    { symbol: 'Mc', name: 'MCP', family: 'orchestration', path: '/docs/building-ai-systems/periodic-table/orchestration#mc--mcp' },
+    { symbol: 'In', name: 'Interpret.', family: 'validation', path: '/docs/building-ai-systems/periodic-table/validation#in--interpretability' },
+    { symbol: 'Th', name: 'Thinking', family: 'models', path: '/docs/building-ai-systems/periodic-table/models#th--thinking-models' },
   ],
 };
 
