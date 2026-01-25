@@ -57,21 +57,21 @@ const config = {
             type: 'docSidebar',
             sidebarId: 'mainSidebar',
             position: 'left',
-            label: 'Learn',
+            label: 'Intro',
           },
           {
             to: '/docs/periodic-table/',
-            label: 'Periodic Table',
-            position: 'left',
-          },
-          {
-            to: '/docs/tiers/overview',
-            label: 'Learning Tiers',
+            label: 'Building AI Systems',
             position: 'left',
           },
           {
             to: '/docs/ai-productivity/',
             label: 'AI Productivity',
+            position: 'left',
+          },
+          {
+            to: '/docs/tiers/overview',
+            label: 'Learning Tiers',
             position: 'left',
           },
           {
@@ -97,7 +97,7 @@ const config = {
                 to: '/docs/intro',
               },
               {
-                label: 'Periodic Table',
+                label: 'Building AI Systems',
                 to: '/docs/periodic-table/',
               },
               {

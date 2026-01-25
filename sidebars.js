@@ -5,7 +5,7 @@ const sidebars = {
     'getting-started',
     {
       type: 'category',
-      label: 'The AI Periodic Table',
+      label: 'Building AI Systems',
       collapsed: false,
       link: {
         type: 'doc',
@@ -17,20 +17,6 @@ const sidebars = {
         'periodic-table/orchestration',
         'periodic-table/validation',
         'periodic-table/models',
-      ],
-    },
-    {
-      type: 'category',
-      label: 'Learning Tiers',
-      collapsed: false,
-      link: {
-        type: 'doc',
-        id: 'tiers/overview',
-      },
-      items: [
-        'tiers/foundation',
-        'tiers/practitioner',
-        'tiers/expert',
       ],
     },
     {
@@ -65,6 +51,20 @@ const sidebars = {
         },
         'ai-productivity/by-role',
         'ai-productivity/tools-reference',
+      ],
+    },
+    {
+      type: 'category',
+      label: 'Learning Tiers',
+      collapsed: false,
+      link: {
+        type: 'doc',
+        id: 'tiers/overview',
+      },
+      items: [
+        'tiers/foundation',
+        'tiers/practitioner',
+        'tiers/expert',
       ],
     },
     {
