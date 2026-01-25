@@ -39,11 +39,11 @@ function HomepageHeader() {
 
 function BuildingAISection() {
   const levels = [
-    { number: 1, name: 'Chat', path: '/docs/ai-productivity/levels/chat' },
-    { number: 2, name: 'Context', path: '/docs/ai-productivity/levels/context' },
-    { number: 3, name: 'Connected', path: '/docs/ai-productivity/levels/connected' },
-    { number: 4, name: 'Customized', path: '/docs/ai-productivity/levels/customized' },
-    { number: 5, name: 'Autonomous', path: '/docs/ai-productivity/levels/autonomous' },
+    { number: 1, name: 'Chat', description: 'Isolated Q&A in browser', path: '/docs/ai-productivity/levels/chat' },
+    { number: 2, name: 'Context', description: 'Manually providing files, screenshots, code', path: '/docs/ai-productivity/levels/context' },
+    { number: 3, name: 'Connected', description: 'AI has access to environment (IDE, codebase, MCP)', path: '/docs/ai-productivity/levels/connected' },
+    { number: 4, name: 'Customized', description: 'Personal commands, project prompts, hooks', path: '/docs/ai-productivity/levels/customized' },
+    { number: 5, name: 'Autonomous', description: 'Multi-step tasks with review/supervision', path: '/docs/ai-productivity/levels/autonomous' },
   ];
 
   return (
@@ -75,7 +75,10 @@ function BuildingAISection() {
                   className={styles.levelItem}
                 >
                   <span className={styles.levelNumber}>Level {level.number}</span>
-                  <span className={styles.levelName}>{level.name}</span>
+                  <div className={styles.levelContent}>
+                    <span className={styles.levelName}>{level.name}</span>
+                    <span className={styles.levelDescription}>{level.description}</span>
+                  </div>
                 </Link>
               ))}
             </div>
