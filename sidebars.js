@@ -35,6 +35,52 @@ const sidebars = {
     },
     {
       type: 'category',
+      label: 'AI Productivity',
+      collapsed: false,
+      link: { type: 'doc', id: 'ai-productivity/index' },
+      items: [
+        {
+          type: 'category',
+          label: 'The 5 Levels',
+          collapsed: true,
+          items: [
+            'ai-productivity/levels/chat',
+            'ai-productivity/levels/context',
+            'ai-productivity/levels/connected',
+            'ai-productivity/levels/customized',
+            'ai-productivity/levels/autonomous',
+          ],
+        },
+        {
+          type: 'category',
+          label: 'Key Concepts',
+          collapsed: true,
+          items: [
+            'ai-productivity/concepts/prompt-preparation',
+            'ai-productivity/concepts/plan-before-execute',
+            'ai-productivity/concepts/vibe-vs-spec',
+            'ai-productivity/concepts/deep-research',
+            'ai-productivity/concepts/context-files',
+          ],
+        },
+        {
+          type: 'category',
+          label: 'By Role',
+          collapsed: true,
+          items: [
+            'ai-productivity/roles/developers',
+            'ai-productivity/roles/qa-engineers',
+            'ai-productivity/roles/designers',
+            'ai-productivity/roles/business-analysts',
+            'ai-productivity/roles/project-managers',
+            'ai-productivity/roles/tech-leads',
+          ],
+        },
+        'ai-productivity/tools-reference',
+      ],
+    },
+    {
+      type: 'category',
       label: 'Portfolio Templates',
       collapsed: true,
       items: [
