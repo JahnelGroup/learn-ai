@@ -32,16 +32,6 @@ const sidebars = {
             'building-ai-systems/tiers/expert',
           ],
         },
-        {
-          type: 'category',
-          label: 'Portfolio Templates',
-          collapsed: true,
-          items: [
-            'building-ai-systems/portfolio-templates/foundation-use-case',
-            'building-ai-systems/portfolio-templates/practitioner-feature',
-            'building-ai-systems/portfolio-templates/expert-architecture',
-          ],
-        },
       ],
     },
     {

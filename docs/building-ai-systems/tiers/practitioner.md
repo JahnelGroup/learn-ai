@@ -56,6 +56,15 @@ Practitioner portfolio requires **at least one AI-powered feature shipped to pro
 - Why did you choose this approach over alternatives?
 - What tradeoffs did you accept?
 
+**Example architecture diagram:**
+```
+User Query → API Gateway → RAG Service → Vector DB
+                              ↓
+                           LLM API
+                              ↓
+                         Response + Sources
+```
+
 **2. Technical Implementation**
 - How does the system work?
 - What frameworks/tools did you use?
@@ -66,11 +75,23 @@ Practitioner portfolio requires **at least one AI-powered feature shipped to pro
 - How did you debug issues?
 - What would you do differently?
 
+**Example format:**
+```
+Challenge: Retrieval returning irrelevant documents
+Investigation: Tested different chunk sizes and overlap
+Solution: Reduced chunk size from 1000 to 500 tokens
+Result: Precision improved from 60% to 85%
+```
+
 **4. Measurable Outcomes**
-- Accuracy/quality metrics
-- Latency numbers
-- Cost analysis
-- User feedback
+Track key metrics for your feature:
+
+| Metric | Target | Actual |
+|--------|--------|--------|
+| Response latency (p50) | < 2s | 1.4s |
+| Quality/accuracy | > 80% | 85% |
+| Cost per request | < $0.05 | $0.03 |
+| User satisfaction | > 4.0/5 | 4.2/5 |
 
 ### Example Projects
 
@@ -79,8 +100,6 @@ Good Practitioner projects might include:
 - An agent that completes a multi-step workflow with observable reasoning
 - A function-calling integration with external APIs and error handling
 - A multi-modal feature processing images or audio
-
-**Use the [Practitioner Portfolio Template](/docs/building-ai-systems/portfolio-templates/practitioner-feature) to structure your documentation.**
 
 ---
 
@@ -209,5 +228,5 @@ Practitioner gives you the ability to build. [Expert](/docs/building-ai-systems/
 
 1. Pick a meaningful project
 2. Start building—you'll learn fastest by doing
-3. Document as you go with the [portfolio template](/docs/building-ai-systems/portfolio-templates/practitioner-feature)
+3. Document as you go (architecture, challenges, metrics)
 4. Get feedback early and often

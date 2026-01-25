@@ -74,25 +74,52 @@ Beyond specific elements, Experts demonstrate mastery in:
 
 ## Portfolio: Lead and Mentor
 
-Expert portfolio demonstrates **leadership and multiplied impact**.
+Expert portfolio demonstrates **leadership and multiplied impact**. Document three components:
 
-### What to Document
+### Component 1: Architecture Leadership
 
-**1. Lead Architecture on a Complex AI System**
-- What made it complex?
-- How did you make architectural decisions?
-- What tradeoffs did you navigate?
-- How did it perform in production?
+Lead the architecture of a complex AI system. Document:
 
-**2. Technical Deep-Dive Presentation**
-- Present to peers on an advanced topic
-- Share original insights or analysis
-- Advance collective understanding
+**What Made It Complex:**
+- Multiple AI components or patterns combined
+- Scale, security, or performance constraints
+- Novel approaches or emerging technologies
 
-**3. Mentor at Least One Person Through Practitioner**
-- Document the mentorship process
-- What did they learn? What did you learn?
-- How did you adapt to their needs?
+**Key Architectural Decisions:**
+Use this format to document major decisions:
+
+| Decision Aspect | Details |
+|----------------|---------|
+| Context | What situation required this decision? |
+| Options Considered | What alternatives did you evaluate? |
+| Choice Made | What did you decide? |
+| Rationale | Why this approach? |
+| Tradeoffs Accepted | What did you give up? |
+| Outcome | How did it work in production? |
+
+**Measurable Results:**
+- Technical metrics (latency, reliability, cost)
+- Business impact (adoption, time saved, value delivered)
+- Team outcomes (knowledge transfer, reusable patterns)
+
+### Component 2: Technical Deep-Dive Presentation
+
+Present an advanced topic to peers that advances collective understanding:
+
+- **Topic**: Must go beyond basics—show original insight or analysis
+- **Audience**: Should be peers or other practitioners, not just beginners
+- **Learning Objectives**: What should attendees gain?
+- **Materials**: Slides, demo code, or supporting documentation
+- **Feedback**: What did attendees learn? How would you improve?
+
+### Component 3: Mentorship Through Practitioner
+
+Guide at least one person through Practitioner level:
+
+- **Approach**: How did you structure the mentorship?
+- **Adaptation**: How did you adjust to their learning style?
+- **Progress**: What milestones did they achieve?
+- **Reflection**: What worked well? What was challenging? What did you learn?
 
 ### Example Contributions
 
@@ -103,7 +130,14 @@ Expert contributions might include:
 - Mentoring a colleague from Foundation through Practitioner
 - Publishing an internal guide on an advanced topic
 
-**Use the [Expert Portfolio Template](/docs/building-ai-systems/portfolio-templates/expert-architecture) to structure your documentation.**
+### Self-Assessment Questions
+
+Before submitting your portfolio, confirm:
+
+- [ ] Does my architecture work demonstrate strategic thinking beyond just implementation?
+- [ ] Does my presentation include original insights, not just summarizing existing knowledge?
+- [ ] Did my mentee measurably progress through Practitioner level?
+- [ ] Have I honestly reflected on what I learned through mentorship?
 
 ---
 
