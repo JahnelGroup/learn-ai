@@ -34,6 +34,10 @@ const config = {
         theme: {
           customCss: './src/css/custom.css',
         },
+        gtag: {
+          trackingID: 'G-XXXXXXXXXX', // Replace with your GA4 Measurement ID
+          anonymizeIP: true, // Optional: anonymize IP addresses for privacy
+        },
       }),
     ],
   ],
@@ -66,6 +70,11 @@ const config = {
             position: 'left',
           },
           {
+            to: '/docs/ai-productivity/',
+            label: 'AI Productivity',
+            position: 'left',
+          },
+          {
             href: 'https://github.com/jahnelgroup/learn-ai',
             label: 'GitHub',
             position: 'right',
@@ -94,6 +103,10 @@ const config = {
               {
                 label: 'Learning Tiers',
                 to: '/docs/tiers/overview',
+              },
+              {
+                label: 'AI Productivity',
+                to: '/docs/ai-productivity/',
               },
             ],
           },
