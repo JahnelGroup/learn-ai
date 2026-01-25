@@ -116,7 +116,7 @@ Think of assessments like a spotter at the gym—there to help you push further 
 
 You understand core concepts, can use AI tools in your daily work, and can engage meaningfully in technical conversations about AI. You know the vocabulary, understand capabilities and limitations, and can make informed decisions about when to apply AI.
 
-**Key elements:** Prompts, LLMs, Embeddings, Guardrails, RAG (conceptual), Evaluation
+**Key elements:** Prompts, LLMs, Embeddings, Guardrails, Context Windows (conceptual), RAG (conceptual), Evaluation
 
 ---
 
@@ -125,7 +125,7 @@ You understand core concepts, can use AI tools in your daily work, and can engag
 
 You can independently build AI features and deploy them to production. You understand implementation details, can make architecture decisions for standard patterns, and can troubleshoot issues.
 
-**Key elements:** Function Calling, Vector DBs, RAG (advanced), Multi-modal, Agents, Frameworks, Small Models, Context Windows
+**Key elements:** Function Calling, Vector DBs, RAG (advanced), Multi-modal, Agents, Frameworks, Small Models, Context Windows (advanced)
 
 ---
 
