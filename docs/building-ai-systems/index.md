@@ -52,7 +52,7 @@ Every time you use AI effectively in your job, make a note:
 
 Every experiment, every prompt iteration, every lesson learned—these become your portfolio. The best portfolios are built over time, not crammed at the end.
 
-Use the [portfolio templates](/docs/building-ai-systems/portfolio-templates/foundation-use-case) to structure your documentation. They're designed to capture the learning, not just the outcome.
+Each tier page includes portfolio guidance and examples to help you structure your documentation and capture the learning, not just the outcome.
 
 ---
 
@@ -86,7 +86,6 @@ The path is clear. The resources are here. The only thing left is to begin.
 | [Foundation Tier](/docs/building-ai-systems/tiers/foundation) | Start here—core concepts and vocabulary |
 | [Practitioner Tier](/docs/building-ai-systems/tiers/practitioner) | Build and deploy AI features |
 | [Expert Tier](/docs/building-ai-systems/tiers/expert) | Architect systems and lead others |
-| [Portfolio Templates](/docs/building-ai-systems/portfolio-templates/foundation-use-case) | Document your learning |
 
 ---
 

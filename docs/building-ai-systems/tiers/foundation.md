@@ -55,6 +55,18 @@ What were you trying to accomplish? What was the context?
 - What iterations did you go through?
 - What didn't work at first?
 
+**Example iteration tracking:**
+```
+Initial: "Write documentation for this function"
+→ Too generic, got boilerplate
+
+Iteration 1: Added code context and specific requirements
+→ Better, but missed key edge cases
+
+Final: Included code, examples of edge cases, and tone guidance
+→ Produced usable documentation with minor edits needed
+```
+
 **3. The Outcome**
 - How did AI contribute to the result?
 - What would have been different without AI?
@@ -73,7 +85,14 @@ Good portfolio entries might include:
 - Having AI explain an unfamiliar codebase, documenting the back-and-forth
 - Using AI to debug an issue, tracking the conversation flow
 
-**Use the [Foundation Portfolio Template](/docs/building-ai-systems/portfolio-templates/foundation-use-case) to structure your documentation.**
+### Self-Assessment Checklist
+
+Before considering a use case complete, ensure you can answer:
+
+- [ ] Can I explain why my final prompt worked better than my initial attempt?
+- [ ] Can I identify which AI capabilities I leveraged (and their limitations)?
+- [ ] Can I connect this experience to specific periodic table concepts?
+- [ ] Would I be able to explain my approach and learnings to someone else?
 
 ---
 
@@ -188,5 +207,4 @@ After Foundation, you'll have a solid mental model of the AI landscape. [Practit
 
 1. Review the periodic table elements above
 2. Begin documenting your AI use immediately
-3. Use the [portfolio template](/docs/building-ai-systems/portfolio-templates/foundation-use-case)
-4. Connect with others on the same journey
+3. Connect with others on the same journey
