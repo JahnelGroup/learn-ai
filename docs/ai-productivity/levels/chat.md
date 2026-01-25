@@ -27,51 +27,16 @@ This is where most people start—and where many stay. It's valuable, but it's l
 - Results require copy-paste to use
 - No integration with your actual work environment
 
----
-
-## By Role: What Chat Looks Like
-
-### Developers
-- Ask about error messages or syntax
-- Generate boilerplate code snippets
-- Explain unfamiliar code or concepts
-- Get suggestions for library choices
-
-### QA Engineers
-- Ask about testing strategies
-- Generate test case ideas
-- Understand edge cases to consider
-- Get help with test data ideas
-
-### Designers
-- Explore color palette options
-- Get feedback on design choices
-- Generate copy variations
-- Research design patterns
-
-### Business Analysts
-- Draft requirement language
-- Clarify business terminology
-- Structure user stories
-- Research domain concepts
-
-### Project Managers
-- Draft status updates and emails
-- Summarize meeting notes
-- Generate agenda items
-- Research process improvements
-
-### Tech Leads
-- Get second opinions on architecture
-- Research technical approaches
-- Draft technical documentation
-- Explain trade-offs to stakeholders
+**Common use cases:**
+- Asking about error messages, syntax, or unfamiliar concepts
+- Generating boilerplate content (code, copy, templates)
+- Getting feedback or second opinions
+- Research and brainstorming
+- Drafting communications
 
 ---
 
 ## Getting Started at Level 1
-
-If you're not yet using AI regularly:
 
 ### 1. Pick One AI Chat Tool
 - **[ChatGPT](https://chat.openai.com)** — Most popular, strong general capabilities
@@ -79,7 +44,10 @@ If you're not yet using AI regularly:
 - **[Gemini](https://gemini.google.com)** — Good Google integration
 
 ### 2. Build the Habit
-Start with one use case from your role above. Try it daily for a week.
+Start with one use case. Try it daily for a week. Common starting points:
+- Explaining error messages or unfamiliar concepts
+- Generating first drafts of any written content
+- Getting a second opinion before making decisions
 
 ### 3. Learn Basic Prompting
 Good prompts include:
@@ -88,7 +56,7 @@ Good prompts include:
 - **Constraints**: Format, length, style preferences
 
 ```
-I'm a QA engineer testing a login form.
+I'm testing a login form for a web application.
 Generate 10 edge case test scenarios.
 Focus on security and validation edge cases.
 ```

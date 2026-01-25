@@ -39,45 +39,11 @@ This is where AI transforms from a general-purpose assistant to a knowledgeable 
 | Same AI experience for all projects | Project-specific AI behavior |
 | Manual repetitive instructions | Automated custom commands |
 
----
-
-## By Role: What Customized Looks Like
-
-### Developers
-- **CLAUDE.md**: Project architecture, conventions, patterns to follow
-- **Custom commands**: `/review` for code review, `/test` for test generation
-- **Hooks**: Auto-format, lint-check, or test-run after AI edits
-- AI suggests code that matches your existing patterns
-
-### QA Engineers
-- Test templates that match your framework
-- Domain-specific test case generators
-- Custom prompts for your testing methodology
-- Hooks that run tests after AI-generated changes
-
-### Designers
-- Design system rules encoded in prompts
-- Component library references for AI
-- Accessibility standards as default guidance
-- Custom commands for design tasks
-
-### Business Analysts
-- Domain glossaries AI always references
-- Requirement templates built into workflows
-- User story formats as standard
-- Custom prompts for your documentation style
-
-### Project Managers
-- Status report templates and formats
-- Risk assessment frameworks as prompts
-- Stakeholder communication styles defined
-- Reporting hooks for automated updates
-
-### Tech Leads
-- Architecture decision records AI references
-- Team coding standards as AI guidance
-- Code review checklists as custom commands
-- Cross-project patterns documented for AI
+**Common use cases:**
+- Project-specific context files (CLAUDE.md, .cursorrules)
+- Custom slash commands for frequent tasks
+- Hooks for automated workflows (lint, test, format)
+- Domain glossaries and templates AI always references
 
 ---
 
