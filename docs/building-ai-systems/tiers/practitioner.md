@@ -39,7 +39,7 @@ These are the concepts to understand at Practitioner level. Focus on **hands-on 
 | [**Ag**](/docs/building-ai-systems/periodic-table/reactive#ag--agents) | Agents | Implement basic agentic loops. Understand planning, tool selection, observation, and termination conditions. |
 | [**Fw**](/docs/building-ai-systems/periodic-table/orchestration#fw--frameworks) | Frameworks | Gain proficiency in at least one major AI framework. Understand abstractions, patterns, and when to use them. |
 | [**Sm**](/docs/building-ai-systems/periodic-table/models#sm--small-models) | Small Models | Know when and how to use smaller models. Understand cost/latency/quality tradeoffs. |
-| [**Cw**](/docs/building-ai-systems/periodic-table/orchestration#cw--context-windows) | Context Windows | Manage context effectively. Understand token limits, context stuffing, and optimization strategies. |
+| [**Cw**](/docs/building-ai-systems/periodic-table/orchestration#cw--context-windows) | Context Windows | Implement context management strategies. Handle sliding windows, compression, and chunking. Optimize context for cost/quality tradeoffs. |
 
 <TierPeriodicTable highlightedElements={['Fc', 'Vx', 'Rg', 'Mm', 'Ag', 'Fw', 'Sm', 'Cw']} />
 

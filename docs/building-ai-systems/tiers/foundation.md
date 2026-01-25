@@ -32,10 +32,11 @@ These are the concepts to understand at Foundation. You don't need to master imp
 | [**Lg**](/docs/building-ai-systems/periodic-table/models#lg--llm) | LLMs | What LLMs are, how they work at a high level, their capabilities, limitations, and hallucination risks. |
 | [**Em**](/docs/building-ai-systems/periodic-table/retrieval#em--embeddings) | Embeddings | How semantic similarity works conceptually and why it matters for AI applications. |
 | [**Gr**](/docs/building-ai-systems/periodic-table/validation#gr--guardrails) | Guardrails | AI safety, bias, ethical considerations, and why guardrails matter in production systems. |
+| [**Cw**](/docs/building-ai-systems/periodic-table/orchestration#cw--context-windows) | Context Windows | Understand token limits, context window sizes, and why context management matters. Know what consumes context. |
 | [**Rg**](/docs/building-ai-systems/periodic-table/orchestration#rg--rag) | RAG | The RAG pattern conceptually: retrieval, augmentation, generation. Know when and why to use it. |
 | [**Ev**](/docs/building-ai-systems/periodic-table/validation#ev--evaluation) | Evaluation | How AI quality is measured. Common metrics, benchmarks, and the importance of human evaluation. |
 
-<TierPeriodicTable highlightedElements={['Pr', 'Lg', 'Em', 'Gr', 'Rg', 'Ev']} />
+<TierPeriodicTable highlightedElements={['Pr', 'Lg', 'Em', 'Gr', 'Cw', 'Rg', 'Ev']} />
 
 ---
 
@@ -100,6 +101,14 @@ Can you:
 - [ ] Explain the RAG pattern at a whiteboard level?
 - [ ] Describe when RAG is useful vs. when fine-tuning might be better?
 - [ ] Understand how embeddings enable semantic search?
+
+### Context Windows Awareness
+
+Can you:
+- [ ] Explain what a context window is and why it's limited?
+- [ ] Understand what consumes context (system prompt, history, retrieval, etc.)?
+- [ ] Recognize when context limits might be an issue?
+- [ ] Describe token costs conceptually?
 
 ### Safety Awareness
 

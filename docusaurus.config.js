@@ -102,11 +102,6 @@ const config = {
             label: 'GitHub',
             position: 'right',
           },
-          {
-            href: 'https://www.youtube.com/watch?v=ESBMgZHzfG0',
-            label: 'YouTube',
-            position: 'right',
-          },
         ],
       },
       footer: {
