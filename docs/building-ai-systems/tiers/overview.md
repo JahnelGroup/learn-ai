@@ -111,7 +111,7 @@ Think of assessments like a spotter at the gym—there to help you push further 
 
 ## The Tiers at a Glance
 
-### [Foundation](/docs/tiers/foundation)
+### [Foundation](/docs/building-ai-systems/tiers/foundation)
 *"I can have an intelligent conversation about AI and use it effectively."*
 
 You understand core concepts, can use AI tools in your daily work, and can engage meaningfully in technical conversations about AI. You know the vocabulary, understand capabilities and limitations, and can make informed decisions about when to apply AI.
@@ -120,7 +120,7 @@ You understand core concepts, can use AI tools in your daily work, and can engag
 
 ---
 
-### [Practitioner](/docs/tiers/practitioner)
+### [Practitioner](/docs/building-ai-systems/tiers/practitioner)
 *"I can build and deploy AI-powered features in production systems."*
 
 You can independently build AI features and deploy them to production. You understand implementation details, can make architecture decisions for standard patterns, and can troubleshoot issues.
@@ -129,7 +129,7 @@ You can independently build AI features and deploy them to production. You under
 
 ---
 
-### [Expert](/docs/tiers/expert)
+### [Expert](/docs/building-ai-systems/tiers/expert)
 *"I can architect AI systems, make strategic technology decisions, and advance organizational capability."*
 
 You can architect complex AI systems, make strategic technology decisions, lead AI initiatives, and elevate others' capabilities. You understand cutting-edge developments and can guide AI direction.
@@ -144,4 +144,4 @@ You can architect complex AI systems, make strategic technology decisions, lead 
 
 Even if you've built AI systems, the Foundation tier ensures we share vocabulary and mental models. You might move through it quickly—that's fine. Or you might discover gaps that are worth filling.
 
-**[Begin with Foundation →](/docs/tiers/foundation)**
+**[Begin with Foundation →](/docs/building-ai-systems/tiers/foundation)**

@@ -28,7 +28,7 @@ function HomepageHeader() {
           </Link>
           <Link
             className="button button--outline button--secondary button--lg"
-            to="/docs/periodic-table">
+            to="/docs/building-ai-systems/periodic-table">
             Explore the Periodic Table
           </Link>
         </div>
@@ -140,6 +140,7 @@ function LearningTiers() {
       description:
         'Build a solid mental model. Understand the vocabulary, capabilities, and limitations. Use AI tools effectively in your daily work.',
       color: 'foundation',
+      path: '/docs/building-ai-systems/tiers/foundation',
     },
     {
       name: 'Practitioner',
@@ -147,6 +148,7 @@ function LearningTiers() {
       description:
         'Implement AI-powered features in production. Understand technical details, make architecture decisions, and troubleshoot issues.',
       color: 'practitioner',
+      path: '/docs/building-ai-systems/tiers/practitioner',
     },
     {
       name: 'Expert',
@@ -154,6 +156,7 @@ function LearningTiers() {
       description:
         'Design complex AI systems, evaluate emerging technologies, and elevate the capabilities of those around you.',
       color: 'expert',
+      path: '/docs/building-ai-systems/tiers/expert',
     },
   ];
 
@@ -169,17 +172,21 @@ function LearningTiers() {
         </p>
         <div className={styles.tiersGrid}>
           {tiers.map((tier, idx) => (
-            <div key={idx} className={clsx(styles.tierCard, styles[`tier${tier.color}`])}>
+            <Link
+              key={idx}
+              to={tier.path}
+              className={clsx(styles.tierCard, styles[`tier${tier.color}`])}
+            >
               <Heading as="h3">{tier.name}</Heading>
               <p className={styles.tierTagline}>{tier.tagline}</p>
               <p>{tier.description}</p>
-            </div>
+            </Link>
           ))}
         </div>
         <div className={styles.tiersCta}>
           <Link
             className="button button--primary button--lg"
-            to="/docs/tiers/overview">
+            to="/docs/building-ai-systems/tiers/overview">
             Explore Learning Tiers
           </Link>
         </div>
@@ -202,7 +209,7 @@ function CallToAction() {
         <div className={styles.buttons}>
           <Link
             className="button button--primary button--lg"
-            to="/docs/getting-started">
+            to="/docs/building-ai-systems/">
             Get Started
           </Link>
         </div>

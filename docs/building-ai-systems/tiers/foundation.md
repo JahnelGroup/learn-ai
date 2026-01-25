@@ -28,12 +28,12 @@ These are the concepts to understand at Foundation. You don't need to master imp
 
 | Element | Concept | What to Understand |
 |---------|---------|-------------------|
-| [**Pr**](/docs/periodic-table/reactive#pr--prompts) | Prompts | How to write effective prompts with clear instructions, context, examples, and constraints. Understand prompt patterns and iteration. |
-| [**Lg**](/docs/periodic-table/models#lg--llm) | LLMs | What LLMs are, how they work at a high level, their capabilities, limitations, and hallucination risks. |
-| [**Em**](/docs/periodic-table/retrieval#em--embeddings) | Embeddings | How semantic similarity works conceptually and why it matters for AI applications. |
-| [**Gr**](/docs/periodic-table/validation#gr--guardrails) | Guardrails | AI safety, bias, ethical considerations, and why guardrails matter in production systems. |
-| [**Rg**](/docs/periodic-table/orchestration#rg--rag) | RAG | The RAG pattern conceptually: retrieval, augmentation, generation. Know when and why to use it. |
-| [**Ev**](/docs/periodic-table/validation#ev--evaluation) | Evaluation | How AI quality is measured. Common metrics, benchmarks, and the importance of human evaluation. |
+| [**Pr**](/docs/building-ai-systems/periodic-table/reactive#pr--prompts) | Prompts | How to write effective prompts with clear instructions, context, examples, and constraints. Understand prompt patterns and iteration. |
+| [**Lg**](/docs/building-ai-systems/periodic-table/models#lg--llm) | LLMs | What LLMs are, how they work at a high level, their capabilities, limitations, and hallucination risks. |
+| [**Em**](/docs/building-ai-systems/periodic-table/retrieval#em--embeddings) | Embeddings | How semantic similarity works conceptually and why it matters for AI applications. |
+| [**Gr**](/docs/building-ai-systems/periodic-table/validation#gr--guardrails) | Guardrails | AI safety, bias, ethical considerations, and why guardrails matter in production systems. |
+| [**Rg**](/docs/building-ai-systems/periodic-table/orchestration#rg--rag) | RAG | The RAG pattern conceptually: retrieval, augmentation, generation. Know when and why to use it. |
+| [**Ev**](/docs/building-ai-systems/periodic-table/validation#ev--evaluation) | Evaluation | How AI quality is measured. Common metrics, benchmarks, and the importance of human evaluation. |
 
 <TierPeriodicTable highlightedElements={['Pr', 'Lg', 'Em', 'Gr', 'Rg', 'Ev']} />
 
@@ -72,7 +72,7 @@ Good portfolio entries might include:
 - Having AI explain an unfamiliar codebase, documenting the back-and-forth
 - Using AI to debug an issue, tracking the conversation flow
 
-**Use the [Foundation Portfolio Template](/docs/portfolio-templates/foundation-use-case) to structure your documentation.**
+**Use the [Foundation Portfolio Template](/docs/building-ai-systems/portfolio-templates/foundation-use-case) to structure your documentation.**
 
 ---
 
@@ -131,13 +131,13 @@ Assessment confirms you've built a solid foundation. If there are gaps, that's v
 ## Learning Path Suggestions
 
 ### Start Here
-1. Read through the [AI Periodic Table](/docs/periodic-table) overview
-2. Deep dive into [Prompts](/docs/periodic-table/reactive#pr--prompts) and [LLMs](/docs/periodic-table/models#lg--llm)
+1. Read through the [AI Periodic Table](/docs/building-ai-systems/periodic-table/) overview
+2. Deep dive into [Prompts](/docs/building-ai-systems/periodic-table/reactive#pr--prompts) and [LLMs](/docs/building-ai-systems/periodic-table/models#lg--llm)
 3. Start documenting AI use in your daily work immediately
 
 ### Build Understanding
-4. Explore [Embeddings](/docs/periodic-table/retrieval#em--embeddings) and [RAG](/docs/periodic-table/orchestration#rg--rag)
-5. Study [Guardrails](/docs/periodic-table/validation#gr--guardrails) and [Evaluation](/docs/periodic-table/validation#ev--evaluation)
+4. Explore [Embeddings](/docs/building-ai-systems/periodic-table/retrieval#em--embeddings) and [RAG](/docs/building-ai-systems/periodic-table/orchestration#rg--rag)
+5. Study [Guardrails](/docs/building-ai-systems/periodic-table/validation#gr--guardrails) and [Evaluation](/docs/building-ai-systems/periodic-table/validation#ev--evaluation)
 6. Practice explaining concepts to others
 
 ### Solidify
@@ -169,9 +169,9 @@ No. Understanding matters more than memorization. You can reference documentatio
 
 ## What's Next?
 
-After Foundation, you'll have a solid mental model of the AI landscape. [Practitioner](/docs/tiers/practitioner) builds on this foundation with hands-on implementation skills.
+After Foundation, you'll have a solid mental model of the AI landscape. [Practitioner](/docs/building-ai-systems/tiers/practitioner) builds on this foundation with hands-on implementation skills.
 
-**[Explore Practitioner Tier →](/docs/tiers/practitioner)**
+**[Explore Practitioner Tier →](/docs/building-ai-systems/tiers/practitioner)**
 
 ---
 
@@ -179,5 +179,5 @@ After Foundation, you'll have a solid mental model of the AI landscape. [Practit
 
 1. Review the periodic table elements above
 2. Begin documenting your AI use immediately
-3. Use the [portfolio template](/docs/portfolio-templates/foundation-use-case)
+3. Use the [portfolio template](/docs/building-ai-systems/portfolio-templates/foundation-use-case)
 4. Connect with others on the same journey

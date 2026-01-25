@@ -2,21 +2,46 @@
 const sidebars = {
   mainSidebar: [
     'intro',
-    'getting-started',
     {
       type: 'category',
       label: 'Building AI Systems',
       collapsed: false,
-      link: {
-        type: 'doc',
-        id: 'periodic-table/index',
-      },
+      link: { type: 'doc', id: 'building-ai-systems/index' },
       items: [
-        'periodic-table/reactive',
-        'periodic-table/retrieval',
-        'periodic-table/orchestration',
-        'periodic-table/validation',
-        'periodic-table/models',
+        {
+          type: 'category',
+          label: 'The Periodic Table',
+          collapsed: false,
+          link: { type: 'doc', id: 'building-ai-systems/periodic-table/index' },
+          items: [
+            'building-ai-systems/periodic-table/reactive',
+            'building-ai-systems/periodic-table/retrieval',
+            'building-ai-systems/periodic-table/orchestration',
+            'building-ai-systems/periodic-table/validation',
+            'building-ai-systems/periodic-table/models',
+          ],
+        },
+        {
+          type: 'category',
+          label: 'Learning Tiers',
+          collapsed: false,
+          link: { type: 'doc', id: 'building-ai-systems/tiers/overview' },
+          items: [
+            'building-ai-systems/tiers/foundation',
+            'building-ai-systems/tiers/practitioner',
+            'building-ai-systems/tiers/expert',
+          ],
+        },
+        {
+          type: 'category',
+          label: 'Portfolio Templates',
+          collapsed: true,
+          items: [
+            'building-ai-systems/portfolio-templates/foundation-use-case',
+            'building-ai-systems/portfolio-templates/practitioner-feature',
+            'building-ai-systems/portfolio-templates/expert-architecture',
+          ],
+        },
       ],
     },
     {
@@ -51,30 +76,6 @@ const sidebars = {
         },
         'ai-productivity/by-role',
         'ai-productivity/tools-reference',
-      ],
-    },
-    {
-      type: 'category',
-      label: 'Learning Tiers',
-      collapsed: false,
-      link: {
-        type: 'doc',
-        id: 'tiers/overview',
-      },
-      items: [
-        'tiers/foundation',
-        'tiers/practitioner',
-        'tiers/expert',
-      ],
-    },
-    {
-      type: 'category',
-      label: 'Portfolio Templates',
-      collapsed: true,
-      items: [
-        'portfolio-templates/foundation-use-case',
-        'portfolio-templates/practitioner-feature',
-        'portfolio-templates/expert-architecture',
       ],
     },
   ],
