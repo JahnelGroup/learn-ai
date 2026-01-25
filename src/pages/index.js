@@ -4,6 +4,7 @@ import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import Layout from '@theme/Layout';
 import Heading from '@theme/Heading';
 import styles from './index.module.css';
+import HomePeriodicTable from '@site/src/components/PeriodicTable/HomePeriodicTable';
 
 function HomepageHeader() {
   const { siteConfig } = useDocusaurusContext();
@@ -36,41 +37,49 @@ function HomepageHeader() {
   );
 }
 
-function CreditSection() {
+function BuildingAISection() {
+  const levels = [
+    { number: 1, name: 'Chat', path: '/docs/ai-productivity/levels/chat' },
+    { number: 2, name: 'Context', path: '/docs/ai-productivity/levels/context' },
+    { number: 3, name: 'Connected', path: '/docs/ai-productivity/levels/connected' },
+    { number: 4, name: 'Customized', path: '/docs/ai-productivity/levels/customized' },
+    { number: 5, name: 'Autonomous', path: '/docs/ai-productivity/levels/autonomous' },
+  ];
+
   return (
-    <section className={styles.creditSection}>
+    <section className={styles.buildingAISection}>
       <div className="container">
-        <div className={styles.creditBox}>
-          <Heading as="h2">Credit & Foundation</Heading>
-          <p>
-            The <strong>AI Periodic Table</strong> concept was presented by <strong>Martin Keen</strong> from {' '}
-            <strong>IBM Technology</strong>. We love this framework for organizing
-            the complex landscape of AI concepts, and we've adapted and extended it
-            to create a learning guide for our team at Jahnel Group.
-          </p>
-          <p>
-            This is our way of making sense of the overwhelming world of AI
-            terminology and turning it into a clear, navigable growth path.
-          </p>
-          <div className={styles.videoContainer}>
-            <iframe
-              width="560"
-              height="315"
-              src="https://www.youtube.com/embed/ESBMgZHzfG0"
-              title="AI Periodic Table Explained by IBM"
-              frameBorder="0"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-              allowFullScreen
-            />
+        <div className={styles.cardsContainer}>
+          {/* Building AI Systems Card */}
+          <div className={styles.card}>
+            <Heading as="h2">Building AI Systems</Heading>
+            <p className={styles.cardDescription}>
+            The <a href="https://www.youtube.com/watch?v=ESBMgZHzfG0" target="_blank" rel="noopener noreferrer">AI Periodic Table</a> concept was presented by <strong>Martin Keen</strong> from <strong>IBM Technology</strong>. We love this framework at <a href="https://jahnelgroup.com" target="_blank">Jahnel Group</a> for organizing AI concepts.
+            </p>
+            <div className={styles.periodicTableWrapper}>
+              <HomePeriodicTable />
+            </div>
           </div>
-          <p className={styles.videoCaption}>
-            <a
-              href="https://www.youtube.com/watch?v=ESBMgZHzfG0"
-              target="_blank"
-              rel="noopener noreferrer">
-              Watch on YouTube ↗
-            </a>
-          </p>
+
+          {/* AI Productivity Levels Card */}
+          <div className={styles.card}>
+            <Heading as="h2">AI Productivity</Heading>
+            <p className={styles.cardDescription}>
+              Progress through 5 levels of AI-assisted productivity.
+            </p>
+            <div className={styles.levelsContainer}>
+              {levels.map((level) => (
+                <Link
+                  key={level.number}
+                  to={level.path}
+                  className={styles.levelItem}
+                >
+                  <span className={styles.levelNumber}>Level {level.number}</span>
+                  <span className={styles.levelName}>{level.name}</span>
+                </Link>
+              ))}
+            </div>
+          </div>
         </div>
       </div>
     </section>
@@ -207,7 +216,7 @@ export default function Home() {
       description="Learn AI - Your guide to mastering AI at Jahnel Group">
       <HomepageHeader />
       <main>
-        <CreditSection />
+        <BuildingAISection />
         <WhatYoullGain />
         <LearningTiers />
         <CallToAction />
