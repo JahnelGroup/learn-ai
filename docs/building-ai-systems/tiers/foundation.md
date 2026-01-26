@@ -40,9 +40,25 @@ These are the concepts to understand at Foundation. You don't need to master imp
 
 ---
 
+## Assessment Approach
+
+Foundation assessment is a **conversation with a Practitioner or Expert**. This isn't a written test or gotcha quiz—it's a discussion about your understanding and experiences.
+
+### What the Conversation Covers
+
+During the conversation, you'll:
+- **Discuss core concepts** through questions like "Explain how you'd approach using AI for X task" or "What is RAG and when might you need it?"
+- **Walk through your portfolio** of documented use cases, explaining your reasoning, what you learned, and how you might approach things differently now
+- **Explore the risks and trade-offs** of different approaches, like "What are the risks of Y approach?"
+
+### What "Passing" Means
+The conversation confirms you've built a solid foundation. If there are gaps, that's valuable information—fill them and revisit. The goal is genuine understanding, not a score.
+
+---
+
 ## Portfolio: Document Your Learning
 
-As you learn, document **3 real work tasks** where you used AI effectively. This isn't busy work—it's how learning becomes lasting.
+As you learn, document **3 real work tasks** where you used AI effectively.
 
 ### For Each Use Case, Include:
 
@@ -118,8 +134,15 @@ Can you:
 
 Can you:
 - [ ] Explain the RAG pattern at a whiteboard level?
-- [ ] Describe when RAG is useful vs. when fine-tuning might be better?
-- [ ] Understand how embeddings enable semantic search?
+- [ ] Describe what problems RAG solves (knowledge cutoff, domain-specific info)?
+- [ ] Understand the basic flow: retrieve relevant content, add to context, generate?
+
+### Embeddings Understanding
+
+Can you:
+- [ ] Explain what embeddings are at a conceptual level?
+- [ ] Describe how semantic similarity differs from keyword matching?
+- [ ] Understand why embeddings enable semantic search?
 
 ### Context Windows Awareness
 
@@ -136,42 +159,12 @@ Can you:
 - [ ] Explain why guardrails matter in production?
 - [ ] Discuss AI bias and ethical considerations?
 
----
+### Evaluation Awareness
 
-## Assessment Approach
-
-Foundation assessment includes:
-
-### Written Component
-Demonstrate understanding of core concepts. This isn't a gotcha test—it's a conversation about your understanding. Expect questions like:
-- "Explain how you'd approach using AI for X task"
-- "What are the risks of Y approach?"
-- "When would you choose RAG vs. fine-tuning?"
-
-### Portfolio Review
-Walk through your documented use cases with a Practitioner or Expert. They'll ask about your reasoning, what you learned, and how you might approach it differently now.
-
-### What "Passing" Means
-Assessment confirms you've built a solid foundation. If there are gaps, that's valuable information—fill them and revisit. The goal is genuine understanding, not a score.
-
----
-
-## Learning Path Suggestions
-
-### Start Here
-1. Read through the [AI Periodic Table](/docs/building-ai-systems/periodic-table/) overview
-2. Deep dive into [Prompts](/docs/building-ai-systems/periodic-table/reactive#pr--prompts) and [LLMs](/docs/building-ai-systems/periodic-table/models#lg--llm)
-3. Start documenting AI use in your daily work immediately
-
-### Build Understanding
-4. Explore [Embeddings](/docs/building-ai-systems/periodic-table/retrieval#em--embeddings) and [RAG](/docs/building-ai-systems/periodic-table/orchestration#rg--rag)
-5. Study [Guardrails](/docs/building-ai-systems/periodic-table/validation#gr--guardrails) and [Evaluation](/docs/building-ai-systems/periodic-table/validation#ev--evaluation)
-6. Practice explaining concepts to others
-
-### Solidify
-7. Complete your 3 portfolio use cases
-8. Review your understanding against the skills checklist
-9. Schedule your assessment when ready
+Can you:
+- [ ] Explain why evaluating AI outputs is challenging?
+- [ ] Describe common approaches to measuring AI quality (human eval, automated metrics)?
+- [ ] Understand what benchmarks measure and their limitations?
 
 ---
 
@@ -193,18 +186,25 @@ You get feedback on gaps, fill them, and try again. It's not a judgment—it's i
 
 No. Understanding matters more than memorization. You can reference documentation. The goal is knowing what to look for and how concepts connect.
 
----
+**Q: Do I need to know all of these topics in depth?**
 
-## What's Next?
-
-After Foundation, you'll have a solid mental model of the AI landscape. [Practitioner](/docs/building-ai-systems/tiers/practitioner) builds on this foundation with hands-on implementation skills.
-
-**[Explore Practitioner Tier →](/docs/building-ai-systems/tiers/practitioner)**
+Foundation is about conceptual understanding of most topics—you should be able to explain what they are and why they matter. However, we want to see hands-on experience with LLMs, prompt engineering, understanding of context limits, basic RAG and safety awareness. Those are the skills you'll use daily.
 
 ---
 
-## Ready to Start?
+## Learning Paths
 
-1. Review the periodic table elements above
-2. Begin documenting your AI use immediately
-3. Connect with others on the same journey
+### Start Here
+1. Read through the [AI Periodic Table](/docs/building-ai-systems/periodic-table/) overview
+2. Deep dive into [Prompts](/docs/building-ai-systems/periodic-table/reactive#pr--prompts) and [LLMs](/docs/building-ai-systems/periodic-table/models#lg--llm)
+3. Start documenting AI use in your daily work immediately
+
+### Build Understanding
+4. Explore [Embeddings](/docs/building-ai-systems/periodic-table/retrieval#em--embeddings) and [RAG](/docs/building-ai-systems/periodic-table/orchestration#rg--rag)
+5. Study [Guardrails](/docs/building-ai-systems/periodic-table/validation#gr--guardrails) and [Evaluation](/docs/building-ai-systems/periodic-table/validation#ev--evaluation)
+6. Practice explaining concepts to others
+
+### Solidify
+7. Complete your 3 portfolio use cases
+8. Review your understanding against the skills checklist
+9. Schedule your assessment when ready

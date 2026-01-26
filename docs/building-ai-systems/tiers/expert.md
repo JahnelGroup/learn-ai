@@ -46,29 +46,25 @@ Expert-level elements are at the cutting edge. Focus on **deep understanding and
 
 ---
 
-## Additional Expert Competencies
+## Assessment Approach
 
-Beyond specific elements, Experts demonstrate mastery in:
+Expert assessment includes:
 
-### Cost Modeling and Optimization
-- Analyze AI costs at scale
-- Optimize for cost/quality/latency tradeoffs
-- Build cost-aware architectures
+### Architecture Presentation
+Present a complex AI system design to a panel of existing Experts. Expect deep questions about decisions, tradeoffs, and alternatives.
 
-### Architecture Reviews
-- Evaluate AI system designs
-- Identify risks and improvements
-- Guide teams on architecture decisions
+### Technical Assessment
+Deep dive into advanced topics. You should be able to discuss cutting-edge developments and their implications.
 
-### Mentorship
-- Guide others through Practitioner
-- Share knowledge effectively
-- Build team capability
+### Peer Review
+Evaluation from existing Experts and leadership. They'll assess:
+- Technical depth
+- Strategic thinking
+- Leadership and mentorship
+- Knowledge contribution
 
-### Knowledge Contribution
-- Add to Jahnel Group's AI knowledge base
-- Document patterns and learnings
-- Advance collective understanding
+### What "Passing" Means
+You've demonstrated the ability to lead AI initiatives, make strategic decisions, and elevate others. You're ready to guide the organization's AI direction.
 
 ---
 
@@ -159,12 +155,38 @@ Can you:
 - [ ] Balance cost, latency, and quality at scale?
 - [ ] Architect for observability and debugging?
 
-### Security Mindset
+### Fine-tuning
 
 Can you:
+- [ ] Evaluate when fine-tuning is the right approach vs. RAG or prompting?
+- [ ] Prepare and validate training datasets?
+- [ ] Execute fine-tuning and evaluate against baselines?
+- [ ] Advise teams on whether fine-tuning is worth the investment?
+
+### Multi-Agent Systems
+
+Can you:
+- [ ] Design multi-agent architectures with clear specialization?
+- [ ] Implement coordination and communication between agents?
+- [ ] Handle failure modes and agent disagreements?
+- [ ] Debug and observe complex agent interactions?
+
+### MCP & Emerging Protocols
+
+Can you:
+- [ ] Evaluate emerging AI standards and protocols?
+- [ ] Implement protocol-based tool integrations?
+- [ ] Design systems that leverage standardized interfaces?
+- [ ] Assess when to adopt vs. wait on emerging standards?
+
+### Red Teaming & Interpretability
+
+Can you:
+- [ ] Conduct systematic adversarial testing of AI systems?
+- [ ] Analyze model behavior and attention patterns for debugging?
+- [ ] Document and communicate security findings?
+- [ ] Design and validate prompt injection defenses?
 - [ ] Identify security risks in AI systems?
-- [ ] Conduct systematic adversarial testing?
-- [ ] Design defenses against prompt injection?
 - [ ] Evaluate AI-specific security tools?
 
 ### Leadership
@@ -177,58 +199,29 @@ Can you:
 
 ---
 
-## Assessment Approach
+## Additional Expert Competencies
 
-Expert assessment includes:
+Beyond specific elements, Experts demonstrate mastery in:
 
-### Architecture Presentation
-Present a complex AI system design to a panel of existing Experts. Expect deep questions about decisions, tradeoffs, and alternatives.
+### Cost Modeling and Optimization
+- Analyze AI costs at scale
+- Optimize for cost/quality/latency tradeoffs
+- Build cost-aware architectures
 
-### Technical Assessment
-Deep dive into advanced topics. You should be able to discuss cutting-edge developments and their implications.
+### Architecture Reviews
+- Evaluate AI system designs
+- Identify risks and improvements
+- Guide teams on architecture decisions
 
-### Peer Review
-Evaluation from existing Experts and leadership. They'll assess:
-- Technical depth
-- Strategic thinking
-- Leadership and mentorship
-- Knowledge contribution
+### Mentorship
+- Guide others through Practitioner
+- Share knowledge effectively
+- Build team capability
 
-### What "Passing" Means
-You've demonstrated the ability to lead AI initiatives, make strategic decisions, and elevate others. You're ready to guide the organization's AI direction.
-
----
-
-## The Expert Commitment
-
-Expert isn't a final destination. The AI landscape evolves constantly. Being an Expert means:
-
-- **Staying current** with emerging developments
-- **Sharing knowledge** as you learn
-- **Mentoring others** on their journeys
-- **Pushing boundaries** of what's possible
-- **Being humble** about what you don't know
-
-The periodic table will grow. New elements will emerge. Expert-level understanding requires continuous learning.
-
----
-
-## Learning Path Suggestions
-
-### Deepen Technical Skills
-1. Work through emerging elements (Row 4)
-2. Build systems that combine multiple advanced concepts
-3. Study frontier research and developments
-
-### Build Leadership Skills
-4. Mentor someone through Practitioner
-5. Lead architecture reviews
-6. Present technical deep-dives
-
-### Contribute to the Community
-7. Document patterns and learnings
-8. Improve these resources based on your experience
-9. Help evolve the periodic table as AI advances
+### Knowledge Contribution
+- Add to Jahnel Group's AI knowledge base
+- Document patterns and learnings
+- Advance collective understanding
 
 ---
 
@@ -252,10 +245,33 @@ Expert isn't an endpoint—it's a commitment to continuous growth. You'll keep l
 
 ---
 
-## Ready to Start?
+## Learning Paths
 
-1. Assess your Practitioner-level capabilities
-2. Identify gaps in expert elements
-3. Start a significant project that stretches your abilities
-4. Begin mentoring someone else
-5. Contribute to collective knowledge
+### Deepen Technical Skills
+1. Work through emerging elements (Row 4)
+2. Build systems that combine multiple advanced concepts
+3. Study frontier research and developments
+
+### Build Leadership Skills
+4. Mentor someone through Practitioner
+5. Lead architecture reviews
+6. Present technical deep-dives
+
+### Contribute to the Community
+7. Document patterns and learnings
+8. Improve these resources based on your experience
+9. Help evolve the periodic table as AI advances
+
+---
+
+## The Expert Commitment
+
+Expert isn't a final destination. The AI landscape evolves constantly. Being an Expert means:
+
+- **Staying current** with emerging developments
+- **Sharing knowledge** as you learn
+- **Mentoring others** on their journeys
+- **Pushing boundaries** of what's possible
+- **Being humble** about what you don't know
+
+The periodic table will grow. New elements will emerge. Expert-level understanding requires continuous learning.
