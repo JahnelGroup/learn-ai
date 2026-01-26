@@ -65,7 +65,6 @@ const sidebars = {
           ],
         },
         'ai-productivity/by-role',
-        'ai-productivity/tools-reference',
       ],
     },
   ],

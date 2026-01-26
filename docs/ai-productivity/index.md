@@ -14,7 +14,7 @@ import ProgressionTracker from '@site/src/components/ProgressionTracker';
 
 ## The 5 Levels of AI Productivity
 
-Every team member—developers, QA engineers, designers, business analysts, project managers, and tech leads—can progress through these five levels. Each level builds on the previous, unlocking new capabilities and efficiency gains.
+Every team member—developers, QA engineers, designers, business analysts, project managers, tech leads, etc—can progress through these five levels. Each level builds on the previous, unlocking new capabilities and efficiency gains.
 
 <ProgressionTracker />
 
@@ -87,12 +87,6 @@ These ideas apply across all levels and roles:
 - **[Vibe Coding vs Spec-Driven](/docs/ai-productivity/concepts/vibe-vs-spec)** — When to explore vs when to specify
 - **[Deep Research](/docs/ai-productivity/concepts/deep-research)** — Using AI for investigation, not just answers
 - **[Context Files](/docs/ai-productivity/concepts/context-files)** — CLAUDE.md, .cursorrules, and project context
-
----
-
-## Tools Reference
-
-See the **[Tools Reference](/docs/ai-productivity/tools-reference)** for a comprehensive matrix of AI tools by role and level.
 
 ---
 

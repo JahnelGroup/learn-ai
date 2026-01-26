@@ -34,10 +34,10 @@ const config = {
         theme: {
           customCss: './src/css/custom.css',
         },
-        // gtag: {
-        //   trackingID: 'G-XXXXXXXXXX', // Replace with your GA4 Measurement ID when ready
-        //   anonymizeIP: true,
-        // },
+        gtag: {
+          trackingID: 'G-8CKN7RXXQ9',
+          anonymizeIP: true,
+        },
       }),
     ],
   ],
