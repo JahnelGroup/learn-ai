@@ -22,52 +22,6 @@ This matrix shows how the 5 levels apply across different roles. Use this as ins
 
 ---
 
-## Tool Recommendations by Role
-
-### Developers
-| Level | Tools |
-|-------|-------|
-| 1-2 | ChatGPT, Claude.ai |
-| 3 | Cursor, GitHub Copilot, Claude Code |
-| 4-5 | Claude Code + CLAUDE.md, Cursor + .cursorrules |
-
-### QA Engineers
-| Level | Tools |
-|-------|-------|
-| 1-2 | ChatGPT, Claude.ai |
-| 3 | IDE extensions for test generation |
-| 4-5 | Custom test templates + automation |
-
-### Designers
-| Level | Tools |
-|-------|-------|
-| 1-2 | ChatGPT, Claude.ai (with vision) |
-| 3 | Figma AI, Galileo AI |
-| 4-5 | Design system context + custom prompts |
-
-### Business Analysts
-| Level | Tools |
-|-------|-------|
-| 1-2 | ChatGPT, Claude.ai |
-| 3 | Confluence AI, Notion AI |
-| 4-5 | Domain-specific prompts + templates |
-
-### Project Managers
-| Level | Tools |
-|-------|-------|
-| 1-2 | ChatGPT, Claude.ai |
-| 3 | Otter.ai, PM tool AI features |
-| 4-5 | Custom reporting workflows |
-
-### Tech Leads
-| Level | Tools |
-|-------|-------|
-| 1-2 | ChatGPT, Claude.ai |
-| 3 | Claude Code, MCP servers |
-| 4-5 | Team context files + AI-assisted review |
-
----
-
 ## Tips by Role
 
 ### Developers
