@@ -45,6 +45,31 @@ These are the concepts to understand at Practitioner level. Focus on **hands-on 
 
 ---
 
+## Assessment Approach
+
+Practitioner assessment includes:
+
+### Technical Demonstration
+Walk through your production feature live. Show it working. Explain the architecture. Answer questions about implementation choices.
+
+### Code Review
+An Expert-level colleague reviews your code. They'll look at:
+- Code quality and patterns
+- Error handling
+- Security considerations
+- Architecture decisions
+
+### Technical Discussion
+Deeper dive into your understanding. Questions might include:
+- "Why did you choose X over Y?"
+- "What would break if Z happened?"
+- "How would you improve this system?"
+
+### What "Passing" Means
+You've demonstrated you can build real AI features. You understand implementation details well enough to troubleshoot issues and make architecture decisions.
+
+---
+
 ## Portfolio: Ship Something Real
 
 Practitioner portfolio requires **at least one AI-powered feature shipped to production** (internal or client). This is where theory meets reality.
@@ -105,6 +130,14 @@ Good Practitioner projects might include:
 
 ## Skills to Develop
 
+### Advanced Prompting
+
+Can you:
+- [ ] Design effective system prompts for consistent behavior?
+- [ ] Implement prompt chaining for multi-step tasks?
+- [ ] Use structured outputs (JSON mode, schemas) reliably?
+- [ ] Debug and optimize prompts for production use cases?
+
 ### Function Calling
 
 Can you:
@@ -137,6 +170,30 @@ Can you:
 - [ ] Handle agent failures gracefully?
 - [ ] Observe and debug agent reasoning?
 
+### Multi-modal
+
+Can you:
+- [ ] Integrate vision models to process images in your application?
+- [ ] Handle different input formats and preprocessing requirements?
+- [ ] Debug issues with multi-modal inputs (sizing, encoding, tokens)?
+- [ ] Implement appropriate modality for your use case?
+
+### Small Models
+
+Can you:
+- [ ] Select an appropriate model size for a given task?
+- [ ] Implement model routing or fallback strategies?
+- [ ] Measure and compare quality across model sizes?
+- [ ] Optimize for cost and latency in your deployment?
+
+### Context Management
+
+Can you:
+- [ ] Implement sliding window or compression strategies?
+- [ ] Optimize context usage for cost and quality?
+- [ ] Handle documents that exceed context limits?
+- [ ] Design effective chunking for your use case?
+
 ### Frameworks
 
 Can you:
@@ -145,54 +202,13 @@ Can you:
 - [ ] Know when to use framework vs. direct API?
 - [ ] Debug issues within framework code?
 
----
+### Evaluation & Guardrails
 
-## Assessment Approach
-
-Practitioner assessment includes:
-
-### Technical Demonstration
-Walk through your production feature live. Show it working. Explain the architecture. Answer questions about implementation choices.
-
-### Code Review
-An Expert-level colleague reviews your code. They'll look at:
-- Code quality and patterns
-- Error handling
-- Security considerations
-- Architecture decisions
-
-### Technical Discussion
-Deeper dive into your understanding. Questions might include:
-- "Why did you choose X over Y?"
-- "What would break if Z happened?"
-- "How would you improve this system?"
-
-### What "Passing" Means
-You've demonstrated you can build real AI features. You understand implementation details well enough to troubleshoot issues and make architecture decisions.
-
----
-
-## Learning Path Suggestions
-
-### Start Here
-1. Ensure Foundation concepts are solid
-2. Pick a project idea that's meaningful to you
-3. Start building immediately—learn by doing
-
-### Build Your Feature
-4. Work through each element hands-on
-5. Document decisions and learnings as you go
-6. Get feedback from others early and often
-
-### Ship It
-7. Deploy to production (internal is fine)
-8. Measure real-world performance
-9. Iterate based on what you learn
-
-### Prepare for Assessment
-10. Complete your portfolio documentation
-11. Review your code for quality
-12. Practice explaining your architecture
+Can you:
+- [ ] Implement automated evaluation for your AI features?
+- [ ] Build input/output guardrails for production safety?
+- [ ] Create test suites for AI behavior validation?
+- [ ] Measure and track quality metrics over time?
 
 ---
 
@@ -216,17 +232,24 @@ No. Proficiency in one major framework is sufficient. Understanding how to evalu
 
 ---
 
-## What's Next?
+## Learning Paths
 
-Practitioner gives you the ability to build. [Expert](/docs/building-ai-systems/tiers/expert) is about designing systems, leading others, and pushing into emerging territory.
+### Start Here
+1. Ensure Foundation concepts are solid
+2. Pick a project idea that's meaningful to you
+3. Start building immediately—learn by doing
 
-**[Explore Expert Tier →](/docs/building-ai-systems/tiers/expert)**
+### Build Your Feature
+4. Work through each element hands-on
+5. Document decisions and learnings as you go
+6. Get feedback from others early and often
 
----
+### Ship It
+7. Deploy to production (internal is fine)
+8. Measure real-world performance
+9. Iterate based on what you learn
 
-## Ready to Start?
-
-1. Pick a meaningful project
-2. Start building—you'll learn fastest by doing
-3. Document as you go (architecture, challenges, metrics)
-4. Get feedback early and often
+### Prepare for Assessment
+10. Complete your portfolio documentation
+11. Review your code for quality
+12. Practice explaining your architecture
