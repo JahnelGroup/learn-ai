@@ -171,49 +171,56 @@
   border-top-color: var(--ifm-color-emphasis-400);
 }
 
-/* Responsive - Tablet */
-@media (max-width: 1100px) {
+/* Responsive - Constrained width: Switch to vertical stacked layout */
+@media (max-width: 1400px) {
   .levelsGrid {
+    grid-template-columns: 1fr;
     gap: 0.75rem;
   }
 
   .levelCard {
-    padding: 1rem 0.75rem;
-    min-height: 140px;
+    flex-direction: row;
+    align-items: center;
+    padding: 0.75rem 1rem;
+    min-height: auto;
+  }
+
+  .levelCard:hover {
+    transform: translateX(4px);
   }
 
   .levelNumber {
     width: 36px;
     height: 36px;
     font-size: 1rem;
+    margin-bottom: 0;
+    margin-right: 1rem;
+    flex-shrink: 0;
   }
 
   .levelName {
     font-size: 1rem;
+    text-align: left;
+    margin-bottom: 0;
+    margin-right: 0.5rem;
+    white-space: nowrap;
   }
 
   .levelDescription {
-    font-size: 0.8rem;
+    font-size: 0.85rem;
+    text-align: left;
+    flex: 1;
   }
 
   .roleExample {
-    font-size: 0.75rem;
-  }
-}
-
-/* Responsive - Mobile */
-@media (max-width: 900px) {
-  .progressionContainer {
-    overflow-x: auto;
-    padding-bottom: 1rem;
-    margin: 0 -1rem;
-    padding-left: 1rem;
-    padding-right: 1rem;
-  }
-
-  .levelsGrid {
-    grid-template-columns: repeat(5, 160px);
-    min-width: 850px;
+    margin-top: 0;
+    padding-top: 0;
+    border-top: none;
+    border-left: 1px solid var(--ifm-color-emphasis-200);
+    padding-left: 0.75rem;
+    margin-left: auto;
+    width: auto;
+    font-size: 0.8rem;
   }
 }
 

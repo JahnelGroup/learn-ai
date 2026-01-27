@@ -41,7 +41,7 @@ function BuildingAISection() {
   const levels = [
     { number: 1, name: 'Chat', description: 'Isolated Q&A in browser', path: '/docs/ai-productivity/levels/chat' },
     { number: 2, name: 'Context', description: 'Manually providing files, screenshots, code', path: '/docs/ai-productivity/levels/context' },
-    { number: 3, name: 'Connected', description: 'AI has access to environment (IDE, codebase, MCP)', path: '/docs/ai-productivity/levels/connected' },
+    { number: 3, name: 'Connected', description: 'AI has access to your environment', path: '/docs/ai-productivity/levels/connected' },
     { number: 4, name: 'Customized', description: 'Personal commands, project prompts, hooks', path: '/docs/ai-productivity/levels/customized' },
     { number: 5, name: 'Autonomous', description: 'Multi-step tasks with review/supervision', path: '/docs/ai-productivity/levels/autonomous' },
   ];
