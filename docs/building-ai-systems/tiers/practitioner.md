@@ -18,7 +18,7 @@ import TierPeriodicTable from '@site/src/components/PeriodicTable/TierTable';
 
 ---
 
-## What This Level Means
+## What This Tier Means
 
 Practitioner demonstrates that you can **independently build AI-powered features and deploy them to production**. You understand technical implementation details, can make architecture decisions for standard AI patterns, and can troubleshoot issues when things go wrong.
 
@@ -28,7 +28,7 @@ At this level, you're ready to take on AI work on client projects with appropria
 
 ## Elements to Explore
 
-These are the concepts to understand at Practitioner level. Focus on **hands-on implementation**—building real things, not just reading about them.
+These are the concepts to understand at the Practitioner tier. Focus on **hands-on implementation**—building real things, not just reading about them.
 
 | Element | Concept | What to Build |
 |---------|---------|---------------|
