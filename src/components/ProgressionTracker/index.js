@@ -18,7 +18,7 @@ const levels = [
   {
     number: 3,
     name: 'Connected',
-    description: 'AI has access to environment (IDE, codebase, MCP)',
+    description: 'AI has access to your environment',
     path: '/docs/ai-productivity/levels/connected',
   },
   {
