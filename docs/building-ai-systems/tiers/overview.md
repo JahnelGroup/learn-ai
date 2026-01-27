@@ -19,8 +19,8 @@ Think of it like learning a musical instrument: saying you're at a "beginner," "
 | **Core Question** | Can you understand and use AI effectively? | Can you build and deploy AI features? | Can you architect AI systems and lead others? |
 | **Analogy** | Understanding the rules and controls | Being able to drive anywhere safely | Teaching others to drive and designing better roads |
 | **Primary Focus** | Primitives (R1) &<br/>Compositions (R2) | Compositions (R2) &<br/> Deployment (R3) | Deployment (R3) &<br/> Emerging (R4) |
-| **Portfolio** | 3 documented AI use cases | 1 production feature shipped | 1 architecture led + mentorship |
-| **Assessment** | Written portfolio + review | Technical demo + code review | Architecture presentation + peer review |
+| **Portfolio** | 3 documented AI use cases | 1 deployed AI use case | 1 client architecture,<br/>1 presentation,<br/>1 mentorship |
+| **Assessment** | Conversation with Practitioner or Expert | Technical demo + walk-through with Expert | Peer review + mentorship vouching |
 
 ---
 
@@ -49,10 +49,10 @@ Think of it like learning a musical instrument: saying you're at a "beginner," "
 ### The Learning Cycle
 
 ```
-    ┌──────────────────────────────────────┐
-    │                                      │
-    ▼                                      │
-  LEARN          APPLY          TEACH      │
+    ┌───────────────────────────────────────┐
+    │                                       │
+    ▼                                       │
+  LEARN          APPLY          TEACH       │
   concepts  ───▶  in work  ───▶  others ───┘
                                       │
                                       ▼
@@ -125,7 +125,7 @@ You understand core concepts, can use AI tools in your daily work, and can engag
 
 You can independently build AI features and deploy them to production. You understand implementation details, can make architecture decisions for standard patterns, and can troubleshoot issues.
 
-**Key elements:** Function Calling, Vector DBs, RAG (advanced), Multi-modal, Agents, Frameworks, Small Models, Context Windows (advanced)
+**Key elements:** Function Calling, Vector DBs, RAG (implementation), Multi-modal, Agents, Frameworks, Small Models, Context Windows
 
 ---
 

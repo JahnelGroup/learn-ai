@@ -97,9 +97,9 @@ Final: Included code, examples of edge cases, and tone guidance
 
 Good portfolio entries might include:
 - Using AI to draft technical documentation, showing prompt iteration
-- Analyzing code with AI assistance, noting where it helped and where it hallucinated
 - Having AI explain an unfamiliar codebase, documenting the back-and-forth
-- Using AI to debug an issue, tracking the conversation flow
+- Using AI to draft a project plan, identifying work stream dependencies and resourcing requirements
+- Having AI analyze a voice transcript to build out a comprehensive test suite
 
 ### Self-Assessment Checklist
 
