@@ -231,12 +231,9 @@
   color: #bb8fce;
 }
 
-/* Responsive */
+/* Responsive - Hide row labels on narrower screens */
 @media (max-width: 1340px) {
-  .headerRow {
-    grid-template-columns: repeat(5, 1fr);
-  }
-
+  .headerRow,
   .elementRow {
     grid-template-columns: repeat(5, 1fr);
   }
@@ -247,25 +244,10 @@
   }
 }
 
-@media (max-width: 900px) {
-  .element {
-    height: 75px;
-    padding: 0.65rem 0.45rem;
-  }
-
-  .symbol {
-    font-size: 0.95rem;
-  }
-
-  .name {
-    font-size: 1rem;
-  }
-}
-
-@media (max-width: 768px) {
+/* Responsive - Tablet */
+@media (max-width: 996px) {
   .headerRow,
   .elementRow {
-    grid-template-columns: 80px repeat(5, 1fr);
     gap: 6px;
   }
 
@@ -275,26 +257,22 @@
   }
 
   .symbol {
-    font-size: 0.9rem;
+    font-size: 0.95rem;
   }
 
   .name {
-    font-size: 0.9rem;
+    font-size: 0.95rem;
   }
 
   .familyName {
-    font-size: 0.8rem;
-  }
-
-  .rowName {
-    font-size: 0.75rem;
+    font-size: 0.85rem;
   }
 }
 
-@media (max-width: 640px) {
+/* Responsive - Small tablet */
+@media (max-width: 768px) {
   .headerRow,
   .elementRow {
-    grid-template-columns: 70px repeat(5, 1fr);
     gap: 5px;
   }
 
@@ -304,32 +282,33 @@
   }
 
   .symbol {
-    font-size: 0.85rem;
+    font-size: 0.9rem;
   }
 
   .name {
-    font-size: 0.8rem;
+    font-size: 0.85rem;
   }
 
   .familyName {
-    font-size: 0.75rem;
-  }
-
-  .rowName {
-    font-size: 0.7rem;
+    font-size: 0.8rem;
   }
 }
 
-@media (max-width: 520px) {
-  .headerRow,
+/* Responsive - Mobile: Hide group headers */
+@media (max-width: 600px) {
+  .headerRow {
+    display: none;
+  }
+
   .elementRow {
-    grid-template-columns: 60px repeat(5, 1fr);
     gap: 4px;
   }
 
   .element {
     height: 55px;
     padding: 0.4rem 0.2rem;
+    border-radius: 6px;
+    border-width: 1px;
   }
 
   .symbol {
@@ -337,14 +316,42 @@
   }
 
   .name {
-    display: none;
+    font-size: 0.7rem;
+  }
+}
+
+/* Responsive - Small mobile */
+@media (max-width: 480px) {
+  .element {
+    height: 50px;
+    padding: 0.35rem 0.15rem;
   }
 
-  .familyName {
+  .symbol {
+    font-size: 0.75rem;
+  }
+
+  .name {
+    font-size: 0.6rem;
+  }
+}
+
+/* Responsive - Very small screens */
+@media (max-width: 400px) {
+  .elementRow {
+    gap: 3px;
+  }
+
+  .element {
+    height: 45px;
+    padding: 0.3rem 0.1rem;
+  }
+
+  .symbol {
     font-size: 0.7rem;
   }
 
-  .rowName {
-    font-size: 0.65rem;
+  .name {
+    font-size: 0.55rem;
   }
 }
