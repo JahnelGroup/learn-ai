@@ -33,7 +33,7 @@ No more wondering "what should I learn next?" The learning tiers build naturally
 
 ### Credibility in Conversations
 
-When a client asks about AI capabilities, you'll speak from genuine understanding—not memorized buzzwords. You'll know when to recommend RAG versus fine-tuning, when agents make sense versus simple prompting, and why guardrails matter in production.
+When a client asks about AI capabilities, you'll speak from genuine understanding, not memorized buzzwords. You'll know when to recommend RAG versus fine-tuning, when agents make sense versus simple prompting, and why guardrails matter in production.
 
 ### Career Differentiation
 
@@ -63,7 +63,7 @@ Becoming more effective by integrating AI into daily work. This track covers:
 - Key concepts like prompt preparation and context files
 - Practical workflows for any role
 
-This applies to **everyone**—developers, QA, designers, BAs, PMs, etc.
+This applies to **everyone**, including developers, QA, designers, BAs, PMs, etc.
 
 ### How They Intertwine
 
@@ -72,7 +72,7 @@ These tracks reinforce each other:
 - **Usage builds intuition**: Daily AI interaction (Productivity) builds instincts that inform system design (Learning Tiers)
 - **Same tools, different depths**: You might use Claude Code at Level 3 (Productivity) while studying how agents work (Practitioner tier)
 
-Most team members should progress on **both tracks simultaneously**—using AI more effectively while building deeper understanding.
+Most team members should progress on **both tracks simultaneously**, using AI more effectively while building deeper understanding.
 
 ---
 
@@ -86,9 +86,9 @@ Our clients are asking for AI capabilities, and we need to deliver with confiden
 
 **Client Confidence** - Enterprise clients need to trust that we understand what we're building. When our team members can articulate AI concepts clearly and make informed architecture decisions, that confidence is earned naturally.
 
-**Shared Vocabulary** - We need to know who can work on AI projects and at what level. The learning tiers give us a common language—when someone says they're comfortable at Practitioner level, everyone understands what that means.
+**Shared Vocabulary** - We need to know who can work on AI projects and at what level. The learning tiers give us a common language. When someone says they're comfortable at Practitioner level, everyone understands what that means.
 
-**Collective Learning** - As you progress, you'll contribute to our collective knowledge. Write-ups, demos, lessons learned—these become resources for everyone who follows.
+**Collective Learning** - As you progress, you'll contribute to our collective knowledge. Write-ups, demos, and lessons learned become resources for everyone who follows.
 
 ---
 
@@ -98,8 +98,8 @@ We want to be clear about something: **reaching a tier doesn't mean you're "done
 
 The AI landscape evolves constantly. New models, new techniques, new best practices emerge regularly. The tiers exist to give us a common language for where we are in our understanding, not to create a finish line.
 
-Think of it like fitness. You don't "complete" being healthy—you maintain it, build on it, adapt as you learn more. The same applies here. Foundation tier doesn't mean you stop learning foundational concepts. Practitioner doesn't mean you've mastered everything in that tier forever.
+Think of it like fitness. You don't "complete" being healthy. You maintain it, build on it, adapt as you learn more. The same applies here. Foundation tier doesn't mean you stop learning foundational concepts. Practitioner doesn't mean you've mastered everything in that tier forever.
 
-The portfolio work exists because building things is how you truly learn. The assessments exist to help identify gaps and confirm understanding. But the real value is in the journey itself—in the conversations you'll have, the projects you'll build, and the confidence you'll develop.
+The portfolio work exists because building things is how you truly learn. The assessments exist to help identify gaps and confirm understanding. But the real value is in the journey itself, in the conversations you'll have, the projects you'll build, and the confidence you'll develop.
 
 **Ready to start?** Head to the [Building AI Systems](/docs/building-ai-systems/) guide, or explore the [AI Periodic Table](/docs/building-ai-systems/periodic-table/) to see the full landscape.

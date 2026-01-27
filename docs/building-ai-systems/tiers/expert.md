@@ -24,13 +24,13 @@ Expert demonstrates that you can **architect complex AI systems, make strategic 
 
 You understand cutting-edge developments, can evaluate emerging technologies, and can guide AI direction for projects and the organization. You're the person others come to with hard AI problems.
 
-This isn't a destination—it's a commitment to continuous growth at the frontier.
+This isn't a destination. It's a commitment to continuous growth at the frontier.
 
 ---
 
 ## Elements to Explore
 
-Expert-level elements are at the cutting edge. Focus on **deep understanding and strategic application**—knowing not just how, but when and why.
+Expert-level elements are at the cutting edge. Focus on **deep understanding and strategic application**, knowing not just how, but when and why.
 
 | Element | Concept | What to Master |
 |---------|---------|----------------|
@@ -74,7 +74,7 @@ Expert portfolio demonstrates **leadership and multiplied impact**. Document thr
 
 ### Component 1: Architecture Leadership (for a Client)
 
-Lead the architecture of a complex AI system **for a client**. This is high-stakes work—real business impact, real users, real consequences. Document:
+Lead the architecture of a complex AI system **for a client**. This is high-stakes work: real business impact, real users, real consequences. Document:
 
 **What Made It Complex:**
 - Multiple AI components or patterns combined
@@ -102,7 +102,7 @@ Use this format to document major decisions:
 
 Present an advanced topic to a **wider audience** (AI Roundtable, Lunch & Learn, or similar) that advances collective understanding:
 
-- **Topic**: Must go beyond basics—show original insight or analysis
+- **Topic**: Must go beyond basics and show original insight or analysis
 - **Audience**: Should be peers or other practitioners, not just beginners
 - **Learning Objectives**: What should attendees gain?
 - **Materials**: Slides, demo code, or supporting documentation
@@ -110,7 +110,7 @@ Present an advanced topic to a **wider audience** (AI Roundtable, Lunch & Learn,
 
 ### Component 3: Mentorship (Someone Vouches for You)
 
-Guide at least one person through Practitioner level. **Your mentee vouches for your mentorship**—they confirm you meaningfully contributed to their growth.
+Guide at least one person through Practitioner level. **Your mentee vouches for your mentorship**, confirming you meaningfully contributed to their growth.
 
 - **Approach**: How did you structure the mentorship?
 - **Adaptation**: How did you adjust to their learning style?
@@ -242,7 +242,7 @@ It will. Expert includes the ability to evaluate and adapt to new developments. 
 
 **Q: Is there something after Expert?**
 
-Expert isn't an endpoint—it's a commitment to continuous growth. You'll keep learning, contributing, and evolving. There's always more to discover.
+Expert isn't an endpoint. It's a commitment to continuous growth. You'll keep learning, contributing, and evolving. There's always more to discover.
 
 ---
 
@@ -281,13 +281,13 @@ The periodic table will grow. New elements will emerge. Expert-level understandi
 
 ## What's Next?
 
-There is no Tier 4. Expert isn't a finish line—it's a commitment to **lifelong learning** at the frontier of AI.
+There is no Tier 4. Expert isn't a finish line. It's a commitment to **lifelong learning** at the frontier of AI.
 
 The field moves fast. Models improve, new patterns emerge, and what's "expert-level" today becomes foundational tomorrow. Your job now is to:
 
-- **Stay curious**—follow developments, experiment with new capabilities, challenge your assumptions
-- **Keep building**—the best learning happens when you ship real systems and learn from what breaks
-- **Lift others**—share what you learn, mentor the next generation, contribute to collective knowledge
-- **Stay humble**—the more you know, the more you realize how much you don't know
+- **Stay curious**: follow developments, experiment with new capabilities, challenge your assumptions
+- **Keep building**: the best learning happens when you ship real systems and learn from what breaks
+- **Lift others**: share what you learn, mentor the next generation, contribute to collective knowledge
+- **Stay humble**: the more you know, the more you realize how much you don't know
 
 Welcome to the ongoing journey.

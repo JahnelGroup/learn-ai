@@ -8,7 +8,7 @@ import ProgressionTracker from '@site/src/components/ProgressionTracker';
 
 # Level 5: Autonomous
 
-> *"AI completes substantial work—I review and guide."*
+> *"AI completes substantial work. I review and guide."*
 
 <ProgressionTracker currentLevel={5} showRoleSelector={false} />
 
@@ -16,7 +16,7 @@ import ProgressionTracker from '@site/src/components/ProgressionTracker';
 
 ## What This Level Means
 
-At Level 5, AI handles **multi-step tasks autonomously**. You provide the goal, AI plans and executes, you review the results. This isn't about removing humans—it's about elevating human work to review, guidance, and high-level decision-making.
+At Level 5, AI handles **multi-step tasks autonomously**. You provide the goal, AI plans and executes, you review the results. This isn't about removing humans. It's about elevating human work to review, guidance, and high-level decision-making.
 
 This is where AI becomes a genuine force multiplier.
 
@@ -40,10 +40,10 @@ This is where AI becomes a genuine force multiplier.
 | Real-time collaboration | Asynchronous work |
 
 **Common use cases:**
-- "Implement this feature" — AI creates multiple files, you review
-- "Generate comprehensive test coverage" — AI writes test suites
-- "Draft complete requirements from these notes" — AI synthesizes sources
-- "Prepare the weekly update from all sources" — AI aggregates and drafts
+- "Implement this feature": AI creates multiple files, you review
+- "Generate comprehensive test coverage": AI writes test suites
+- "Draft complete requirements from these notes": AI synthesizes sources
+- "Prepare the weekly update from all sources": AI aggregates and drafts
 - Complex refactoring or migration with your approval at checkpoints
 
 ---
@@ -94,7 +94,7 @@ Be explicit about what "done" means:
 
 ## The Human Role at Level 5
 
-You're not replaced—you're elevated:
+You're not replaced. You're elevated:
 
 | AI Does | You Do |
 |---------|--------|
@@ -118,7 +118,7 @@ You're responsible for the output. Understand what AI produced. Tests, code revi
 
 **"I use autonomous mode for everything."**
 
-Some tasks are better interactive. Quick questions, exploration, learning—these benefit from back-and-forth. Match the mode to the task.
+Some tasks are better interactive. Quick questions, exploration, and learning all benefit from back-and-forth. Match the mode to the task.
 
 **"I don't provide enough constraints."**
 
@@ -146,9 +146,9 @@ Level 5 is the current frontier for most teams. Beyond this:
 
 - **Multi-agent systems**: AI agents collaborating on complex tasks
 - **Self-improving workflows**: AI optimizes its own processes
-- **Continuous autonomy**: AI handles routine work ongoing
+- **Continuous autonomy**: AI handles routine work on an ongoing basis
 
-These are emerging capabilities. For now, focus on mastering supervised autonomy—it's transformative enough.
+These are emerging capabilities. For now, focus on mastering supervised autonomy. It's transformative enough.
 
 ---
 

@@ -20,10 +20,10 @@ Jahnel Group
 
 Learn AI is Jahnel Group's learning guide for navigating the AI landscape. It provides:
 
-- **A structured mental model** — The AI Periodic Table organizes AI concepts into families and complexity levels
-- **Clear growth paths** — Three tiers (Foundation, Practitioner, Expert) give you a roadmap for skill development
-- **Practical application** — Portfolio work ensures you're building, not just reading
-- **Shared vocabulary** — Common language for discussing AI capabilities across the team
+- **A structured mental model**: The AI Periodic Table organizes AI concepts into families and complexity levels
+- **Clear growth paths**: Three tiers (Foundation, Practitioner, Expert) give you a roadmap for skill development
+- **Practical application**: Portfolio work ensures you're building, not just reading
+- **Shared vocabulary**: Common language for discussing AI capabilities across the team
 
 This is **not** a certification where you "achieve a level and you're done." It's a continuous learning journey with milestones that help us understand where we are and where we're headed.
 
@@ -122,11 +122,11 @@ This is a living document. As you learn:
 
 ## Resources
 
-- [AI Periodic Table Explained by IBM](https://www.youtube.com/watch?v=ESBMgZHzfG0) — Original concept
-- [Docusaurus Documentation](https://docusaurus.io/) — Site framework
+- [AI Periodic Table Explained by IBM](https://www.youtube.com/watch?v=ESBMgZHzfG0): Original concept
+- [Docusaurus Documentation](https://docusaurus.io/): Site framework
 
 ---
 
 ## License
 
-AI Periodic Table concept by IBM Technology — used with appreciation
+AI Periodic Table concept by IBM Technology, used with appreciation

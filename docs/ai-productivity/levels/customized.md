@@ -16,7 +16,7 @@ import ProgressionTracker from '@site/src/components/ProgressionTracker';
 
 ## What This Level Means
 
-At Level 4, AI is **customized to your specific context**—your project's conventions, your team's preferences, your domain's terminology. Instead of teaching AI your patterns in every conversation, you encode them once.
+At Level 4, AI is **customized to your specific context**, including your project's conventions, your team's preferences, and your domain's terminology. Instead of teaching AI your patterns in every conversation, you encode them once.
 
 This is where AI transforms from a general-purpose assistant to a knowledgeable team member.
 
@@ -110,7 +110,7 @@ npm run test -- --findRelatedTests $EDITED_FILES
 
 **"My context file is too long."**
 
-Focus on what AI needs to know to make good decisions. Conventions, patterns, gotchas—not comprehensive documentation.
+Focus on what AI needs to know to make good decisions. Conventions, patterns, gotchas, not comprehensive documentation.
 
 **"I wrote context but AI ignores it."**
 

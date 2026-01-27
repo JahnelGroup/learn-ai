@@ -16,7 +16,7 @@ import ProgressionTracker from '@site/src/components/ProgressionTracker';
 
 ## What This Level Means
 
-At Level 2, you **manually provide context** to AI—pasting code, uploading screenshots, attaching documents. Instead of describing your situation, you show it.
+At Level 2, you **manually provide context** to AI by pasting code, uploading screenshots, and attaching documents. Instead of describing your situation, you show it.
 
 This is a significant leap. The difference between "I have a React component with a bug" and actually pasting the component is the difference between guessing and knowing.
 
@@ -56,7 +56,7 @@ Most AI chat interfaces now support:
 - **Code files**: Direct paste or file upload
 
 ### 2. Provide Complete Context
-Don't paste a single function—paste the file. Don't describe the error—paste the full stack trace.
+Don't paste a single function. Paste the file. Don't describe the error. Paste the full stack trace.
 
 ```
 Here's my React component that's re-rendering too often:
