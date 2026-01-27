@@ -72,9 +72,9 @@ You've demonstrated the ability to lead AI initiatives, make strategic decisions
 
 Expert portfolio demonstrates **leadership and multiplied impact**. Document three components:
 
-### Component 1: Architecture Leadership
+### Component 1: Architecture Leadership (for a Client)
 
-Lead the architecture of a complex AI system. Document:
+Lead the architecture of a complex AI system **for a client**. This is high-stakes work—real business impact, real users, real consequences. Document:
 
 **What Made It Complex:**
 - Multiple AI components or patterns combined
@@ -98,9 +98,9 @@ Use this format to document major decisions:
 - Business impact (adoption, time saved, value delivered)
 - Team outcomes (knowledge transfer, reusable patterns)
 
-### Component 2: Technical Deep-Dive Presentation
+### Component 2: Wider-Audience Presentation
 
-Present an advanced topic to peers that advances collective understanding:
+Present an advanced topic to a **wider audience** (AI Roundtable, Lunch & Learn, or similar) that advances collective understanding:
 
 - **Topic**: Must go beyond basics—show original insight or analysis
 - **Audience**: Should be peers or other practitioners, not just beginners
@@ -108,14 +108,15 @@ Present an advanced topic to peers that advances collective understanding:
 - **Materials**: Slides, demo code, or supporting documentation
 - **Feedback**: What did attendees learn? How would you improve?
 
-### Component 3: Mentorship Through Practitioner
+### Component 3: Mentorship (Someone Vouches for You)
 
-Guide at least one person through Practitioner level:
+Guide at least one person through Practitioner level. **Your mentee vouches for your mentorship**—they confirm you meaningfully contributed to their growth.
 
 - **Approach**: How did you structure the mentorship?
 - **Adaptation**: How did you adjust to their learning style?
 - **Progress**: What milestones did they achieve?
 - **Reflection**: What worked well? What was challenging? What did you learn?
+- **Vouching**: Your mentee confirms you were instrumental in their progression
 
 ### Example Contributions
 

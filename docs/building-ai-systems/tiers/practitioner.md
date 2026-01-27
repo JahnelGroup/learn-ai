@@ -47,32 +47,26 @@ These are the concepts to understand at Practitioner level. Focus on **hands-on 
 
 ## Assessment Approach
 
-Practitioner assessment includes:
+Practitioner assessment is **1 formal technical demonstration and implementation walk-through with an Expert**.
 
-### Technical Demonstration
-Walk through your production feature live. Show it working. Explain the architecture. Answer questions about implementation choices.
+### What the Walk-Through Covers
 
-### Code Review
-An Expert-level colleague reviews your code. They'll look at:
-- Code quality and patterns
-- Error handling
-- Security considerations
-- Architecture decisions
-
-### Technical Discussion
-Deeper dive into your understanding. Questions might include:
-- "Why did you choose X over Y?"
-- "What would break if Z happened?"
-- "How would you improve this system?"
+During this session, you'll:
+- **Demonstrate your deployed feature live**—show it working in production
+- **Walk through the implementation**—explain the architecture, code patterns, and key decisions
+- **Answer technical questions**—expect questions like "Why did you choose X over Y?", "What would break if Z happened?", and "How would you improve this system?"
+- **Review code quality**—the Expert will assess code patterns, error handling, security considerations, and architecture decisions
 
 ### What "Passing" Means
-You've demonstrated you can build real AI features. You understand implementation details well enough to troubleshoot issues and make architecture decisions.
+You've demonstrated you can build and deploy real AI features. You understand implementation details well enough to troubleshoot issues and make architecture decisions.
 
 ---
 
 ## Portfolio: Ship Something Real
 
-Practitioner portfolio requires **at least one AI-powered feature shipped to production** (internal or client). This is where theory meets reality.
+Practitioner portfolio requires **1 deployed AI use case that is production-worthy**. This means real code running in a real environment serving real users—not a weekend hack or a loosely connected experiment.
+
+Internal tools and personal projects count, but the bar is production quality: reliable, maintainable, and solving a genuine problem.
 
 ### What to Document
 
