@@ -8,7 +8,7 @@ import ProgressionTracker from '@site/src/components/ProgressionTracker';
 
 # Level 1: Chat
 
-> *"AI is a tool I use sometimes—in a separate browser tab."*
+> *"AI is a tool I use sometimes, in a separate browser tab."*
 
 <ProgressionTracker currentLevel={1} showRoleSelector={false} />
 
@@ -18,7 +18,7 @@ import ProgressionTracker from '@site/src/components/ProgressionTracker';
 
 At Level 1, you use AI through **isolated conversations**. You open ChatGPT, Claude, or another chat interface in a browser tab, ask questions, and copy-paste results back to your work.
 
-This is where most people start—and where many stay. It's valuable, but it's like using a calculator by walking to another room every time you need to do math.
+This is where most people start, and where many stay. It's valuable, but it's like using a calculator by walking to another room every time you need to do math.
 
 **Characteristics of Level 1:**
 - AI lives in a separate browser tab
@@ -39,9 +39,9 @@ This is where most people start—and where many stay. It's valuable, but it's l
 ## Getting Started at Level 1
 
 ### 1. Pick One AI Chat Tool
-- **[ChatGPT](https://chat.openai.com)** — Most popular, strong general capabilities
-- **[Claude](https://claude.ai)** — Excellent for nuanced tasks, longer context
-- **[Gemini](https://gemini.google.com)** — Good Google integration
+- **[ChatGPT](https://chat.openai.com)**: Most popular, strong general capabilities
+- **[Claude](https://claude.ai)**: Excellent for nuanced tasks, longer context
+- **[Gemini](https://gemini.google.com)**: Good Google integration
 
 ### 2. Build the Habit
 Start with one use case. Try it daily for a week. Common starting points:

@@ -6,7 +6,7 @@ sidebar_position: 3
 
 # Retrieval Family (G2)
 
-**These elements handle memory and knowledge—how AI systems store, find, and adapt information.**
+**These elements handle memory and knowledge, including how AI systems store, find, and adapt information.**
 
 Three time scales of memory: runtime (context), persistent (vector databases), and baked-in (fine-tuning).
 

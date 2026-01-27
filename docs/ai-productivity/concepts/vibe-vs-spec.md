@@ -27,7 +27,7 @@ Neither is better. The mistake is using the wrong mode for the situation.
 ```
 "Make this page look better"
 "Add some kind of caching"
-"I don't love this—try something else"
+"I don't love this, try something else"
 "Keep going in that direction"
 ```
 
@@ -168,12 +168,12 @@ Show me a few different approaches and I'll pick a direction."
 On a team, communicate your mode:
 
 ### In Code Reviews
-- "This was vibe-coded as a prototype—needs spec work before merge"
+- "This was vibe-coded as a prototype, needs spec work before merge"
 - "This was spec-driven against [requirements doc]"
 
 ### In Pairing
 - "Let's vibe on this for a bit, then lock it down"
-- "I have clear specs—let's execute"
+- "I have clear specs, let's execute"
 
 ### In Planning
 - "We need exploration time before we can spec this"
@@ -194,12 +194,12 @@ Before each AI interaction:
    - No (prototype/throwaway) → Vibe is fine
 
 3. **Am I frustrated by AI not "getting it"?**
-   - Maybe switch modes—you might be vibe-ing when you need specs, or over-specifying when you should explore
+   - Maybe switch modes. You might be vibe-ing when you need specs, or over-specifying when you should explore.
 
 ---
 
 ## Related Concepts
 
-- **[Prompt Preparation](/docs/ai-productivity/concepts/prompt-preparation)** — Preparation helps you know which mode
-- **[Plan Before Execute](/docs/ai-productivity/concepts/plan-before-execute)** — Especially important in spec mode
-- **[Deep Research](/docs/ai-productivity/concepts/deep-research)** — Vibe-like exploration for information
+- **[Prompt Preparation](/docs/ai-productivity/concepts/prompt-preparation)**: Preparation helps you know which mode
+- **[Plan Before Execute](/docs/ai-productivity/concepts/plan-before-execute)**: Especially important in spec mode
+- **[Deep Research](/docs/ai-productivity/concepts/deep-research)**: Vibe-like exploration for information

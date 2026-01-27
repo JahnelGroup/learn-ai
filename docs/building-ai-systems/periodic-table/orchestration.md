@@ -8,7 +8,7 @@ sidebar_position: 4
 
 **These elements coordinate multiple components into working systems.**
 
-You can't orchestrate one thing—this family only exists through combination. Context windows hold the information, RAG fills them intelligently, frameworks provide the plumbing, and protocols standardize connections.
+You can't orchestrate one thing. This family only exists through combination. Context windows hold the information, RAG fills them intelligently, frameworks provide the plumbing, and protocols standardize connections.
 
 | Element | Name | Row | Description |
 |---------|------|-----|-------------|
@@ -41,7 +41,7 @@ G3: Orchestration Family
 
 Understanding context windows is crucial because:
 - There's a hard limit on what the model can process
-- Not all context is equal—position and relevance matter
+- Not all context is equal. Position and relevance matter.
 - Token costs scale linearly with context size
 - "Lost in the middle" phenomenon affects retrieval
 - Context management is often the difference between success and failure

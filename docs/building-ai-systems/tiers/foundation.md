@@ -18,13 +18,13 @@ Foundation demonstrates that you **understand the core concepts of modern AI**, 
 
 You know the vocabulary. You understand capabilities and limitations. You can make informed decisions about when and how to apply AI.
 
-This isn't about being "basic"—it's about having a solid foundation that everything else builds on. Many experienced engineers discover gaps at this level they didn't know they had.
+This isn't about being "basic." It's about having a solid foundation that everything else builds on. Many experienced engineers discover gaps at this level they didn't know they had.
 
 ---
 
 ## Elements to Explore
 
-These are the concepts to understand at Foundation. You don't need to master implementation details—that's the Practitioner tier. Focus on **understanding what these are, why they matter, and when they apply.**
+These are the concepts to understand at Foundation. You don't need to master implementation details, as that's the Practitioner tier. Focus on **understanding what these are, why they matter, and when they apply.**
 
 | Element | Concept | What to Understand |
 |---------|---------|-------------------|
@@ -42,7 +42,7 @@ These are the concepts to understand at Foundation. You don't need to master imp
 
 ## Assessment Approach
 
-Foundation assessment is a **conversation with a Practitioner or Expert**. This isn't a written test or gotcha quiz—it's a discussion about your understanding and experiences.
+Foundation assessment is a **conversation with a Practitioner or Expert**. This isn't a written test or gotcha quiz. It's a discussion about your understanding and experiences.
 
 ### What the Conversation Covers
 
@@ -52,7 +52,7 @@ During the conversation, you'll:
 - **Explore the risks and trade-offs** of different approaches, like "What are the risks of Y approach?"
 
 ### What "Passing" Means
-The conversation confirms you've built a solid foundation. If there are gaps, that's valuable information—fill them and revisit. The goal is genuine understanding, not a score.
+The conversation confirms you've built a solid foundation. If there are gaps, that's valuable information. Fill them and revisit. The goal is genuine understanding, not a score.
 
 ---
 
@@ -176,11 +176,11 @@ Go through Foundation anyway. You might move quickly, but many experienced users
 
 **Q: How long does Foundation take?**
 
-It varies. Some people move through in a few weeks; others take longer. Don't rush—the foundation you build here supports everything that follows.
+It varies. Some people move through in a few weeks; others take longer. Don't rush. The foundation you build here supports everything that follows.
 
 **Q: What if I fail the assessment?**
 
-You get feedback on gaps, fill them, and try again. It's not a judgment—it's information about where to focus.
+You get feedback on gaps, fill them, and try again. It's not a judgment. It's information about where to focus.
 
 **Q: Do I need to memorize everything?**
 
@@ -188,7 +188,7 @@ No. Understanding matters more than memorization. You can reference documentatio
 
 **Q: Do I need to know all of these topics in depth?**
 
-Foundation is about conceptual understanding of most topics—you should be able to explain what they are and why they matter. However, we want to see hands-on experience with LLMs, prompt engineering, understanding of context limits, basic RAG and safety awareness. Those are the skills you'll use daily.
+Foundation is about conceptual understanding of most topics. You should be able to explain what they are and why they matter. However, we want to see hands-on experience with LLMs, prompt engineering, understanding of context limits, basic RAG and safety awareness. Those are the skills you'll use daily.
 
 ---
 
@@ -213,6 +213,6 @@ Foundation is about conceptual understanding of most topics—you should be able
 
 ## What's Next?
 
-You now have a solid foundation—the vocabulary, mental models, and hands-on experience that everything else builds on. You understand what AI can and can't do, and you've used it effectively in real work.
+You now have a solid foundation: the vocabulary, mental models, and hands-on experience that everything else builds on. You understand what AI can and can't do, and you've used it effectively in real work.
 
-**Ready for the next step?** Head to the [Practitioner tier](/docs/building-ai-systems/tiers/practitioner). That's where you'll move from understanding AI to building AI-powered features—writing code, deploying to production, and solving real problems with real systems.
+**Ready for the next step?** Head to the [Practitioner tier](/docs/building-ai-systems/tiers/practitioner). That's where you'll move from understanding AI to building AI-powered features: writing code, deploying to production, and solving real problems with real systems.

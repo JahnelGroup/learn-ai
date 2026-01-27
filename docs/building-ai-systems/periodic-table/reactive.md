@@ -8,7 +8,7 @@ sidebar_position: 2
 
 **These elements are "reactive" because small changes produce dramatically different outputs.**
 
-This is the action family—from giving instructions to autonomous operation. A single word change in a prompt can completely transform the output. An agent given slightly different goals will take entirely different actions.
+This is the action family, from giving instructions to autonomous operation. A single word change in a prompt can completely transform the output. An agent given slightly different goals will take entirely different actions.
 
 | Element | Name | Row | Description |
 |---------|------|-----|-------------|
@@ -158,7 +158,7 @@ Function calling transforms LLMs from text generators into action takers. It's t
 | Aspect | Consideration |
 |--------|---------------|
 | **Schema design** | Clear descriptions help the model choose correctly |
-| **Error handling** | Functions fail—plan for it |
+| **Error handling** | Functions fail, so plan for it |
 | **Security** | Validate parameters before execution |
 | **Cost** | Each function call adds tokens and latency |
 
@@ -281,7 +281,7 @@ G1: Reactive Family
 
 ### What It Is
 
-**Multi-agent systems involve multiple AI agents working together—debating, collaborating, specializing.** One agent researches, another writes, another critiques. Emergent capability arises from their coordination.
+**Multi-agent systems involve multiple AI agents working together, debating, collaborating, and specializing.** One agent researches, another writes, another critiques. Emergent capability arises from their coordination.
 
 ### Why It Matters
 

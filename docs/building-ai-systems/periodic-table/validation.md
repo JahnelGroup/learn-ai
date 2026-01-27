@@ -8,7 +8,7 @@ sidebar_position: 5
 
 **These elements ensure AI systems work correctly and safely.**
 
-Quality isn't optional—it's what separates demos from production. Evaluation measures what matters, guardrails enforce boundaries at runtime, red teaming finds what you missed, and interpretability helps you understand why.
+Quality isn't optional. It's what separates demos from production. Evaluation measures what matters, guardrails enforce boundaries at runtime, red teaming finds what you missed, and interpretability helps you understand why.
 
 | Element | Name | Row | Description |
 |---------|------|-----|-------------|
@@ -253,7 +253,7 @@ G4: Validation Family
 
 ### What It Is
 
-**Red teaming is adversarial testing—actively trying to break the AI.** Jailbreaks, prompt injection, data exfiltration attempts. Finding vulnerabilities before attackers do.
+**Red teaming is adversarial testing, actively trying to break the AI.** Jailbreaks, prompt injection, data exfiltration attempts. Finding vulnerabilities before attackers do.
 
 ### Why It Matters
 
@@ -366,10 +366,10 @@ G4: Validation Family
 ### Why It Matters
 
 Without interpretability:
-- Failures are mysterious—hard to fix what you don't understand
-- Trust is limited—stakeholders want explanations
-- Safety is uncertain—hidden behaviors may emerge
-- Debugging is guesswork—no systematic approach
+- Failures are mysterious, and it's hard to fix what you don't understand
+- Trust is limited, as stakeholders want explanations
+- Safety is uncertain, and hidden behaviors may emerge
+- Debugging is guesswork without a systematic approach
 
 ### Levels of Interpretability
 

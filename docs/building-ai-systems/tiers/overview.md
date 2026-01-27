@@ -36,11 +36,11 @@ Think of it like learning a musical instrument: saying you're at a "beginner," "
 
 ### Tiers are NOT:
 
-- **A finish line** — reaching a tier doesn't mean you stop learning
-- **A ranking system** — Foundation isn't "worse" than Expert
-- **Permanent labels** — skills decay without practice
-- **Gatekeepers** — they're guides, not barriers
-- **One-time achievements** — expect to revisit concepts
+- **A finish line**: reaching a tier doesn't mean you stop learning
+- **A ranking system**: Foundation isn't "worse" than Expert
+- **Permanent labels**: skills decay without practice
+- **Gatekeepers**: they're guides, not barriers
+- **One-time achievements**: expect to revisit concepts
 
 ---
 
@@ -80,12 +80,12 @@ Even experienced AI practitioners often discover Foundation concepts they'd misu
 
 ## Portfolio: Proof of Understanding
 
-Each tier includes portfolio requirements—documented evidence of applying what you've learned. Why?
+Each tier includes portfolio requirements, which are documented evidence of applying what you've learned. Why?
 
 1. **You learn by doing**, not just reading
-2. **Documentation reinforces learning**—explaining forces clarity
-3. **Artifacts accumulate**—your portfolio grows over time
-4. **Real work matters**—theory without practice is fragile
+2. **Documentation reinforces learning**, because explaining forces clarity
+3. **Artifacts accumulate**, and your portfolio grows over time
+4. **Real work matters**, since theory without practice is fragile
 
 The portfolio isn't a test to pass. It's a record of your growth.
 
@@ -105,7 +105,7 @@ Assessments don't exist to:
 - Measure everything that matters
 - Be the final word on your capability
 
-Think of assessments like a spotter at the gym—there to help you push further safely, not to evaluate whether you're "good enough."
+Think of assessments like a spotter at the gym, there to help you push further safely, not to evaluate whether you're "good enough."
 
 ---
 
@@ -142,6 +142,6 @@ You can architect complex AI systems, make strategic technology decisions, lead 
 
 **Wherever you are, start with Foundation.**
 
-Even if you've built AI systems, the Foundation tier ensures we share vocabulary and mental models. You might move through it quickly—that's fine. Or you might discover gaps that are worth filling.
+Even if you've built AI systems, the Foundation tier ensures we share vocabulary and mental models. You might move through it quickly, and that's fine. Or you might discover gaps that are worth filling.
 
 **[Begin with Foundation →](/docs/building-ai-systems/tiers/foundation)**

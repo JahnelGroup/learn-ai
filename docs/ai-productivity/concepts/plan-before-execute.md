@@ -33,7 +33,7 @@ When AI executes code changes, it moves fast. Really fast. Without a plan, you m
 ### Do This:
 ```
 "Plan how you would implement user authentication for this app.
-Don't write code yet—just outline the approach."
+Don't write code yet. Just outline the approach."
 
 [Review plan]
 
@@ -137,7 +137,7 @@ Don't implement yet.
 | Complex logic | Yes |
 | Anything irreversible | Always |
 
-**Rule of thumb**: If you can't predict exactly what AI will do, ask for a plan.
+**Rule of thumb:** If you can't predict exactly what AI will do, ask for a plan.
 
 ---
 
@@ -185,7 +185,7 @@ Claude creates a plan file, you review, then execute.
 In Composer, ask for an outline before implementation.
 
 ### General Pattern
-Any AI tool can do planning—just explicitly ask for a plan before code.
+Any AI tool can do planning. Just explicitly ask for a plan before code.
 
 ---
 
@@ -220,6 +220,6 @@ This small habit prevents significant rework.
 
 ## Related Concepts
 
-- **[Prompt Preparation](/docs/ai-productivity/concepts/prompt-preparation)** — Preparation before planning
-- **[Vibe Coding vs Spec-Driven](/docs/ai-productivity/concepts/vibe-vs-spec)** — When to plan less vs more
-- **[Level 5: Autonomous](/docs/ai-productivity/levels/autonomous)** — Planning enables safe autonomy
+- **[Prompt Preparation](/docs/ai-productivity/concepts/prompt-preparation)**: Preparation before planning
+- **[Vibe Coding vs Spec-Driven](/docs/ai-productivity/concepts/vibe-vs-spec)**: When to plan less vs more
+- **[Level 5: Autonomous](/docs/ai-productivity/levels/autonomous)**: Planning enables safe autonomy

@@ -8,13 +8,13 @@ import ProgressionTracker from '@site/src/components/ProgressionTracker';
 
 # AI Productivity
 
-> *"The goal isn't to use AI more—it's to accomplish more with AI as your partner."*
+> *"The goal isn't to use AI more. It's to accomplish more with AI as your partner."*
 
 ---
 
 ## The 5 Levels of AI Productivity
 
-Every team member—developers, QA engineers, designers, business analysts, project managers, tech leads, etc—can progress through these five levels. Each level builds on the previous, unlocking new capabilities and efficiency gains.
+Every team member, including developers, QA engineers, designers, business analysts, project managers, and tech leads, can progress through these five levels. Each level builds on the previous, unlocking new capabilities and efficiency gains.
 
 <ProgressionTracker />
 
@@ -22,7 +22,7 @@ Every team member—developers, QA engineers, designers, business analysts, proj
 
 ## Why This Framework?
 
-Most AI training focuses on **what tools exist**. This framework focuses on **how you work with AI**—a progression that applies regardless of which specific tools you use.
+Most AI training focuses on **what tools exist**. This framework focuses on **how you work with AI**, a progression that applies regardless of which specific tools you use.
 
 The levels aren't about AI sophistication. They're about **integration depth**:
 
@@ -40,7 +40,7 @@ The levels aren't about AI sophistication. They're about **integration depth**:
 
 ### Assess Your Current Level
 
-Most people operate at **Level 1 (Chat)** or **Level 2 (Context)**. That's okay—the goal is progression, not perfection.
+Most people operate at **Level 1 (Chat)** or **Level 2 (Context)**. That's okay. The goal is progression, not perfection.
 
 Ask yourself:
 - Do I copy-paste between AI and my work tools? → **Level 2**
@@ -82,11 +82,11 @@ All in one consolidated matrix view.
 
 These ideas apply across all levels and roles:
 
-- **[Prompt Preparation](/docs/ai-productivity/concepts/prompt-preparation)** — Good prompts start before you type
-- **[Plan Before Execute](/docs/ai-productivity/concepts/plan-before-execute)** — Why planning workflows multiply AI effectiveness
-- **[Vibe Coding vs Spec-Driven](/docs/ai-productivity/concepts/vibe-vs-spec)** — When to explore vs when to specify
-- **[Deep Research](/docs/ai-productivity/concepts/deep-research)** — Using AI for investigation, not just answers
-- **[Context Files](/docs/ai-productivity/concepts/context-files)** — CLAUDE.md, .cursorrules, and project context
+- **[Prompt Preparation](/docs/ai-productivity/concepts/prompt-preparation)**: Good prompts start before you type
+- **[Plan Before Execute](/docs/ai-productivity/concepts/plan-before-execute)**: Why planning workflows multiply AI effectiveness
+- **[Vibe Coding vs Spec-Driven](/docs/ai-productivity/concepts/vibe-vs-spec)**: When to explore vs when to specify
+- **[Deep Research](/docs/ai-productivity/concepts/deep-research)**: Using AI for investigation, not just answers
+- **[Context Files](/docs/ai-productivity/concepts/context-files)**: CLAUDE.md, .cursorrules, and project context
 
 ---
 

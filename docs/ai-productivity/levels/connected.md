@@ -16,7 +16,7 @@ import ProgressionTracker from '@site/src/components/ProgressionTracker';
 
 ## What This Level Means
 
-At Level 3, AI is **connected to your work environment**. It can read your files, understand your project structure, and work with your actual codebase. No more copy-paste—AI is embedded in your workflow.
+At Level 3, AI is **connected to your work environment**. It can read your files, understand your project structure, and work with your actual codebase. No more copy-paste. AI is embedded in your workflow.
 
 This is the transition from "using AI" to "working with AI."
 
@@ -50,12 +50,12 @@ This is the transition from "using AI" to "working with AI."
 ## Getting to This Level
 
 ### IDE Integration (Developers)
-- **[Cursor](https://cursor.sh)** — VS Code fork with built-in AI
-- **[GitHub Copilot](https://github.com/features/copilot)** — Works in VS Code, JetBrains, etc.
-- **[Cody](https://sourcegraph.com/cody)** — Sourcegraph's AI with codebase understanding
+- **[Cursor](https://cursor.sh)**: VS Code fork with built-in AI
+- **[GitHub Copilot](https://github.com/features/copilot)**: Works in VS Code, JetBrains, etc.
+- **[Cody](https://sourcegraph.com/cody)**: Sourcegraph's AI with codebase understanding
 
 ### CLI Tools (Developers)
-- **[Claude Code](https://docs.anthropic.com/en/docs/claude-code)** — Anthropic's agentic CLI tool
+- **[Claude Code](https://docs.anthropic.com/en/docs/claude-code)**: Anthropic's agentic CLI tool
 - Use in terminal alongside your editor
 - Full read/write access to your project
 

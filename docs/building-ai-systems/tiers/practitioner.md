@@ -14,7 +14,7 @@ import TierPeriodicTable from '@site/src/components/PeriodicTable/TierTable';
 
 ## Prerequisites
 
-**Foundation understanding is expected** before diving into Practitioner concepts. If you haven't worked through Foundation, start there—the concepts here build on that base.
+**Foundation understanding is expected** before diving into Practitioner concepts. If you haven't worked through Foundation, start there. The concepts here build on that base.
 
 ---
 
@@ -28,7 +28,7 @@ At this level, you're ready to take on AI work on client projects with appropria
 
 ## Elements to Explore
 
-These are the concepts to understand at the Practitioner tier. Focus on **hands-on implementation**—building real things, not just reading about them.
+These are the concepts to understand at the Practitioner tier. Focus on **hands-on implementation**, building real things, not just reading about them.
 
 | Element | Concept | What to Build |
 |---------|---------|---------------|
@@ -52,10 +52,10 @@ Practitioner assessment is **1 formal technical demonstration and implementation
 ### What the Walk-Through Covers
 
 During this session, you'll:
-- **Demonstrate your deployed feature live**—show it working in production
-- **Walk through the implementation**—explain the architecture, code patterns, and key decisions
-- **Answer technical questions**—expect questions like "Why did you choose X over Y?", "What would break if Z happened?", and "How would you improve this system?"
-- **Review code quality**—the Expert will assess code patterns, error handling, security considerations, and architecture decisions
+- **Demonstrate your deployed feature live**, showing it working in production
+- **Walk through the implementation**, explaining the architecture, code patterns, and key decisions
+- **Answer technical questions**. Expect questions like "Why did you choose X over Y?", "What would break if Z happened?", and "How would you improve this system?"
+- **Review code quality**. The Expert will assess code patterns, error handling, security considerations, and architecture decisions.
 
 ### What "Passing" Means
 You've demonstrated you can build and deploy real AI features. You understand implementation details well enough to troubleshoot issues and make architecture decisions.
@@ -64,7 +64,7 @@ You've demonstrated you can build and deploy real AI features. You understand im
 
 "Production" doesn't require enterprise scale or client-facing deployments. It means:
 
-**Real users, real purpose.** Someone other than you uses it for actual work—not just clicking through a demo. Internal teammates count. A tool you built that 3 people on your team use daily is production.
+**Real users, real purpose.** Someone other than you uses it for actual work, not just clicking through a demo. Internal teammates count. A tool you built that 3 people on your team use daily is production.
 
 **Reliability expectations.** It needs to work consistently. If it breaks, someone notices and cares. You've thought about error handling, not just the happy path.
 
@@ -86,7 +86,7 @@ You've demonstrated you can build and deploy real AI features. You understand im
 
 ## Portfolio: Ship Something Real
 
-Practitioner portfolio requires **1 deployed AI use case that is production-worthy**. This means real code running in a real environment serving real users—not a weekend hack or a loosely connected experiment.
+Practitioner portfolio requires **1 deployed AI use case that is production-worthy**. This means real code running in a real environment serving real users, not a weekend hack or a loosely connected experiment.
 
 Internal tools and personal projects count, but the bar is production quality: reliable, maintainable, and solving a genuine problem.
 
@@ -232,19 +232,19 @@ Can you:
 
 **Q: What counts as "production"?**
 
-Internal tools count. The key is it's used by real people for real purposes—not just a demo that sits on your laptop. See the "What Production Means" section above for detailed criteria. The bar is: real users, reliability expectations, and maintained over time.
+Internal tools count. The key is it's used by real people for real purposes, not just a demo that sits on your laptop. See the "What Production Means" section above for detailed criteria. The bar is: real users, reliability expectations, and maintained over time.
 
 **Q: What if I'm not on an AI project at work?**
 
 This is common and not a blocker. Options:
 
-1. **Find an internal problem to solve.** Every team has inefficiencies. Build something that helps your team—document search, meeting summarization, code review assistance. You don't need permission to build an internal tool that makes your life easier.
+1. **Find an internal problem to solve.** Every team has inefficiencies. Build something that helps your team, such as document search, meeting summarization, or code review assistance. You don't need permission to build an internal tool that makes your life easier.
 
 2. **Propose an AI enhancement.** Take an existing system and add AI capabilities. Most projects have opportunities for intelligent search, summarization, or automation.
 
 3. **Volunteer for AI work.** Other teams may have AI initiatives that need help. Reach out.
 
-The constraint isn't "my project doesn't allow AI"—it's whether you're willing to find or create the opportunity. Practitioners find ways to build.
+The constraint isn't "my project doesn't allow AI." It's whether you're willing to find or create the opportunity. Practitioners find ways to build.
 
 **Q: Does it need to be a full application?**
 
@@ -269,7 +269,7 @@ No. Proficiency in one major framework is sufficient. Understanding how to evalu
 ### Start Here
 1. Ensure Foundation concepts are solid
 2. Pick a project idea that's meaningful to you
-3. Start building immediately—learn by doing
+3. Start building immediately and learn by doing
 
 ### Build Your Feature
 4. Work through each element hands-on
@@ -292,4 +292,4 @@ No. Proficiency in one major framework is sufficient. Understanding how to evalu
 
 You can build and ship AI features. You've wrestled with production problems, made architecture decisions, and seen what actually works. That's significant.
 
-**As you continue to grow**, consider the [Expert tier](/docs/building-ai-systems/tiers/expert). Expert is about leading AI initiatives, architecting complex systems, and multiplying your impact through mentorship. It's not just about knowing more—it's about guiding others and shaping AI direction for your team and organization.
+**As you continue to grow**, consider the [Expert tier](/docs/building-ai-systems/tiers/expert). Expert is about leading AI initiatives, architecting complex systems, and multiplying your impact through mentorship. It's not just about knowing more. It's about guiding others and shaping AI direction for your team and organization.

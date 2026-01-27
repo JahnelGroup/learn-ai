@@ -35,7 +35,7 @@ G5: Models Family
 
 ### What It Is
 
-**Large Language Models (LLMs) are the core reasoning engines—GPT-4, Claude, Gemini, Llama, and others.** Trained on vast text, they're the primitive capability everything else builds on.
+**Large Language Models (LLMs) are the core reasoning engines, including GPT-4, Claude, Gemini, Llama, and others.** Trained on vast text, they're the primitive capability everything else builds on.
 
 ### Why It Matters
 
@@ -142,7 +142,7 @@ G5: Models Family
 
 ### What It Is
 
-**Multi-modal models process multiple input types—text, images, audio, video.** See a chart and explain it. Hear a question and answer it. Unified intelligence across modalities.
+**Multi-modal models process multiple input types: text, images, audio, and video.** See a chart and explain it. Hear a question and answer it. Unified intelligence across modalities.
 
 ### Why It Matters
 
@@ -255,7 +255,7 @@ G5: Models Family
 
 ### What It Is
 
-**Small models are distilled, specialized models—fast, cheap, and efficient.** They run on phones, edge devices, or at high volume. When you don't need frontier capability, small models deliver 90% of value at 10% of cost.
+**Small models are distilled, specialized models that are fast, cheap, and efficient.** They run on phones, edge devices, or at high volume. When you don't need frontier capability, small models deliver 90% of value at 10% of cost.
 
 ### Why It Matters
 
@@ -429,12 +429,12 @@ Input → Reason internally → Verify → Refine → Output
 
 | Task Type | Benefit |
 |-----------|---------|
-| **Math problems** | High—verifies calculations |
-| **Logic puzzles** | High—explores possibilities |
-| **Complex code** | High—considers edge cases |
-| **Planning** | High—thinks through steps |
-| **Simple Q&A** | Low—unnecessary overhead |
-| **Creative writing** | Variable—may overthink |
+| **Math problems** | High, verifies calculations |
+| **Logic puzzles** | High, explores possibilities |
+| **Complex code** | High, considers edge cases |
+| **Planning** | High, thinks through steps |
+| **Simple Q&A** | Low, unnecessary overhead |
+| **Creative writing** | Variable, may overthink |
 
 ### Trade-offs
 

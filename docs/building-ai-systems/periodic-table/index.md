@@ -40,11 +40,11 @@ Concepts that serve similar purposes at different complexity levels:
 
 | Group | Family | Theme |
 |-------|--------|-------|
-| **G1** | Reactive | Action—from instructions to autonomous operation |
-| **G2** | Retrieval | Memory—storing, finding, and adapting information |
-| **G3** | Orchestration | Coordination—combining components into systems |
-| **G4** | Validation | Quality—ensuring systems work correctly and safely |
-| **G5** | Models | Intelligence—the raw capabilities that power everything |
+| **G1** | Reactive | Action, from instructions to autonomous operation |
+| **G2** | Retrieval | Memory, storing, finding, and adapting information |
+| **G3** | Orchestration | Coordination, combining components into systems |
+| **G4** | Validation | Quality, ensuring systems work correctly and safely |
+| **G5** | Models | Intelligence, the raw capabilities that power everything |
 
 ---
 

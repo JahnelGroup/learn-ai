@@ -12,11 +12,11 @@ sidebar_position: 1
 
 ## Preparation > Engineering
 
-You've heard of "prompt engineering"—the skill of crafting effective prompts. But the most impactful skill is **prompt preparation**: the work you do before typing a single word.
+You've heard of "prompt engineering," the skill of crafting effective prompts. But the most impactful skill is **prompt preparation**: the work you do before typing a single word.
 
 The difference:
-- **Prompt engineering**: How to phrase your request
-- **Prompt preparation**: What to think through before requesting
+- **Prompt engineering** is how to phrase your request
+- **Prompt preparation** is what to think through before requesting
 
 Most bad AI interactions fail before the prompt is written.
 
@@ -174,12 +174,12 @@ Before your next AI interaction:
 4. **List** your constraints
 5. **Then** write your prompt
 
-After a week of this practice, it becomes automatic—and your AI interactions become dramatically more effective.
+After a week of this practice, it becomes automatic, and your AI interactions become dramatically more effective.
 
 ---
 
 ## Related Concepts
 
-- **[Plan Before Execute](/docs/ai-productivity/concepts/plan-before-execute)** — For multi-step tasks
-- **[Context Files](/docs/ai-productivity/concepts/context-files)** — Encoding preparation permanently
-- **[Deep Research](/docs/ai-productivity/concepts/deep-research)** — When the goal itself needs clarification
+- **[Plan Before Execute](/docs/ai-productivity/concepts/plan-before-execute)**: For multi-step tasks
+- **[Context Files](/docs/ai-productivity/concepts/context-files)**: Encoding preparation permanently
+- **[Deep Research](/docs/ai-productivity/concepts/deep-research)**: When the goal itself needs clarification

@@ -18,7 +18,7 @@ Most AI use follows this pattern:
 3. Get an answer
 4. Move on
 
-But AI's real power for research is different. It can **investigate**—exploring a topic from multiple angles, synthesizing information, and helping you understand deeply.
+But AI's real power for research is different. It can **investigate**, exploring a topic from multiple angles, synthesizing information, and helping you understand deeply.
 
 ---
 
@@ -168,7 +168,7 @@ Walk me through:
 4. What questions I should be asking
 5. How to think about this decision
 
-Don't tell me what to decide—help me understand.
+Don't tell me what to decide. Help me understand.
 ```
 
 ### For Problem Investigation
@@ -245,6 +245,6 @@ Traditional research is still needed for:
 
 ## Related Concepts
 
-- **[Prompt Preparation](/docs/ai-productivity/concepts/prompt-preparation)** — Research is often preparation for later prompts
-- **[Vibe Coding vs Spec-Driven](/docs/ai-productivity/concepts/vibe-vs-spec)** — Research is vibe-like exploration
-- **[Level 2: Context](/docs/ai-productivity/levels/context)** — Providing documents enhances research
+- **[Prompt Preparation](/docs/ai-productivity/concepts/prompt-preparation)**: Research is often preparation for later prompts
+- **[Vibe Coding vs Spec-Driven](/docs/ai-productivity/concepts/vibe-vs-spec)**: Research is vibe-like exploration
+- **[Level 2: Context](/docs/ai-productivity/levels/context)**: Providing documents enhances research

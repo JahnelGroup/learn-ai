@@ -6,7 +6,7 @@ sidebar_position: 8
 
 # AI Productivity by Role
 
-This matrix shows how the 5 levels apply across different roles. Use this as inspiration—roles blend, and you may find ideas from multiple columns relevant to your work.
+This matrix shows how the 5 levels apply across different roles. Use this as inspiration. Roles blend, and you may find ideas from multiple columns relevant to your work.
 
 ---
 
@@ -26,11 +26,11 @@ This matrix shows how the 5 levels apply across different roles. Use this as ins
 
 ### Developers
 - Let AI review your code before human review
-- Learn your IDE tool's features—most go unused
+- Learn your IDE tool's features. Most go unused.
 - Build trust with autonomous tasks incrementally
 
 ### QA Engineers
-- Start with test case generation—high value, low risk
+- Start with test case generation, which is high value and low risk
 - Encode domain knowledge for better test suggestions
 - Use AI for test maintenance, not just creation
 
@@ -47,7 +47,7 @@ This matrix shows how the 5 levels apply across different roles. Use this as ins
 ### Project Managers
 - Don't let AI draft sensitive communications without editing
 - Automated reports still need your review
-- Keep human connection—don't automate relationships
+- Keep human connection. Don't automate relationships.
 
 ### Tech Leads
 - Create shared context files for team consistency
