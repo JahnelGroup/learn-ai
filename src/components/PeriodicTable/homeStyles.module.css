@@ -275,29 +275,30 @@
   }
 }
 
-/* Responsive - Mobile: Switch to 3-column layout */
+/* Responsive - Mobile: Keep 5-column layout with smaller elements */
 @media (max-width: 600px) {
   .headerRow {
     display: none;
   }
 
   .elementRow {
-    grid-template-columns: repeat(3, 1fr);
-    gap: 6px;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 4px;
   }
 
   .element {
-    min-height: 55px;
-    padding: 0.4rem 0.2rem;
-    border-radius: 8px;
+    min-height: 45px;
+    padding: 0.3rem 0.1rem;
+    border-radius: 6px;
+    border-width: 1px;
   }
 
   .symbol {
-    font-size: 0.85rem;
+    font-size: 0.75rem;
   }
 
   .name {
-    font-size: 0.65rem;
+    font-size: 0.55rem;
   }
 
   .viewFullLink {
@@ -305,14 +306,22 @@
   }
 }
 
-/* Responsive - Very small screens: 2-column layout */
+/* Responsive - Very small screens: Even more compact */
 @media (max-width: 400px) {
   .elementRow {
-    grid-template-columns: repeat(2, 1fr);
-    gap: 5px;
+    gap: 3px;
   }
 
   .element {
-    min-height: 50px;
+    min-height: 40px;
+    padding: 0.25rem 0.05rem;
+  }
+
+  .symbol {
+    font-size: 0.7rem;
+  }
+
+  .name {
+    font-size: 0.5rem;
   }
 }
