@@ -208,3 +208,11 @@ Foundation is about conceptual understanding of most topics—you should be able
 7. Complete your 3 portfolio use cases
 8. Review your understanding against the skills checklist
 9. Schedule your assessment when ready
+
+---
+
+## What's Next?
+
+You now have a solid foundation—the vocabulary, mental models, and hands-on experience that everything else builds on. You understand what AI can and can't do, and you've used it effectively in real work.
+
+**Ready for the next step?** Head to the [Practitioner tier](/docs/building-ai-systems/tiers/practitioner). That's where you'll move from understanding AI to building AI-powered features—writing code, deploying to production, and solving real problems with real systems.
