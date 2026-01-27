@@ -18,7 +18,7 @@ import TierPeriodicTable from '@site/src/components/PeriodicTable/TierTable';
 
 ---
 
-## What This Level Means
+## What This Tier Means
 
 Expert demonstrates that you can **architect complex AI systems, make strategic technology decisions, lead AI initiatives, and elevate the capabilities of those around you**.
 

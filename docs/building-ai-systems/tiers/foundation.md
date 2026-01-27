@@ -12,7 +12,7 @@ import TierPeriodicTable from '@site/src/components/PeriodicTable/TierTable';
 
 ---
 
-## What This Level Means
+## What This Tier Means
 
 Foundation demonstrates that you **understand the core concepts of modern AI**, can use AI tools effectively in your daily work, and can engage meaningfully in technical conversations with colleagues and clients.
 
@@ -24,7 +24,7 @@ This isn't about being "basic"—it's about having a solid foundation that every
 
 ## Elements to Explore
 
-These are the concepts to understand at Foundation. You don't need to master implementation details—that's Practitioner level. Focus on **understanding what these are, why they matter, and when they apply.**
+These are the concepts to understand at Foundation. You don't need to master implementation details—that's the Practitioner tier. Focus on **understanding what these are, why they matter, and when they apply.**
 
 | Element | Concept | What to Understand |
 |---------|---------|-------------------|
