@@ -135,7 +135,7 @@ function WhatYoullGain() {
 function LearningTiers() {
   const tiers = [
     {
-      name: 'Foundation',
+      name: 'Foundation Tier',
       tagline: 'Understand and use AI effectively',
       description:
         'Build a solid mental model. Understand the vocabulary, capabilities, and limitations. Use AI tools effectively in your daily work.',
@@ -143,7 +143,7 @@ function LearningTiers() {
       path: '/docs/building-ai-systems/tiers/foundation',
     },
     {
-      name: 'Practitioner',
+      name: 'Practitioner Tier',
       tagline: 'Build and deploy AI features',
       description:
         'Implement AI-powered features in production. Understand technical details, make architecture decisions, and troubleshoot issues.',
@@ -151,7 +151,7 @@ function LearningTiers() {
       path: '/docs/building-ai-systems/tiers/practitioner',
     },
     {
-      name: 'Expert',
+      name: 'Expert Tier',
       tagline: 'Architect systems and lead others',
       description:
         'Design complex AI systems, evaluate emerging technologies, and elevate the capabilities of those around you.',
