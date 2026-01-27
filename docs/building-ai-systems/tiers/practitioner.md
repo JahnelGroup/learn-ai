@@ -60,6 +60,28 @@ During this session, you'll:
 ### What "Passing" Means
 You've demonstrated you can build and deploy real AI features. You understand implementation details well enough to troubleshoot issues and make architecture decisions.
 
+### What "Production" Means
+
+"Production" doesn't require enterprise scale or client-facing deployments. It means:
+
+**Real users, real purpose.** Someone other than you uses it for actual work—not just clicking through a demo. Internal teammates count. A tool you built that 3 people on your team use daily is production.
+
+**Reliability expectations.** It needs to work consistently. If it breaks, someone notices and cares. You've thought about error handling, not just the happy path.
+
+**Maintained over time.** You've iterated based on feedback. You've fixed bugs. The code isn't a one-and-done experiment you never touched again.
+
+**Examples that count:**
+- An internal Slack bot that answers team questions using RAG
+- A document processing pipeline your team uses weekly  
+- A personal tool you've maintained for months that solves a real problem
+- An internal dashboard with AI-powered summaries
+
+**Examples that don't count:**
+- A Jupyter notebook you ran once
+- A tutorial you followed without modification
+- A demo you built for a presentation but never used again
+- Something that "works on my machine" but isn't deployed anywhere
+
 ---
 
 ## Portfolio: Ship Something Real
@@ -210,7 +232,23 @@ Can you:
 
 **Q: What counts as "production"?**
 
-Internal tools count. The key is it's used by real people for real purposes—not just a demo that sits on your laptop.
+Internal tools count. The key is it's used by real people for real purposes—not just a demo that sits on your laptop. See the "What Production Means" section above for detailed criteria. The bar is: real users, reliability expectations, and maintained over time.
+
+**Q: What if I'm not on an AI project at work?**
+
+This is common and not a blocker. Options:
+
+1. **Find an internal problem to solve.** Every team has inefficiencies. Build something that helps your team—document search, meeting summarization, code review assistance. You don't need permission to build an internal tool that makes your life easier.
+
+2. **Propose an AI enhancement.** Take an existing system and add AI capabilities. Most projects have opportunities for intelligent search, summarization, or automation.
+
+3. **Volunteer for AI work.** Other teams may have AI initiatives that need help. Reach out.
+
+The constraint isn't "my project doesn't allow AI"—it's whether you're willing to find or create the opportunity. Practitioners find ways to build.
+
+**Q: Does it need to be a full application?**
+
+No. A well-built feature within a larger system counts. The key is that you own the AI components end-to-end: you made the architecture decisions, wrote the implementation, and dealt with production issues.
 
 **Q: Can I use a personal project?**
 
@@ -247,3 +285,11 @@ No. Proficiency in one major framework is sufficient. Understanding how to evalu
 10. Complete your portfolio documentation
 11. Review your code for quality
 12. Practice explaining your architecture
+
+---
+
+## What's Next?
+
+You can build and ship AI features. You've wrestled with production problems, made architecture decisions, and seen what actually works. That's significant.
+
+**As you continue to grow**, consider the [Expert tier](/docs/building-ai-systems/tiers/expert). Expert is about leading AI initiatives, architecting complex systems, and multiplying your impact through mentorship. It's not just about knowing more—it's about guiding others and shaping AI direction for your team and organization.

@@ -63,7 +63,7 @@ Don't jump from Level 3 to autonomous. Progress through Level 4 first:
 Before autonomous execution, have AI plan:
 
 ```
-/plan Implement user profile edit functionality
+Use AI planning modes to plan the implementation of user profile edit functionality
 
 Requirements:
 - Profile page at /profile
