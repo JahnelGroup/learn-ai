@@ -54,7 +54,7 @@ function BuildingAISection() {
           <div className={styles.card}>
             <Heading as="h2">Building AI Systems</Heading>
             <p className={styles.cardDescription}>
-            The <a href="https://www.youtube.com/watch?v=ESBMgZHzfG0" target="_blank" rel="noopener noreferrer">AI Periodic Table</a> concept was presented by <strong>Martin Keen</strong> from <strong>IBM Technology</strong>. We love this framework at <a href="https://jahnelgroup.com" target="_blank">Jahnel Group</a> for organizing AI concepts.
+            The <a href="https://www.youtube.com/watch?v=ESBMgZHzfG0" target="_blank" rel="noopener noreferrer">AI Periodic Table</a> concept was presented by <strong>Martin Keen</strong> from <strong>IBM Technology</strong>. We love this framework at <a href="https://jahnelgroup.com" target="_blank" rel="noopener noreferrer">Jahnel Group</a> for organizing AI concepts.
             </p>
             <div className={styles.periodicTableWrapper}>
               <HomePeriodicTable />
