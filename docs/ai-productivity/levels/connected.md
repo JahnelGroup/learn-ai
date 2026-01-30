@@ -53,6 +53,9 @@ This is the transition from "using AI" to "working with AI."
 - **[Cursor](https://cursor.sh)**: VS Code fork with built-in AI
 - **[GitHub Copilot](https://github.com/features/copilot)**: Works in VS Code, JetBrains, etc.
 - **[Cody](https://sourcegraph.com/cody)**: Sourcegraph's AI with codebase understanding
+- **[Windsurf](https://windsurf.com/editor)**: AI-first IDE by Codeium, focused on agentic workflows and large-scale codebase refactoring
+
+
 
 ### CLI Tools (Developers)
 - **[Claude Code](https://docs.anthropic.com/en/docs/claude-code)**: Anthropic's agentic CLI tool
