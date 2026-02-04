@@ -15,6 +15,8 @@ The terminology flies around in every tech article, every client conversation, e
 
 That's exactly why this guide exists. We've collected industry leading resources and organized them into **your personal roadmap** through the AI landscape, making it easier to digest and follow.
 
+---
+_**Notice:**_ _All AI-generated output must be treated as unvetted work requiring full review. You are responsible for verifying the logic, security, and licensing of any code, content, or recommendations before use. Be aware that AI tools carry inherent risks including but not limited to, indirect prompt injection, package hallucinations, copyleft contamination, and context contamination when mixing projects in a single session. Always protect confidential information; never share proprietary code, data, or sensitive details that are not yours to AI tools without explicit approval._
 
 ---
 
