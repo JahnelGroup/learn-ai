@@ -15,6 +15,7 @@ The terminology flies around in every tech article, every client conversation, e
 
 That's exactly why this guide exists. We've collected industry leading resources and organized them into **your personal roadmap** through the AI landscape, making it easier to digest and follow.
 
+
 ---
 
 ## What You'll Gain
