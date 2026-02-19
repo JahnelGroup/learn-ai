@@ -46,14 +46,19 @@ Understanding context windows is crucial because:
 - "Lost in the middle" phenomenon affects retrieval
 - Context management is often the difference between success and failure
 
-### Context Window Sizes (2026)
+### Context Window Sizes (Updated February 2026)
 
 | Model | Context Window |
 |-------|----------------|
-| GPT-4 Turbo | 128K tokens |
-| Claude 3 | 200K tokens |
-| Gemini 1.5 | 1M+ tokens |
-| Llama 3 | 8K-128K tokens |
+| GPT-5.x | 200K–400K tokens |
+| GPT-4.1 | 1M+ tokens |
+| Claude Opus 4.6 | 1M tokens |
+| Claude Sonnet 4.6 | 1M tokens |
+| Gemini 3 Pro | 1M–2M tokens |
+| Gemini 3 Flash | 1M tokens |
+| Llama 4 | up to 10M tokens |
+
+> **Note:** Most models perform reliably at 60–75% of their advertised capacity. Performance tends to degrade near the stated maximum, so plan for effective limits lower than the headline numbers.
 
 ### What Consumes Context
 
@@ -108,7 +113,7 @@ G3: Orchestration Family
 
 ### What It Is
 
-**RAG (Retrieval-Augmented Generation) combines retrieval with generation.** A question comes in, relevant context is retrieved (via embeddings/vector DB), the prompt is augmented with that context, and the LLM generates a grounded answer.
+**RAG (Retrieval-Augmented Generation) combines retrieval with generation.** A question comes in, relevant context is retrieved from an external knowledge source, the prompt is augmented with that context, and the LLM generates a grounded answer.
 
 ### Why It Matters
 
@@ -121,17 +126,23 @@ RAG solves critical LLM limitations:
 ### The RAG Pipeline
 
 ```
-User Query → Embed → Search Vector DB → Retrieve Docs
-                                            ↓
+User Query → Embed → Search Knowledge Store → Retrieve Docs
+                                                  ↓
 Retrieved Docs + Query → Augmented Prompt → LLM → Grounded Response
 ```
+
+The knowledge store can be many things — vector databases are the most common choice, but not the only one. Options include:
+- **Vector databases** (Pinecone, Chroma, Qdrant, pgvector) — semantic similarity search over embeddings
+- **Traditional databases** (PostgreSQL full-text search, Elasticsearch) — keyword or hybrid search
+- **Graph databases** (Neo4j, Amazon Neptune) — relationship-rich data and GraphRAG patterns
+- **Hybrid approaches** — combine multiple backends to maximize retrieval quality
 
 ### Key Components
 
 | Component | Purpose |
 |-----------|---------|
-| **Embedding model** | Convert query to vector |
-| **Vector database** | Store and search documents |
+| **Embedding model** | Convert query to vector (when using semantic search) |
+| **Knowledge store** | Store and search documents (vector DB, SQL, graph DB, etc.) |
 | **Retriever** | Find relevant documents |
 | **Reranker** | Improve retrieval ordering |
 | **Generator** | LLM that produces the answer |
@@ -201,16 +212,18 @@ Frameworks accelerate development by:
 - Standardizing patterns across teams
 - Integrating with various providers
 
-### Major Frameworks (2026)
+### Major Frameworks (Updated February 2026)
 
 | Framework | Focus | Best For |
 |-----------|-------|----------|
-| **LangChain** | General-purpose chains | Flexible AI applications |
-| **LlamaIndex** | Data indexing/retrieval | RAG-heavy applications |
+| **LangChain** | General-purpose chains | Flexible AI applications; reached stable 1.0 in Oct 2025 |
+| **LangGraph** | Stateful agents | Complex agent workflows; human-in-the-loop; multi-agent systems |
+| **LlamaIndex** | Data indexing/retrieval | RAG-heavy applications; document ingestion and parsing |
 | **Haystack** | NLP pipelines | Search and QA |
 | **Semantic Kernel** | Microsoft ecosystem | .NET/enterprise |
-| **LangGraph** | Stateful agents | Complex agent workflows |
 | **CrewAI** | Multi-agent | Agent teams |
+
+> **Common production pattern (2026):** Use LlamaIndex for data ingestion and indexing, then expose the index as a tool to LangGraph agents that handle conversation logic and state management.
 
 ### Common Abstractions
 
@@ -308,13 +321,13 @@ GPT ────MCP──┘
 | **Resources** | Data the server exposes |
 | **Tools** | Actions the server enables |
 
-### Current State (2026)
+### Current State (Updated February 2026)
 
-MCP was introduced by Anthropic in late 2024 and is gaining adoption. The ecosystem is growing, but:
-- Not all providers support it yet
-- Some features are still evolving
-- Alternative standards may emerge
-- Best practices are still forming
+MCP has achieved mainstream adoption as the de facto standard for AI tool integration:
+- **All major providers support it:** OpenAI, Google, and Microsoft (Copilot/Azure AI) adopted MCP alongside Anthropic; first-class support in ChatGPT, Claude, Cursor, Gemini, VS Code, and GitHub Copilot
+- **Large and growing ecosystem:** Over 10,000 active servers available as of early 2026
+- **Neutral governance:** In December 2025, Anthropic donated MCP to the Agentic AI Foundation (AAIF) under the Linux Foundation, cementing it as an open standard
+- **MCP Apps (January 2026):** First official protocol extension enabling tools to return rich interactive UI components (dashboards, forms, visualizations) directly in AI conversations — moving beyond text-only tool responses
 
 ### Evaluating Protocol Adoption
 
