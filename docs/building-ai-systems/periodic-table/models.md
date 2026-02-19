@@ -63,15 +63,16 @@ LLMs are the foundation of modern AI:
 | **Knowledge cutoff** | How recent its information is |
 | **Capabilities** | Reasoning, coding, creativity, etc. |
 
-### Major Model Families (2026)
+### Major Model Families (Updated February 2026)
 
 | Provider | Models | Notes |
 |----------|--------|-------|
-| **OpenAI** | GPT-4, GPT-4 Turbo | Strong general capabilities |
-| **Anthropic** | Claude 3.5, Claude 3 Opus | Strong reasoning, longer context |
-| **Google** | Gemini Pro, Ultra | Multimodal, large context |
-| **Meta** | Llama 3 | Open weights |
-| **Mistral** | Mixtral, Mistral Large | Efficient, European |
+| **OpenAI** | GPT-5.3, GPT-5.3-Codex, o3 | Strong general + reasoning; Codex variant for agentic coding |
+| **Anthropic** | Claude Opus 4.6, Claude Sonnet 4.6 | Top coding/agents, 1M token context (beta) |
+| **Google** | Gemini 3 Pro, Gemini 3 Flash | Multimodal, up to 2M token context |
+| **Meta** | Llama 4 Maverick | Open weights, up to 10M token context |
+| **Mistral** | Mistral Large, Codestral | Efficient, strong coding, European |
+| **DeepSeek** | DeepSeek-R1 | Open weights, strong reasoning chains |
 
 ### Model Selection Factors
 
@@ -497,15 +498,16 @@ if verification.has_issues:
 return draft
 ```
 
-### Current State (2026)
+### Current State (Updated February 2026)
 
-Thinking models are relatively new:
-- **o1 (OpenAI):** Released late 2024, shows strong reasoning
-- **Extended thinking (Anthropic):** Claude's reasoning mode
-- **Gemini thinking:** Google's approach
-- **Research:** Rapid progress in this area
+Thinking models have matured rapidly since their introduction in late 2024:
 
-Expect significant advances in coming years.
+- **o3 / o3-mini (OpenAI):** Successor to o1; o3 targets deep, mission-critical reasoning with extended internal reasoning traces, while o3-mini offers a cost-optimized variant with faster throughput. GPT-5.2 achieves 100% on AIME 2025 mathematics benchmarks.
+- **Claude Opus 4.6 (Anthropic):** Extended thinking mode with leading performance in agentic coding (65.4% on Terminal-Bench 2.0) and enterprise knowledge work. Supports a 1M token context window (beta).
+- **Gemini 2.0 Flash Thinking / Gemini 3 Deep Think (Google):** Flash Thinking scores 73.3% on AIME 2024 and 74.2% on GPQA-Diamond. Gemini 3 Deep Think variant targeting even deeper reasoning is in development.
+- **DeepSeek-R1:** Open-weights model that generates explicit multi-step reasoning chains before answering. Research shows a "sweet spot" for reasoning depth — additional inference time beyond that point can paradoxically degrade output quality.
+
+Key characteristics shared by mature reasoning models: auditable chain-of-thought traces, contextual stamina for large inputs, planning and self-verification, and tool integration for grounding logic in real-world data.
 
 ### Limitations
 
