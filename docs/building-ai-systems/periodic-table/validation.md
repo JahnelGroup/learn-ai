@@ -423,17 +423,20 @@ Find inputs that maximally activate specific neurons
 3. Test edge cases where safety might fail
 4. Build confidence in deployment
 
-### Current State (2026)
+### Current State (Updated February 2026)
 
-Interpretability is rapidly advancing but still limited:
+Interpretability has grown from a niche research area into an active field producing tools usable on real, deployed models:
 
 | Aspect | Status |
 |--------|--------|
-| **Small models** | Good understanding possible |
-| **Large models** | Still very challenging |
-| **Specific behaviors** | Increasingly tractable |
+| **Small models** | Good understanding achievable |
+| **Large models** | Still very challenging; active progress |
+| **Specific behaviors** | Increasingly tractable via circuit discovery |
 | **General understanding** | Far from complete |
-| **Practical tools** | Emerging but immature |
+| **Practical tools** | Maturing; sparse autoencoders (SAEs) and attribution graphs now widely used |
+| **Standardized evaluation** | MIB (Mechanistic Interpretability Benchmark) established 2025 |
+
+Key techniques now in active use: **circuit discovery** (identifying which components drive a behavior), **sparse autoencoders** (decomposing activations into interpretable features to address polysemanticity), and **attribution graphs** (circuit tracing that replaces model components with interpretable proxies). Research priorities for the coming years include automated interpretability and cross-model circuit generalization.
 
 ### Tools and Resources
 
