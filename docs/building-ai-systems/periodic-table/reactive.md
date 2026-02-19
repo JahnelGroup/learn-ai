@@ -329,7 +329,7 @@ Some problems are too complex for a single agent with a single perspective. Mult
 - When single-agent reliability is already a challenge
 - Limited budget (multiplies API costs)
 
-### Current State (2026)
+### Current State (Updated February 2026)
 
 Multi-agent is still emerging. Patterns are being discovered. Frameworks like AutoGen, CrewAI, and LangGraph provide building blocks, but production deployments remain challenging. Expect rapid evolution.
 
