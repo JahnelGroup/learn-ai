@@ -1,5 +1,4 @@
 ---
-id: foundation
 title: "Tier 1: Foundation"
 sidebar_position: 2
 ---
@@ -41,6 +40,10 @@ These are the concepts to understand at Foundation. You don't need to master imp
 ---
 
 ## Assessment Approach
+
+:::tip Ready to prepare?
+Check out the **[Foundation Assessment Playbook](./assessment-playbook)** for a detailed study guide covering all 7 elements, with resources, practice activities, and mini challenges.
+:::
 
 Foundation assessment is a **conversation with a Practitioner or Expert**. This isn't a written test or gotcha quiz. It's a discussion about your understanding and experiences.
 
