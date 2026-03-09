@@ -55,7 +55,7 @@ Before scheduling your assessment:
   link="/docs/building-ai-systems/periodic-table/reactive#pr--prompts"
 />
 
-### What Is It?
+### Pr — What Is It?
 
 A good prompt engineer knows how to give instructions in a way that is easy for the AI to understand — organizing the request clearly, avoiding confusion, and being specific about what is expected.
 
@@ -75,7 +75,7 @@ Key prompting techniques to understand:
 4. You can use real examples to demonstrate your understanding, not just explain theory
 :::
 
-### Study Resources
+### Pr — Study Resources
 
 **Start Here:**
 - [The ADVANCED 2026 Guide to Prompt Engineering — Master the Perfect Prompt](https://www.youtube.com/watch?v=T9aRN5JkmL8)
@@ -100,7 +100,7 @@ Use these to expand your understanding of prompt design principles, study struct
 4. Not understanding why prompt structure matters or how it directly impacts output quality
 :::
 
-### Practice
+### Pr — Practice
 
 **Hands-On Activity:** Choose a vague instruction (e.g., "Write a project summary," "Fix this code," "Create interview questions"). Then:
 1. Rewrite it using a clear role, context, constraints, and desired output format
@@ -148,7 +148,7 @@ After using AI:
   link="/docs/building-ai-systems/periodic-table/models#lg--llm"
 />
 
-### What Is It?
+### Lg — What Is It?
 
 Large Language Models (LLMs) are the core reasoning engines behind modern AI tools — ChatGPT, Claude, Gemini, Llama, and others. They are trained on massive amounts of text data and learn patterns in language, reasoning, and structure.
 
@@ -162,7 +162,7 @@ An LLM does not "think" or "know" things in a human way. It predicts the most li
 5. You can use real examples to demonstrate this understanding
 :::
 
-### Study Resources
+### Lg — Study Resources
 
 **Start Here:**
 - [How Large Language Models Work](https://www.youtube.com/watch?v=5sLYAQS9sWQ)
@@ -190,7 +190,7 @@ Use these to learn about model architecture at a high level (tokens, probability
 5. **Prompting Sensitivity:** "If the output isn't good, the model just isn't capable." — Output quality is directly influenced by prompt clarity and structure.
 :::
 
-### Practice
+### Lg — Practice
 
 **Hands-On Activity:** Pick a real task you would normally use an LLM for (e.g., summarizing documentation, reviewing code). Then:
 1. Describe how an LLM processes your input at a high level — what is it actually doing? What role does probability play?
@@ -231,7 +231,7 @@ Document: where the model could fail, what guardrails you would implement, and h
   link="/docs/building-ai-systems/periodic-table/retrieval#em--embeddings"
 />
 
-### What Is It?
+### Em — What Is It?
 
 Embeddings are about representing meaning as numbers. Instead of treating text as just words or keywords, embeddings convert text into numerical vectors (lists of numbers) that capture semantic meaning. This allows systems to compare ideas based on meaning, not just exact word matches.
 
@@ -248,7 +248,7 @@ Embeddings make it possible to: perform semantic search, group similar content t
 6. Retrieval quality depends heavily on the embedding model and how content is chunked
 :::
 
-### Study Resources
+### Em — Study Resources
 
 **Start Here:**
 - [What Are Word Embeddings?](https://www.youtube.com/watch?v=wgfSDrqYMJ4)
@@ -274,7 +274,7 @@ Use these to understand vector spaces and distance metrics, learn how embeddings
 4. Not understanding how similarity metrics (e.g., cosine similarity) determine results
 :::
 
-### Practice
+### Em — Practice
 
 **Hands-On Activity:** Choose a small set of 10-20 short text samples (e.g., product descriptions, support tickets, Slack messages). Then:
 1. Generate embeddings for each text (using any embedding API or tool)
@@ -318,7 +318,7 @@ Be prepared to discuss trade-offs (speed vs. accuracy, chunk size vs. context re
   link="/docs/building-ai-systems/periodic-table/validation#gr--guardrails"
 />
 
-### What Is It?
+### Gr — What Is It?
 
 Guardrails refer to the policies, technical controls, and design decisions that limit unsafe or inappropriate behavior in AI systems. At a practical level, guardrails are about:
 
@@ -337,7 +337,7 @@ Understanding guardrails means recognizing that AI systems are probabilistic and
 4. Understand that safety is a shared responsibility between the model, the prompt designer, the application layer, and the organization
 :::
 
-### Study Resources
+### Gr — Study Resources
 
 **Start Here:**
 - [NVIDIA NeMo Guardrails: Full Walkthrough for Chatbots / AI](https://www.youtube.com/watch?v=wSCk_GHf9D4)
@@ -362,7 +362,7 @@ Use these to expand your understanding of AI safety principles, learn how safety
 4. Over-relying on automation without implementing validation or human review
 :::
 
-### Practice
+### Gr — Practice
 
 **Hands-On Activity:** Choose a realistic AI use case (e.g., internal chatbot, code assistant, documentation generator). Then:
 1. Identify at least 3 potential risks in that system (harmful output, hallucinated information, sensitive data exposure, bias)
@@ -406,7 +406,7 @@ For one of these:
   link="/docs/building-ai-systems/periodic-table/orchestration#cw--context-windows"
 />
 
-### What Is It?
+### Cw — What Is It?
 
 A context window defines how much information an AI model can process in a single interaction. Tokens are pieces of text (words, subwords, or characters) that the model reads and uses to generate a response. Every message — system instructions, user input, and previous responses — consumes tokens.
 
@@ -427,7 +427,7 @@ Understanding context windows means understanding that memory in LLMs is not per
 - Understand that context limits affect both quality and cost
 :::
 
-### Study Resources
+### Cw — Study Resources
 
 **Start Here:**
 - [Stop Wasting Tokens: The Art of Context Engineering](https://www.youtube.com/watch?v=VgFkANGHxpQ)
@@ -452,7 +452,7 @@ Use these to expand your understanding of tokens and context limits, learn how c
 4. Misinterpreting degraded responses as intelligence issues instead of context overflow
 :::
 
-### Practice
+### Cw — Practice
 
 **Hands-On Activity:** Choose one of the following: a long document (10+ pages), a long chat conversation, or a multi-step reasoning prompt. Then:
 1. Estimate how many tokens the input might consume
@@ -497,7 +497,7 @@ For one of these:
   link="/docs/building-ai-systems/periodic-table/orchestration#rg--rag"
 />
 
-### What Is It?
+### Rg — What Is It?
 
 RAG (Retrieval-Augmented Generation) is a method that improves AI responses by giving the model access to external information. Instead of relying only on training data, RAG retrieves relevant data from a knowledge source and uses it to generate a more accurate, grounded answer.
 
@@ -519,7 +519,7 @@ The key idea is **grounding**. Without retrieval, an LLM may hallucinate or prov
 - Understand that RAG does not eliminate hallucination completely — it reduces risk when retrieval is done correctly
 :::
 
-### Study Resources
+### Rg — Study Resources
 
 **Start Here:**
 - [Learn RAG From Scratch — Python AI Tutorial from a LangChain Engineer](https://www.youtube.com/watch?v=sVcwVQRHIc8)
@@ -545,7 +545,7 @@ Use these to learn how retrieval works in practice, understand chunking strategi
 4. Treating hallucination as purely a generation issue instead of sometimes a retrieval failure
 :::
 
-### Practice
+### Rg — Practice
 
 **Hands-On Activity:** Pick a realistic use case (e.g., "internal policy assistant" or "customer support FAQ bot"). Describe the RAG flow in your own words:
 1. What kind of data would be stored in the knowledge source?
@@ -592,7 +592,7 @@ Describe a simple design plan:
   link="/docs/building-ai-systems/periodic-table/validation#ev--evaluation"
 />
 
-### What Is It?
+### Ev — What Is It?
 
 Evaluation is how we measure whether an AI system is actually working. It answers questions like: *Is the output correct? Is it relevant? Is it grounded in the right data? Is it safe? Is it consistent? Is it useful for the intended user?*
 
@@ -611,7 +611,7 @@ Evaluation takes different forms:
 - Recognize that improving prompts, RAG pipelines, or guardrails requires measurable feedback
 :::
 
-### Study Resources
+### Ev — Study Resources
 
 **Start Here:**
 - [How to Evaluate (and Improve) Your LLM Apps](https://www.youtube.com/watch?v=_TZwFKMnVg0)
@@ -636,7 +636,7 @@ Use these to expand your understanding of evaluation methods, learn how to desig
 4. Measuring the wrong metrics for the intended use case
 :::
 
-### Practice
+### Ev — Practice
 
 **Hands-On Activity:** Choose a simple AI use case (e.g., FAQ assistant, document summarizer, resume screener). Then:
 1. Define what "good output" means for this system (accuracy? relevance? tone? speed? grounded answers?)
