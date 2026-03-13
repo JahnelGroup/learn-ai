@@ -29,11 +29,11 @@ const sidebars = {
           items: [
             {
               type: 'category',
-              label: 'Foundation',
+              label: 'Tier 1: Foundation',
               collapsed: true,
               link: { type: 'doc', id: 'building-ai-systems/tiers/foundation/index' },
               items: [
-                'building-ai-systems/tiers/foundation/assessment-playbook',
+                'building-ai-systems/tiers/foundation/study-guide',
               ],
             },
             'building-ai-systems/tiers/practitioner',
