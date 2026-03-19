@@ -89,7 +89,7 @@ After watching, you should be able to explain: why prompt structure matters, the
 <summary><strong>Going Deeper</strong></summary>
 
 - [ChatGPT Prompt Engineering for Developers](https://www.deeplearning.ai/short-courses/chatgpt-prompt-engineering-for-developers/)
-- [Effective Prompts for AI: The Essentials](https://www.linkedin.com/learning/effective-prompts-for-ai-the-essentials)
+- [Effective Prompts for AI: The Essentials](https://mitsloanedtech.mit.edu/ai/basics/effective-prompts/)
 - [AI Prompting Guide](https://services.google.com/fh/files/misc/gemini-for-google-workspace-prompting-guide-101.pdf)
 
 Use these to expand your understanding of prompt design principles, study structured examples across use cases, and explore advanced techniques like structured output formatting.
@@ -169,7 +169,7 @@ An LLM does not "think" or "know" things in a human way. It predicts the most li
 
 **Start Here:**
 - [How Large Language Models Work](https://www.youtube.com/watch?v=5sLYAQS9sWQ)
-- [How to Use AI APIs: A Beginner's Guide to Anthropic, OpenAI, and More](https://www.youtube.com/watch?v=kOCkKqN9OAQ)
+- [How to Use AI APIs: A Beginner's Guide to Anthropic, OpenAI, and More](https://www.youtube.com/watch?v=kANs1GDjheI)
 
 After watching, you should be able to explain: what an LLM is and how it generates responses, what "hallucination" means, how to decide whether to trust output, differences between major systems, and strengths/limitations in real-world use.
 
@@ -177,7 +177,7 @@ After watching, you should be able to explain: what an LLM is and how it generat
 <summary><strong>Going Deeper</strong></summary>
 
 - [The Illustrated Transformer](https://jalammar.github.io/illustrated-transformer/)
-- [Exposing biases, moods, personalities, and abstract concepts hidden in large language models](https://www.youtube.com/watch?v=tXMOkFpRxlM)
+- [Exposing biases, moods, personalities, and abstract concepts hidden in large language models](https://news.mit.edu/2026/exposing-biases-moods-personalities-hidden-large-language-models-0219)
 - [What are large language models (LLMs)?](https://www.ibm.com/think/topics/large-language-models)
 - [LLM Leaderboard](https://artificialanalysis.ai/leaderboards/models)
 
@@ -255,7 +255,7 @@ Embeddings make it possible to: perform semantic search, group similar content t
 
 **Start Here:**
 - [What Are Word Embeddings?](https://www.youtube.com/watch?v=wgfSDrqYMJ4)
-- [Tokens vs Embeddings — What are they + How are they different?](https://www.youtube.com/watch?v=HFUUal-kYmQ)
+- [Tokens vs Embeddings — What are they + How are they different?](https://www.youtube.com/watch?v=izbifbq3-eI)
 
 After watching, you should be able to explain: how text is converted into vectors, how semantic similarity is calculated, how embeddings power search and clustering, and the trade-offs between keyword search and semantic search.
 
@@ -263,7 +263,7 @@ After watching, you should be able to explain: how text is converted into vector
 <summary><strong>Going Deeper</strong></summary>
 
 - [Getting Started With Embeddings](https://huggingface.co/blog/getting-started-with-embeddings)
-- [Semantic Search with FAISS](https://www.youtube.com/watch?v=Ghy_BBTYKKA)
+- [Semantic Search with FAISS](https://huggingface.co/learn/llm-course/en/chapter5/6)
 - [Understanding and Applying Text Embeddings](https://www.deeplearning.ai/short-courses/google-cloud-vertex-ai/)
 
 Use these to understand vector spaces and distance metrics, learn how embeddings are stored/retrieved using vector databases, explore common failure patterns (irrelevant retrieval, embedding mismatch, poor chunking), and evaluate when embeddings are the right tool.
@@ -343,16 +343,16 @@ Understanding guardrails means recognizing that AI systems are probabilistic and
 ### Guardrails — Study Resources
 
 **Start Here:**
-- [NVIDIA NeMo Guardrails: Full Walkthrough for Chatbots / AI](https://www.youtube.com/watch?v=wSCk_GHf9D4)
+- [NVIDIA NeMo Guardrails: Full Walkthrough for Chatbots / AI](https://www.youtube.com/watch?v=SwqusllMCnE)
 
 After watching, you should be able to explain: why AI systems require guardrails, the difference between built-in model safety and application-level safeguards, common AI risk areas, how prompt constraints reduce unsafe outputs, and the trade-offs between strict guardrails and system usability.
 
 <details>
 <summary><strong>Going Deeper</strong></summary>
 
-- [Build GuardRails For Your AI with Open-Source](https://www.youtube.com/watch?v=tS2S8F5-GKw)
+- [Build GuardRails For Your AI with Open-Source](https://cognitiveclass.ai/courses/build-guardrails-for-your-ai-with-open-source)
 - [What are AI guardrails?](https://www.ibm.com/think/topics/ai-guardrails)
-- [Safe and Reliable AI via Guardrails](https://www.deeplearning.ai/short-courses/safe-and-reliable-ai-via-guardrails-ai/)
+- [Safe and Reliable AI via Guardrails](https://www.deeplearning.ai/short-courses/safe-and-reliable-ai-via-guardrails/)
 
 Use these to expand your understanding of AI safety principles, learn how safety mechanisms work at different layers (model, prompt, application, governance), study real-world case studies of AI failures, and develop strategies for balancing usability and safety.
 
@@ -433,16 +433,16 @@ Understanding context windows means understanding that memory in LLMs is not per
 ### Context Windows — Study Resources
 
 **Start Here:**
-- [Stop Wasting Tokens: The Art of Context Engineering](https://www.youtube.com/watch?v=VgFkANGHxpQ)
+- [Stop Wasting Tokens: The Art of Context Engineering](https://www.youtube.com/watch?v=zMM5zqesL1g)
 
 After watching, you should be able to explain: what a context window is, what tokens are and how they relate to text length, why both input and output consume tokens, and how exceeding context limits degrades quality.
 
 <details>
 <summary><strong>Going Deeper</strong></summary>
 
-- [Advanced Prompt Engineering and Memory Management](https://www.youtube.com/watch?v=Wn0hFmCBXME)
-- [Thinking in Tokens: A Practical Guide to Context Engineering](https://www.youtube.com/watch?v=X3ADcVgEADI)
-- [Top techniques to Manage Context Lengths in LLMs](https://www.youtube.com/watch?v=cmJm0hn3M6I)
+- [Advanced Prompt Engineering and Memory Management](https://www.coursera.org/learn/packt-advanced-prompt-engineering-and-memory-management-0h7qa)
+- [Thinking in Tokens: A Practical Guide to Context Engineering](https://www.novusasi.com/blog/thinking-in-tokens-a-practical-guide-to-context-engineering#:~:text=API%20pricing%20is%20linear%20in,or%20headroom%20for%20new%20features)
+- [Top techniques to Manage Context Lengths in LLMs](https://agenta.ai/blog/top-6-techniques-to-manage-context-length-in-llms)
 
 Use these to expand your understanding of tokens and context limits, learn how context size impacts quality, cost, and reliability, explore why long conversations deteriorate over time, and understand trade-offs between keeping more history vs. staying focused.
 
@@ -533,8 +533,8 @@ After watching, you should be able to explain: the retrieve-then-generate patter
 <details>
 <summary><strong>Going Deeper</strong></summary>
 
-- [Retrieval Augmented Generation (RAG) Course](https://www.youtube.com/watch?v=WJ608flAoeM)
-- [Building a No-Code Chatbot with Docker and RAG: A Comprehensive Guide](https://www.docker.com/blog/building-a-no-code-chatbot-with-docker-and-rag/)
+- [Retrieval Augmented Generation (RAG) Course](https://www.deeplearning.ai/courses/retrieval-augmented-generation-rag/)
+- [Building a No-Code Chatbot with Docker and RAG: A Comprehensive Guide](https://glasp.co/hatch/paqjyrd9uxgkc3f9/p/2cmPLKAIEdXY9eH8AE9J)
 - [Build a RAG agent with LangChain](https://python.langchain.com/docs/tutorials/qa_chat_history/)
 
 Use these to learn how retrieval works in practice, understand chunking strategies and their impact on quality, explore common failure modes (irrelevant retrieval, missing key context, context overload, grounded but wrong answers from bad sources), and understand trade-offs between precision vs. recall, latency vs. depth, and simplicity vs. complexity.
@@ -617,16 +617,16 @@ Evaluation takes different forms:
 ### Evaluation — Study Resources
 
 **Start Here:**
-- [How to Evaluate (and Improve) Your LLM Apps](https://www.youtube.com/watch?v=_TZwFKMnVg0)
+- [How to Evaluate (and Improve) Your LLM Apps](https://www.youtube.com/watch?v=-sL7QzDFW-4)
 
 After watching, you should be able to explain: why evaluation is necessary for any AI system, the difference between quantitative metrics and human evaluation, why benchmarks and structured test cases matter, how to define what "good" means before measuring performance, and how evaluation supports iteration and continuous improvement.
 
 <details>
 <summary><strong>Going Deeper</strong></summary>
 
-- [Best Practices and Methods for LLM Evaluation](https://www.youtube.com/watch?v=mYRqvB77upE)
-- [LLM evaluation: a beginner's guide](https://mlflow.org/docs/latest/llms/llm-evaluate/index.html)
-- [LLM Evaluation with Opik](https://www.youtube.com/watch?v=d_jDBAi2kaY)
+- [Best Practices and Methods for LLM Evaluation](https://www.databricks.com/blog/best-practices-and-methods-llm-evaluation#:~:text=,agent%20LLM%20systems)
+- [LLM evaluation: a beginner's guide](https://www.evidentlyai.com/llm-guide/llm-evaluation)
+- [LLM Evaluation with Opik](https://www.comet.com/site/llm-course/)
 
 Use these to expand your understanding of evaluation methods, learn how to design test sets that reflect real user behavior, study common evaluation pitfalls (overfitting to a small test set, measuring the wrong thing, using metrics that don't match the use case), and understand trade-offs between evaluation depth vs. time cost, automated scoring vs. human judgment, and speed vs. reliability.
 
