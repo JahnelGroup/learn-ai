@@ -20,6 +20,24 @@ _**Notice:**_ _All AI-generated output must be treated as unvetted work requirin
 
 ---
 
+## Who This Is For
+
+This guide serves two audiences. Find yourself below and head straight to your starting point.
+
+:::tip For the learner
+**You want to level up your own AI skills**: understand how AI systems work, get more done with AI in your daily work, or both.
+
+Start with [Building AI Systems](/docs/building-ai-systems/) to understand and architect AI, or [AI Productivity](/docs/ai-productivity/) to work more effectively with AI today. Most people travel both.
+:::
+
+:::info For the program-builder
+**You want to stand up an AI upskilling program** inside your own organization: identify champions, design progressions, build assessment rubrics, and measure real adoption.
+
+Start with the [Upskilling Playbook Overview](/docs/upskilling-playbook/overview), which uses this very framework as the worked example.
+:::
+
+---
+
 ## What You'll Gain
 
 ### A Structured Mental Model
@@ -48,9 +66,9 @@ Every element connects to real work. You'll build things, not just study theory.
 
 ---
 
-## Two Tracks of AI Learning
+## Two Tracks + a Playbook
 
-This guide has two complementary tracks:
+This guide has two complementary learning tracks, plus a third pillar for those building a program.
 
 ### Building AI Systems (The Periodic Table & Learning Tiers)
 Understanding how AI works and building intelligent systems. This track covers:
@@ -76,6 +94,19 @@ These tracks reinforce each other:
 - **Same tools, different depths**: You might use Claude Code at Level 3 (Productivity) while studying how agents work (Practitioner tier)
 
 Most team members should progress on **both tracks simultaneously**, using AI more effectively while building deeper understanding.
+
+### Two Ladders, Different Axes
+
+The two tracks climb **two different ladders** — and conflating them is the most common source of confusion:
+
+- **Tiers measure building depth.** Foundation → Practitioner → Expert tracks how deeply you can *build* AI systems. This is the ladder for the Building AI Systems track.
+- **Levels measure usage depth.** Levels 1 → 5 track how deeply you *use* AI in your daily work. This is the ladder for the AI Productivity track.
+
+These are **different axes**, not steps on the same staircase. You can be an Expert-tier builder who works at Level 2 usage, or a Level 5 power-user who sits at Foundation tier. Where you land on one ladder says nothing about where you land on the other.
+
+### And a Third Pillar: The Playbook
+
+If you're not just learning but **building a program** — designing your own tiers and levels, writing assessment rubrics, and measuring adoption — the [Upskilling Playbook](/docs/upskilling-playbook/overview) is your starting point. It shows how this entire framework is designed, using our own program as the worked example.
 
 ---
 

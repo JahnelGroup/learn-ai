@@ -75,6 +75,20 @@ const sidebars = {
         'ai-productivity/by-role',
       ],
     },
+    {
+      type: 'category',
+      label: 'The Upskilling Playbook',
+      collapsed: false,
+      link: { type: 'doc', id: 'upskilling-playbook/overview' },
+      items: [
+        'upskilling-playbook/overview',
+        'upskilling-playbook/design-principles',
+        'upskilling-playbook/designing-tiers-levels',
+        'upskilling-playbook/building-rubrics',
+        'upskilling-playbook/measuring-adoption',
+        'upskilling-playbook/running-the-program',
+      ],
+    },
   ],
 };
 

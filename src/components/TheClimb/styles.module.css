@@ -1,0 +1,202 @@
+.container {
+  margin: 2rem 0;
+}
+
+/* The ascent: rungs stack bottom-to-top, each offset to the right. */
+.climb {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column-reverse;
+  gap: 1rem;
+}
+
+.rung {
+  /* Staircase offset: rung 1 (bottom) flush left, each higher rung indented. */
+  margin-left: calc(var(--rung-index) * 7%);
+  margin-right: calc((var(--rung-total) - 1 - var(--rung-index)) * 7%);
+  position: relative;
+}
+
+.rungInner {
+  position: relative;
+  padding: 1.1rem 1.25rem;
+  border-radius: 14px;
+  border: 2px solid var(--ifm-color-primary);
+  color: #fff;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.12);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  /* Primary-blue gradient that brightens as you climb. */
+  background: linear-gradient(
+    135deg,
+    var(--ifm-color-primary-darkest) 0%,
+    var(--ifm-color-primary) 100%
+  );
+  /* Lighten higher rungs to read as an ascent toward mastery. */
+  filter: brightness(calc(0.82 + var(--rung-index) * 0.09));
+}
+
+.rungInner:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 12px 28px rgba(0, 0, 0, 0.2);
+}
+
+/* Connector line linking each rung up to the next. */
+.rung:not(:first-child) .rungInner::before {
+  content: '';
+  position: absolute;
+  left: -1px;
+  bottom: 100%;
+  width: 3px;
+  height: 1rem;
+  background: var(--ifm-color-primary);
+  opacity: 0.5;
+}
+
+.rungHeader {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  margin-bottom: 0.4rem;
+}
+
+.rungNumber {
+  flex-shrink: 0;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.2);
+  border: 1px solid rgba(255, 255, 255, 0.6);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  font-size: 0.95rem;
+}
+
+.rungName {
+  font-weight: 700;
+  font-size: 1.15rem;
+  line-height: 1.2;
+}
+
+.rungQuestion {
+  margin: 0 0 0.75rem;
+  font-size: 0.9rem;
+  opacity: 0.92;
+  font-style: italic;
+}
+
+.signalTrap {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0.6rem;
+}
+
+.cell {
+  display: flex;
+  flex-direction: column;
+  gap: 0.2rem;
+  padding: 0.6rem 0.7rem;
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.94);
+}
+
+.cellLabel {
+  font-size: 0.68rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+}
+
+.cellText {
+  font-size: 0.85rem;
+  line-height: 1.35;
+  color: #1a2733;
+}
+
+.signal {
+  border-left: 4px solid var(--color-validation, #27ae60);
+}
+
+.signal .cellLabel {
+  color: #1e8449;
+}
+
+.trap {
+  border-left: 4px solid var(--color-reactive, #e74c3c);
+}
+
+.trap .cellLabel {
+  color: #c0392b;
+}
+
+.caption {
+  margin: 1.5rem 0 0;
+  text-align: center;
+  font-weight: 600;
+  font-size: 0.95rem;
+  color: var(--ifm-color-primary-dark);
+}
+
+/* Dark mode: keep the blue gradient, adjust signal/trap cards and caption. */
+:global([data-theme='dark']) .rungInner {
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.4);
+}
+
+:global([data-theme='dark']) .cell {
+  background: rgba(255, 255, 255, 0.92);
+}
+
+:global([data-theme='dark']) .caption {
+  color: var(--ifm-color-primary-light);
+}
+
+/* Tablet: ease the staircase offset so cards keep their width. */
+@media (max-width: 768px) {
+  .rung {
+    margin-left: calc(var(--rung-index) * 4%);
+    margin-right: 0;
+  }
+
+  .rungName {
+    font-size: 1.05rem;
+  }
+}
+
+/* Phone: collapse to a clean vertical stack, drop the offset and the
+   descriptive question sublabel, keep short rung names + signal/trap. */
+@media (max-width: 480px) {
+  .climb {
+    gap: 0.85rem;
+  }
+
+  .rung {
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .rungInner {
+    padding: 0.9rem 1rem;
+    /* Flatten the brightness ramp so every rung stays legible. */
+    filter: brightness(calc(0.9 + var(--rung-index) * 0.05));
+  }
+
+  .rungQuestion {
+    display: none;
+  }
+
+  .signalTrap {
+    grid-template-columns: 1fr;
+    gap: 0.5rem;
+  }
+
+  .rungName {
+    font-size: 1rem;
+  }
+
+  .cellText {
+    font-size: 0.82rem;
+  }
+}

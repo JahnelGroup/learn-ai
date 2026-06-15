@@ -24,16 +24,45 @@ function HomepageHeader() {
           <Link
             className="button button--secondary button--lg"
             to="/docs/intro">
-            Start Your Journey
+            Start Learning
           </Link>
           <Link
             className="button button--outline button--secondary button--lg"
-            to="/docs/building-ai-systems/periodic-table">
-            Explore the Periodic Table
+            to="/docs/upskilling-playbook/overview">
+            Build a Program
           </Link>
         </div>
       </div>
     </header>
+  );
+}
+
+function AudienceRouter() {
+  return (
+    <section className={styles.routerSection}>
+      <div className="container">
+        <div className={styles.routerGrid}>
+          <Link to="/docs/building-ai-systems/" className={clsx(styles.routerDoor, styles.routerDoorLearn)}>
+            <span className={styles.routerIcon} aria-hidden="true">🎓</span>
+            <Heading as="h2" className={styles.routerTitle}>Learn AI</Heading>
+            <p className={styles.routerDescription}>
+              You want to level up your own AI skills. Start with the framework,
+              find where you are, and work through the pillars at your own pace.
+            </p>
+            <span className={styles.routerLink}>Explore the learning path →</span>
+          </Link>
+          <Link to="/docs/upskilling-playbook/overview" className={clsx(styles.routerDoor, styles.routerDoorBuild)}>
+            <span className={styles.routerIcon} aria-hidden="true">🏗️</span>
+            <Heading as="h2" className={styles.routerTitle}>Build a Program</Heading>
+            <p className={styles.routerDescription}>
+              You lead a team and want to upskill them. The Playbook shows you how
+              to design tiers, build rubrics, and measure adoption, using ours as the worked example.
+            </p>
+            <span className={styles.routerLink}>Open the Playbook →</span>
+          </Link>
+        </div>
+      </div>
+    </section>
   );
 }
 
@@ -49,6 +78,7 @@ function BuildingAISection() {
   return (
     <section className={styles.buildingAISection}>
       <div className="container">
+        <p className={styles.eyebrow}>For Learners</p>
         <div className={styles.cardsContainer}>
           {/* Building AI Systems Card */}
           <div className={styles.card}>
@@ -195,24 +225,85 @@ function LearningTiers() {
   );
 }
 
+function PlaybookTeaser() {
+  const cards = [
+    {
+      title: 'Design tiers',
+      description:
+        'Define the milestones that take a team from curious to capable—and the levels within each.',
+      path: '/docs/upskilling-playbook/designing-tiers-levels',
+    },
+    {
+      title: 'Build rubrics',
+      description:
+        'Turn fuzzy "is someone good at AI?" questions into clear, assessable criteria people trust.',
+      path: '/docs/upskilling-playbook/building-rubrics',
+    },
+    {
+      title: 'Measure with The Climb',
+      description:
+        'Track real adoption over time with a model that captures progress, not just activity.',
+      path: '/docs/upskilling-playbook/measuring-adoption',
+    },
+  ];
+
+  return (
+    <section className={styles.teaserSection}>
+      <div className="container">
+        <p className={styles.eyebrow}>For Program Builders</p>
+        <Heading as="h2" className={styles.sectionTitle}>
+          The Upskilling Playbook
+        </Heading>
+        <p className={styles.sectionSubtitle}>
+          Leading a team? Here's how to build your own AI upskilling program, using ours as the worked example.
+        </p>
+        <div className={styles.teaserGrid}>
+          {cards.map((card, idx) => (
+            <Link key={idx} to={card.path} className={styles.teaserCard}>
+              <Heading as="h3">{card.title}</Heading>
+              <p>{card.description}</p>
+              <span className={styles.teaserLink}>Read more →</span>
+            </Link>
+          ))}
+        </div>
+        <div className={styles.tiersCta}>
+          <Link
+            className="button button--primary button--lg"
+            to="/docs/upskilling-playbook/overview">
+            Open the Playbook
+          </Link>
+        </div>
+      </div>
+    </section>
+  );
+}
+
 function CallToAction() {
   return (
     <section className={styles.ctaSection}>
       <div className="container">
-        <Heading as="h2">Learning AI Starts With You</Heading>
+        <Heading as="h2">Wherever You're Starting, Start Here</Heading>
         <p>
-          Every expert was once a beginner. Every complex system is built from simple elements.
+          Sharpening your own AI skills? Read the periodic table, find where you are, and take the next step.
         </p>
         <p>
-          Read the periodic table, identify where you are, and take the next step.
+          Building a program for your team? The Playbook hands you the whole framework to take and run with.
         </p>
         <div className={styles.buttons}>
           <Link
             className="button button--primary button--lg"
             to="/docs/building-ai-systems/">
-            Get Started
+            Start Learning
+          </Link>
+          <Link
+            className="button button--outline button--primary button--lg"
+            to="/docs/upskilling-playbook/overview">
+            Build a Program
           </Link>
         </div>
+        <p className={styles.ctaSoft}>
+          Putting it into practice is real work. If you'd rather not do it alone, <a href="https://jahnelgroup.com" target="_blank" rel="noopener noreferrer">Jahnel Group</a> can help.
+        </p>
       </div>
     </section>
   );
@@ -226,9 +317,11 @@ export default function Home() {
       description="Learn AI - Your guide to mastering AI at Jahnel Group">
       <HomepageHeader />
       <main>
+        <AudienceRouter />
         <BuildingAISection />
         <WhatYoullGain />
         <LearningTiers />
+        <PlaybookTeaser />
         <CallToAction />
       </main>
     </Layout>

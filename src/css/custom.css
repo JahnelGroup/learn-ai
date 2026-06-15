@@ -269,6 +269,24 @@
   opacity: 0.8;
 }
 
+/* Wide-table wrapper — contained horizontal scroll on narrow screens so large
+   rubric tables stay readable without pinch-zoom. */
+.table-scroll {
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  margin: 1rem 0;
+}
+
+.table-scroll > table {
+  margin-bottom: 0;
+}
+
+@media (max-width: 768px) {
+  .table-scroll > table {
+    min-width: 640px;
+  }
+}
+
 /* Responsive adjustments */
 @media (max-width: 768px) {
   .periodic-table {

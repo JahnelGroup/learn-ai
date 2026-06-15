@@ -1,0 +1,195 @@
+.container {
+  margin: 2rem 0;
+}
+
+/* Ladder list */
+.ladder {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+/* Rung */
+.rung {
+  /* Desktop staircase: each rung is indented further than the last and
+     narrower so the three rungs read as an ascending climb. */
+  margin-left: calc(var(--rung-index) * 8%);
+  width: calc(100% - var(--rung-index) * 8%);
+  border-radius: 12px;
+  border: 2px solid transparent;
+  border-left-width: 6px;
+  background: var(--ifm-background-surface-color);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.rung:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
+}
+
+.rungInner {
+  padding: 1.1rem 1.25rem;
+}
+
+.rungHeader {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.rungStep {
+  flex-shrink: 0;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  font-size: 1rem;
+  color: #fff;
+}
+
+.rungName {
+  font-weight: 700;
+  font-size: 1.15rem;
+  letter-spacing: 0.04em;
+}
+
+.rungTagline {
+  display: inline-block;
+  margin-top: 0.4rem;
+  font-size: 0.85rem;
+  font-weight: 600;
+  opacity: 0.85;
+}
+
+.rungDescription {
+  margin: 0.5rem 0 0;
+  font-size: 0.92rem;
+  line-height: 1.5;
+  color: var(--ifm-color-emphasis-700);
+}
+
+/* Tier palette (matches custom.css tier tokens) */
+.rungFoundation {
+  border-color: #27ae60;
+  background: linear-gradient(135deg, #e8f6f3 0%, #d1f2eb 100%);
+}
+.rungFoundation .rungName,
+.rungFoundation .rungTagline {
+  color: #1e8449;
+}
+.rungFoundation .rungStep {
+  background: #27ae60;
+}
+
+.rungPractitioner {
+  border-color: #3498db;
+  background: linear-gradient(135deg, #ebf5fb 0%, #d6eaf8 100%);
+}
+.rungPractitioner .rungName,
+.rungPractitioner .rungTagline {
+  color: #2874a6;
+}
+.rungPractitioner .rungStep {
+  background: #3498db;
+}
+
+.rungExpert {
+  border-color: #9b59b6;
+  background: linear-gradient(135deg, #f5eef8 0%, #e8daef 100%);
+}
+.rungExpert .rungName,
+.rungExpert .rungTagline {
+  color: #7d3c98;
+}
+.rungExpert .rungStep {
+  background: #9b59b6;
+}
+
+/* Dark mode */
+:global([data-theme='dark']) .rung {
+  background: var(--ifm-background-surface-color);
+}
+
+:global([data-theme='dark']) .rungFoundation {
+  background: linear-gradient(135deg, rgba(39, 174, 96, 0.1) 0%, rgba(39, 174, 96, 0.2) 100%);
+}
+:global([data-theme='dark']) .rungFoundation .rungName,
+:global([data-theme='dark']) .rungFoundation .rungTagline {
+  color: #58d68d;
+}
+
+:global([data-theme='dark']) .rungPractitioner {
+  background: linear-gradient(135deg, rgba(52, 152, 219, 0.1) 0%, rgba(52, 152, 219, 0.2) 100%);
+}
+:global([data-theme='dark']) .rungPractitioner .rungName,
+:global([data-theme='dark']) .rungPractitioner .rungTagline {
+  color: #5dade2;
+}
+
+:global([data-theme='dark']) .rungExpert {
+  background: linear-gradient(135deg, rgba(155, 89, 182, 0.1) 0%, rgba(155, 89, 182, 0.2) 100%);
+}
+:global([data-theme='dark']) .rungExpert .rungName,
+:global([data-theme='dark']) .rungExpert .rungTagline {
+  color: #bb8fce;
+}
+
+:global([data-theme='dark']) .rungDescription {
+  color: var(--ifm-color-emphasis-800);
+}
+
+/* Responsive - Tablet: gentler stagger so wide text still fits */
+@media (max-width: 996px) {
+  .rung {
+    margin-left: calc(var(--rung-index) * 5%);
+    width: calc(100% - var(--rung-index) * 5%);
+  }
+}
+
+/* Responsive - Collapse staircase to a clean vertical stack */
+@media (max-width: 768px) {
+  .rung {
+    margin-left: 0;
+    width: 100%;
+  }
+
+  .rungInner {
+    padding: 1rem 1.1rem;
+  }
+
+  .rungName {
+    font-size: 1.05rem;
+  }
+}
+
+/* Responsive - Phone: drop the longer descriptive sublabel, keep short
+   rung names + taglines (mirrors the periodic-table abbreviation approach). */
+@media (max-width: 480px) {
+  .ladder {
+    gap: 0.75rem;
+  }
+
+  .rungInner {
+    padding: 0.85rem 1rem;
+  }
+
+  .rungDescription {
+    display: none;
+  }
+
+  .rungStep {
+    width: 28px;
+    height: 28px;
+    font-size: 0.9rem;
+  }
+
+  .rungName {
+    font-size: 1rem;
+  }
+}

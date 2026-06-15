@@ -19,7 +19,7 @@ A conversational guide for preparing for the Foundation tier assessment. This pl
 
 ## How This Works
 
-The Foundation assessment is a **conversation, not a written test**. You'll discuss concepts with a Practitioner or Expert, walk through real examples, and demonstrate that you can reason about AI — not just recite definitions.
+The Foundation assessment is a **conversation, not a written test**. You'll discuss concepts with a Practitioner or Expert, walk through real examples, and demonstrate that you can reason about AI, not just recite definitions.
 
 For each of the 7 elements below, you should be able to:
 1. Explain the concept clearly in your own words
@@ -60,16 +60,16 @@ Before scheduling your assessment:
 
 ### Prompt — What Is It?
 
-A good prompt engineer knows how to give instructions in a way that is easy for the AI to understand — organizing the request clearly, avoiding confusion, and being specific about what is expected.
+A good prompt engineer knows how to give instructions in a way that is easy for the AI to understand: organizing the request clearly, avoiding confusion, and being specific about what is expected.
 
 They also know how to improve a prompt when the first answer is not ideal. Instead of accepting a weak result, they analyze what went wrong and rewrite the prompt to guide the model better.
 
 Key prompting techniques to understand:
 
-- **Zero-shot** — Give the AI a task with no examples; it relies on general knowledge
-- **Few-shot** — Provide examples in the prompt to show the format/style you want
-- **Chain-of-thought** — Ask the model to reason step by step before answering
-- **Role-based** — Assign a persona (e.g., "act as a senior recruiter") to guide tone and priorities
+- **Zero-shot:** Give the AI a task with no examples; it relies on general knowledge
+- **Few-shot:** Provide examples in the prompt to show the format/style you want
+- **Chain-of-thought:** Ask the model to reason step by step before answering
+- **Role-based:** Assign a persona (e.g., "act as a senior recruiter") to guide tone and priorities
 
 :::tip What We Expect
 1. You can identify the structure (role, context, format, task, constraints) within a prompt
@@ -78,7 +78,7 @@ Key prompting techniques to understand:
 4. You can use real examples to demonstrate your understanding, not just explain theory
 :::
 
-### Prompt — Study Resources
+### Prompt: Study Resources
 
 **Start Here:**
 - [The ADVANCED 2026 Guide to Prompt Engineering — Master the Perfect Prompt](https://www.youtube.com/watch?v=T9aRN5JkmL8)
@@ -103,13 +103,13 @@ Use these to expand your understanding of prompt design principles, study struct
 4. Not understanding why prompt structure matters or how it directly impacts output quality
 :::
 
-### Prompt — Practice
+### Prompt: Practice
 
 **Hands-On Activity:** Choose a vague instruction (e.g., "Write a project summary," "Fix this code," "Create interview questions"). Then:
 1. Rewrite it using a clear role, context, constraints, and desired output format
 2. Generate the output
 3. Refine the prompt at least twice, improving clarity and structure each time
-4. Compare the results — what changed, why did the output improve, which techniques did you apply?
+4. Compare the results: what changed, why did the output improve, which techniques did you apply?
 
 **Mini Challenge:**
 
@@ -132,9 +132,9 @@ Apply structured prompting to something you are currently working on. Examples: 
 Before using AI: define your objective, audience, constraints, and output format.
 
 After using AI:
-1. Evaluate the result — how did you diagnose any issues?
+1. Evaluate the result. How did you diagnose any issues?
 2. Refine the prompt strategically (not randomly)
-3. Document what worked — what changed in your revised prompt?
+3. Document what worked. What changed in your revised prompt?
 
 </details>
 
@@ -153,19 +153,19 @@ After using AI:
 
 ### LLMs — What Is It?
 
-Large Language Models (LLMs) are the core reasoning engines behind modern AI tools — ChatGPT, Claude, Gemini, Llama, and others. They are trained on massive amounts of text data and learn patterns in language, reasoning, and structure.
+Large Language Models (LLMs) are the core reasoning engines behind modern AI tools such as ChatGPT, Claude, Gemini, and Llama. They are trained on massive amounts of text data and learn patterns in language, reasoning, and structure.
 
 An LLM does not "think" or "know" things in a human way. It predicts the most likely next word based on patterns learned during training. When properly prompted, this prediction ability can simulate reasoning, summarization, coding, analysis, and more.
 
 :::tip What We Expect
-1. You can explain what an LLM is at a high level — it generates text by predicting patterns, not by retrieving facts
-2. You understand core capabilities and limitations — what LLMs are strong at (drafting, summarizing, transformation) and where they struggle (guaranteed accuracy, real-time data, complex reasoning without structure)
+1. You can explain what an LLM is at a high level: it generates text by predicting patterns, not by retrieving facts
+2. You understand core capabilities and limitations, including what LLMs are strong at (drafting, summarizing, transformation) and where they struggle (guaranteed accuracy, real-time data, complex reasoning without structure)
 3. You recognize hallucination risks and understand that confident-sounding outputs are not automatically correct
 4. You understand training data limitations, including knowledge cutoffs and the absence of real-time awareness
 5. You can use real examples to demonstrate this understanding
 :::
 
-### LLMs — Study Resources
+### LLMs: Study Resources
 
 **Start Here:**
 - [How Large Language Models Work](https://www.youtube.com/watch?v=5sLYAQS9sWQ)
@@ -186,18 +186,18 @@ Use these to learn about model architecture at a high level (tokens, probability
 </details>
 
 :::warning Common Gaps
-1. **Pattern-based Understanding:** "The model gives answers because it knows the facts." — LLMs generate text by predicting tokens based on learned patterns, not retrieving facts.
-2. **Hallucination Awareness:** "If the model sounds confident, the answer is probably correct." — Confidence in tone does not equal correctness.
-3. **Capability Boundaries:** "The model is intelligent, so it should handle any task equally well." — LLMs have specific strengths and weaknesses.
-4. **Data Awareness:** "The model always knows the latest information." — LLMs have a knowledge cutoff and no built-in real-time awareness.
-5. **Prompting Sensitivity:** "If the output isn't good, the model just isn't capable." — Output quality is directly influenced by prompt clarity and structure.
+1. **Pattern-based Understanding:** "The model gives answers because it knows the facts." In reality, LLMs generate text by predicting tokens based on learned patterns, not retrieving facts.
+2. **Hallucination Awareness:** "If the model sounds confident, the answer is probably correct." Confidence in tone does not equal correctness.
+3. **Capability Boundaries:** "The model is intelligent, so it should handle any task equally well." In fact, LLMs have specific strengths and weaknesses.
+4. **Data Awareness:** "The model always knows the latest information." LLMs have a knowledge cutoff and no built-in real-time awareness.
+5. **Prompting Sensitivity:** "If the output isn't good, the model just isn't capable." Output quality is directly influenced by prompt clarity and structure.
 :::
 
-### LLMs — Practice
+### LLMs: Practice
 
 **Hands-On Activity:** Pick a real task you would normally use an LLM for (e.g., summarizing documentation, reviewing code). Then:
-1. Describe how an LLM processes your input at a high level — what is it actually doing? What role does probability play?
-2. Run the same prompt twice and compare outputs — what changed? What does this tell you about stochastic generation?
+1. Describe how an LLM processes your input at a high level. What is it actually doing? What role does probability play?
+2. Run the same prompt twice and compare outputs. What changed? What does this tell you about stochastic generation?
 3. Modify the prompt and observe how output variability changes
 
 **Mini Challenge:**
@@ -238,7 +238,7 @@ Document: where the model could fail, what guardrails you would implement, and h
 
 Embeddings are about representing meaning as numbers. Instead of treating text as just words or keywords, embeddings convert text into numerical vectors (lists of numbers) that capture semantic meaning. This allows systems to compare ideas based on meaning, not just exact word matches.
 
-For example, *"How do I reset my password?"* and *"I forgot my login credentials"* don't share many keywords, but an embedding model converts them into vectors that are close together in mathematical space — because they mean something very similar.
+For example, *"How do I reset my password?"* and *"I forgot my login credentials"* don't share many keywords, but an embedding model converts them into vectors that are close together in mathematical space, because they mean something very similar.
 
 Embeddings make it possible to: perform semantic search, group similar content together, power recommendation systems, enable RAG, and improve classification systems.
 
@@ -251,7 +251,7 @@ Embeddings make it possible to: perform semantic search, group similar content t
 6. Retrieval quality depends heavily on the embedding model and how content is chunked
 :::
 
-### Embeddings — Study Resources
+### Embeddings: Study Resources
 
 **Start Here:**
 - [What Are Word Embeddings?](https://www.youtube.com/watch?v=wgfSDrqYMJ4)
@@ -277,7 +277,7 @@ Use these to understand vector spaces and distance metrics, learn how embeddings
 4. Not understanding how similarity metrics (e.g., cosine similarity) determine results
 :::
 
-### Embeddings — Practice
+### Embeddings: Practice
 
 **Hands-On Activity:** Choose a small set of 10-20 short text samples (e.g., product descriptions, support tickets, Slack messages). Then:
 1. Generate embeddings for each text (using any embedding API or tool)
@@ -331,7 +331,7 @@ Guardrails refer to the policies, technical controls, and design decisions that 
 - Enforcing ethical and organizational standards
 - Controlling how AI is used in real workflows
 
-Understanding guardrails means recognizing that AI systems are probabilistic and can generate unintended outputs. A strong AI practitioner does not assume the model will "self-regulate" — they intentionally design workflows that anticipate failure modes and reduce risk.
+Understanding guardrails means recognizing that AI systems are probabilistic and can generate unintended outputs. A strong AI practitioner does not assume the model will "self-regulate." Instead, they intentionally design workflows that anticipate failure modes and reduce risk.
 
 :::tip What We Expect
 1. Understand what AI guardrails are and why they are necessary
@@ -340,7 +340,7 @@ Understanding guardrails means recognizing that AI systems are probabilistic and
 4. Understand that safety is a shared responsibility between the model, the prompt designer, the application layer, and the organization
 :::
 
-### Guardrails — Study Resources
+### Guardrails: Study Resources
 
 **Start Here:**
 - [NVIDIA NeMo Guardrails: Full Walkthrough for Chatbots / AI](https://www.youtube.com/watch?v=SwqusllMCnE)
@@ -365,7 +365,7 @@ Use these to expand your understanding of AI safety principles, learn how safety
 4. Over-relying on automation without implementing validation or human review
 :::
 
-### Guardrails — Practice
+### Guardrails: Practice
 
 **Hands-On Activity:** Choose a realistic AI use case (e.g., internal chatbot, code assistant, documentation generator). Then:
 1. Identify at least 3 potential risks in that system (harmful output, hallucinated information, sensitive data exposure, bias)
@@ -411,7 +411,7 @@ For one of these:
 
 ### Context Windows — What Is It?
 
-A context window defines how much information an AI model can process in a single interaction. Tokens are pieces of text (words, subwords, or characters) that the model reads and uses to generate a response. Every message — system instructions, user input, and previous responses — consumes tokens.
+A context window defines how much information an AI model can process in a single interaction. Tokens are pieces of text (words, subwords, or characters) that the model reads and uses to generate a response. Every message (system instructions, user input, and previous responses) consumes tokens.
 
 When the total token count exceeds the model's context window:
 - Older messages may be truncated
@@ -419,7 +419,7 @@ When the total token count exceeds the model's context window:
 - The model may "forget" earlier parts of the conversation
 - Responses may degrade in quality or coherence
 
-Understanding context windows means understanding that memory in LLMs is not persistent — it exists only within the current token window. Longer conversations increase token consumption, and prompts, instructions, and examples all compete for limited space.
+Understanding context windows means understanding that memory in LLMs is not persistent. It exists only within the current token window. Longer conversations increase token consumption, and prompts, instructions, and examples all compete for limited space.
 
 :::tip What We Expect
 - Understand what tokens are and how text is converted into tokens
@@ -430,7 +430,7 @@ Understanding context windows means understanding that memory in LLMs is not per
 - Understand that context limits affect both quality and cost
 :::
 
-### Context Windows — Study Resources
+### Context Windows: Study Resources
 
 **Start Here:**
 - [Stop Wasting Tokens: The Art of Context Engineering](https://www.youtube.com/watch?v=zMM5zqesL1g)
@@ -455,7 +455,7 @@ Use these to expand your understanding of tokens and context limits, learn how c
 4. Misinterpreting degraded responses as intelligence issues instead of context overflow
 :::
 
-### Context Windows — Practice
+### Context Windows: Practice
 
 **Hands-On Activity:** Choose one of the following: a long document (10+ pages), a long chat conversation, or a multi-step reasoning prompt. Then:
 1. Estimate how many tokens the input might consume
@@ -522,7 +522,7 @@ The key idea is **grounding**. Without retrieval, an LLM may hallucinate or prov
 - Understand that RAG does not eliminate hallucination completely — it reduces risk when retrieval is done correctly
 :::
 
-### RAG — Study Resources
+### RAG: Study Resources
 
 **Start Here:**
 - [Learn RAG From Scratch — Python AI Tutorial from a LangChain Engineer](https://www.youtube.com/watch?v=sVcwVQRHIc8)
@@ -548,7 +548,7 @@ Use these to learn how retrieval works in practice, understand chunking strategi
 4. Treating hallucination as purely a generation issue instead of sometimes a retrieval failure
 :::
 
-### RAG — Practice
+### RAG: Practice
 
 **Hands-On Activity:** Pick a realistic use case (e.g., "internal policy assistant" or "customer support FAQ bot"). Describe the RAG flow in your own words:
 1. What kind of data would be stored in the knowledge source?
@@ -602,19 +602,19 @@ Evaluation is how we measure whether an AI system is actually working. It answer
 Evaluation is not just about checking correctness. It is about detecting failure patterns, identifying hallucination, comparing approaches, measuring trade-offs, and improving system reliability. Without evaluation, teams rely on intuition. With evaluation, teams rely on evidence.
 
 Evaluation takes different forms:
-- **Quantitative Metrics** — Accuracy, precision/recall, similarity scores, latency, error rates. Useful when tasks have clear expected outcomes.
-- **Benchmarks** — Predefined datasets or scenarios used to compare performance across model versions, prompt variations, RAG pipeline changes, or guardrail adjustments.
-- **Human Evaluation** — Assessing clarity, helpfulness, tone, logical reasoning, safety, and appropriateness. Essential when subjective judgment matters.
+- **Quantitative Metrics:** Accuracy, precision/recall, similarity scores, latency, error rates. Useful when tasks have clear expected outcomes.
+- **Benchmarks:** Predefined datasets or scenarios used to compare performance across model versions, prompt variations, RAG pipeline changes, or guardrail adjustments.
+- **Human Evaluation:** Assessing clarity, helpfulness, tone, logical reasoning, safety, and appropriateness. Essential when subjective judgment matters.
 
 :::tip What We Expect
-- Understand that AI systems must be evaluated intentionally — not assumed to be correct
+- Understand that AI systems must be evaluated intentionally, not assumed to be correct
 - Explain why "it looks good to me" is not a reliable evaluation method
 - Recognize different types of evaluation: quantitative metrics, structured test cases, human review
 - Understand that evaluation criteria must align with the system's purpose
 - Recognize that improving prompts, RAG pipelines, or guardrails requires measurable feedback
 :::
 
-### Evaluation — Study Resources
+### Evaluation: Study Resources
 
 **Start Here:**
 - [How to Evaluate (and Improve) Your LLM Apps](https://www.youtube.com/watch?v=-sL7QzDFW-4)
@@ -639,12 +639,12 @@ Use these to expand your understanding of evaluation methods, learn how to desig
 4. Measuring the wrong metrics for the intended use case
 :::
 
-### Evaluation — Practice
+### Evaluation: Practice
 
 **Hands-On Activity:** Choose a simple AI use case (e.g., FAQ assistant, document summarizer, resume screener). Then:
 1. Define what "good output" means for this system (accuracy? relevance? tone? speed? grounded answers?)
 2. Define 3 measurable criteria for success (e.g., "Answer must reference source," "Summary must include key points," "Response must not introduce unsupported claims")
-3. Describe how you would compare Version A (current system) vs. Version B (improved prompt or pipeline) — use criteria, not intuition
+3. Describe how you would compare Version A (current system) vs. Version B (improved prompt or pipeline), using criteria, not intuition
 
 **Mini Challenge:**
 

@@ -131,11 +131,11 @@ User Query → Embed → Search Knowledge Store → Retrieve Docs
 Retrieved Docs + Query → Augmented Prompt → LLM → Grounded Response
 ```
 
-The knowledge store can be many things — vector databases are the most common choice, but not the only one. Options include:
-- **Vector databases** (Pinecone, Chroma, Qdrant, pgvector) — semantic similarity search over embeddings
-- **Traditional databases** (PostgreSQL full-text search, Elasticsearch) — keyword or hybrid search
-- **Graph databases** (Neo4j, Amazon Neptune) — relationship-rich data and GraphRAG patterns
-- **Hybrid approaches** — combine multiple backends to maximize retrieval quality
+The knowledge store can be many things. Vector databases are the most common choice, but not the only one. Options include:
+- **Vector databases** (Pinecone, Chroma, Qdrant, pgvector): semantic similarity search over embeddings
+- **Traditional databases** (PostgreSQL full-text search, Elasticsearch): keyword or hybrid search
+- **Graph databases** (Neo4j, Amazon Neptune): relationship-rich data and GraphRAG patterns
+- **Hybrid approaches**: combine multiple backends to maximize retrieval quality
 
 ### Key Components
 

@@ -1,0 +1,250 @@
+.container {
+  margin: 2rem 0;
+}
+
+/* Two side-by-side ladders */
+.laddersGrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.5rem;
+  align-items: start;
+}
+
+/* Each ladder */
+.ladder {
+  display: flex;
+  flex-direction: column;
+  padding: 1.25rem 1.25rem 1rem;
+  background: var(--ifm-background-surface-color);
+  border: 2px solid var(--ifm-color-emphasis-200);
+  border-radius: 12px;
+}
+
+.ladderHeader {
+  margin-bottom: 1rem;
+  padding-bottom: 0.75rem;
+  border-bottom: 2px solid var(--ifm-color-emphasis-200);
+}
+
+.axisLabel {
+  font-weight: 700;
+  font-size: 1.15rem;
+  color: var(--ifm-font-color-base);
+}
+
+.axisQuestion {
+  font-size: 0.9rem;
+  color: var(--ifm-color-emphasis-600);
+  margin-top: 0.25rem;
+  font-style: italic;
+}
+
+/* Build ladder accent (JG blue) */
+.buildLadder {
+  border-color: var(--ifm-color-primary);
+}
+
+.buildLadder .ladderHeader {
+  border-bottom-color: var(--ifm-color-primary);
+}
+
+.buildLadder .axisLabel {
+  color: var(--ifm-color-primary-dark);
+}
+
+/* Usage ladder accent (orchestration blue from family palette, distinct hue) */
+.usageLadder {
+  border-color: var(--color-orchestration);
+}
+
+.usageLadder .ladderHeader {
+  border-bottom-color: var(--color-orchestration);
+}
+
+.usageLadder .axisLabel {
+  color: var(--color-orchestration);
+}
+
+/* Rungs stack bottom-to-top visually (rung 1 rendered last in source = bottom) */
+.rungs {
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+}
+
+.rung {
+  display: flex;
+  align-items: center;
+  padding: 0.75rem 0.9rem;
+  background: var(--ifm-background-surface-color);
+  border: 2px solid var(--ifm-color-emphasis-200);
+  border-radius: 10px;
+  transition: all 0.2s ease;
+}
+
+.rung:hover {
+  transform: translateX(4px);
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.12);
+  border-color: var(--ifm-color-primary);
+}
+
+.rungNumber {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  background: var(--ifm-color-emphasis-200);
+  color: var(--ifm-color-emphasis-700);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  font-size: 1rem;
+  margin-right: 0.85rem;
+  flex-shrink: 0;
+}
+
+.rungBody {
+  display: flex;
+  flex-direction: column;
+}
+
+.rungName {
+  font-weight: 600;
+  font-size: 1.05rem;
+  color: var(--ifm-font-color-base);
+}
+
+.rungDescription {
+  font-size: 0.85rem;
+  color: var(--ifm-color-emphasis-600);
+  line-height: 1.35;
+}
+
+/* Usage ladder rung numbers carry the orchestration accent */
+.usageLadder .rung:hover {
+  border-color: var(--color-orchestration);
+}
+
+.usageLadder .rungNumber {
+  background: rgba(52, 152, 219, 0.15);
+  color: #2874a6;
+}
+
+/* Tier-colored rungs (Foundation green / Practitioner blue / Expert purple) */
+.tier_foundation .rungNumber {
+  background: var(--color-validation-light);
+  color: #1e8449;
+}
+
+.tier_practitioner .rungNumber {
+  background: var(--color-orchestration-light);
+  color: #2874a6;
+}
+
+.tier_expert .rungNumber {
+  background: var(--color-models-light);
+  color: #7d3c98;
+}
+
+/* Direction-of-depth label under each ladder */
+.depthLabel {
+  margin-top: 0.85rem;
+  font-size: 0.8rem;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  color: var(--ifm-color-emphasis-600);
+  text-align: center;
+}
+
+/* Caption beneath both ladders */
+.caption {
+  margin: 1.5rem 0 0;
+  text-align: center;
+  font-size: 0.95rem;
+  color: var(--ifm-color-emphasis-700);
+}
+
+/* ----- Dark mode ----- */
+:global([data-theme='dark']) .ladder {
+  background: var(--ifm-background-surface-color);
+  border-color: var(--ifm-color-emphasis-400);
+}
+
+:global([data-theme='dark']) .ladderHeader {
+  border-bottom-color: var(--ifm-color-emphasis-400);
+}
+
+:global([data-theme='dark']) .buildLadder {
+  border-color: var(--ifm-color-primary);
+}
+
+:global([data-theme='dark']) .buildLadder .axisLabel {
+  color: var(--ifm-color-primary-light);
+}
+
+:global([data-theme='dark']) .usageLadder {
+  border-color: var(--color-orchestration);
+}
+
+:global([data-theme='dark']) .rung {
+  background: var(--ifm-background-surface-color);
+  border-color: var(--ifm-color-emphasis-400);
+}
+
+:global([data-theme='dark']) .usageLadder .rungNumber {
+  background: rgba(52, 152, 219, 0.25);
+  color: #5dade2;
+}
+
+:global([data-theme='dark']) .tier_foundation .rungNumber {
+  background: rgba(39, 174, 96, 0.25);
+  color: #2ecc71;
+}
+
+:global([data-theme='dark']) .tier_practitioner .rungNumber {
+  background: rgba(52, 152, 219, 0.25);
+  color: #5dade2;
+}
+
+:global([data-theme='dark']) .tier_expert .rungNumber {
+  background: rgba(155, 89, 182, 0.25);
+  color: #bb8fce;
+}
+
+/* ----- Responsive: stack the two ladders vertically on phones ----- */
+@media (max-width: 768px) {
+  .laddersGrid {
+    grid-template-columns: 1fr;
+    gap: 1.25rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .ladder {
+    padding: 1rem 0.9rem 0.85rem;
+  }
+
+  .axisLabel {
+    font-size: 1.05rem;
+  }
+
+  .rung {
+    padding: 0.65rem 0.7rem;
+  }
+
+  .rungNumber {
+    width: 32px;
+    height: 32px;
+    font-size: 0.9rem;
+    margin-right: 0.65rem;
+  }
+
+  .rungName {
+    font-size: 1rem;
+  }
+
+  .rungDescription {
+    font-size: 0.82rem;
+  }
+}

@@ -98,6 +98,11 @@ const config = {
             position: 'left',
           },
           {
+            to: '/docs/upskilling-playbook/overview',
+            label: 'The Upskilling Playbook',
+            position: 'left',
+          },
+          {
             href: 'https://github.com/jahnelgroup/learn-ai',
             label: 'GitHub',
             position: 'right',
@@ -129,6 +134,10 @@ const config = {
               {
                 label: 'AI Productivity',
                 to: '/docs/ai-productivity/',
+              },
+              {
+                label: 'The Upskilling Playbook',
+                to: '/docs/upskilling-playbook/overview',
               },
             ],
           },

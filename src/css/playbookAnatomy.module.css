@@ -1,0 +1,78 @@
+/**
+ * Program Anatomy cards — light styled cards for the Playbook Overview.
+ * Theme-aware (uses Infima variables) and collapses to one column on mobile,
+ * mirroring the periodic table breakpoints (768px / 480px).
+ */
+
+.anatomy {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 1rem;
+  margin: 2rem 0;
+  align-items: stretch;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  background: var(--ifm-background-surface-color);
+  border: 1px solid var(--ifm-color-emphasis-200);
+  border-top: 3px solid var(--ifm-color-primary);
+  border-radius: 10px;
+  padding: 1.25rem 1rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+  transition: transform 0.2s, box-shadow 0.2s;
+  height: 100%;
+}
+
+.card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+}
+
+.step {
+  font-size: 0.7rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--ifm-color-primary);
+  margin-bottom: 0.4rem;
+}
+
+.cardTitle {
+  font-size: 1.05rem;
+  font-weight: 700;
+  line-height: 1.2;
+  margin: 0 0 0.5rem 0;
+}
+
+.cardBody {
+  font-size: 0.85rem;
+  line-height: 1.45;
+  color: var(--ifm-color-emphasis-700);
+  margin: 0;
+}
+
+[data-theme='dark'] .card {
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.4);
+  border-color: var(--ifm-color-emphasis-300);
+}
+
+[data-theme='dark'] .card:hover {
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.5);
+}
+
+/* Tablet: reflow to a more readable grid */
+@media (max-width: 996px) {
+  .anatomy {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* Phone: collapse to a single column */
+@media (max-width: 768px) {
+  .anatomy {
+    grid-template-columns: 1fr;
+    gap: 0.75rem;
+  }
+}

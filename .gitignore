@@ -12,6 +12,12 @@ build/
 .DS_Store
 Thumbs.db
 
+# Internal source/working artifacts — never publish to the public repo
+content.pdf
+prompt.md
+foundation.csv
+*.pdf
+
 # Environment files
 .env
 .env.local

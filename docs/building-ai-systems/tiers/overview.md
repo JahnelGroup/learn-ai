@@ -4,6 +4,8 @@ title: Learning Tiers Overview
 sidebar_position: 1
 ---
 
+import EscalationLadder from '@site/src/components/EscalationLadder';
+
 # Learning Tiers Overview
 
 The tiers represent **milestones on your learning journey**, not finish lines. They give us a shared vocabulary to understand where we are in our AI understanding and where we might go next.
@@ -46,23 +48,11 @@ Think of it like learning a musical instrument: saying you're at a "beginner," "
 
 ## How to Think About Progression
 
-### The Learning Cycle
+At every tier, the same question gets asked at a deeper level: can you **talk it**, **build it**, and ultimately **multiply it**? This progression is the throughline of the whole journey, from explaining a concept out loud, to shipping it in real code, to making your whole team better at it.
 
-```
-    ┌───────────────────────────────────────┐
-    │                                       │
-    ▼                                       │
-  LEARN          APPLY          TEACH       │
-  concepts  ───▶  in work  ───▶  others ───┘
-                                      │
-                                      ▼
-                               DEEPER UNDERSTANDING
-```
+<EscalationLadder />
 
-Each tier involves all three phases:
-- **Learning** new concepts from the periodic table
-- **Applying** them in real projects (your portfolio)
-- **Teaching** or explaining to others (reinforces your own understanding)
+This isn't a one-way climb you finish. At every tier it runs as a loop — you reach for a deeper rung, the gaps it exposes send you back to learn and build again, and each pass leaves you with deeper understanding than the last.
 
 ### Foundation isn't "Basic"
 

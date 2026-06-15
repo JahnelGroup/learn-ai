@@ -19,6 +19,86 @@
   flex-wrap: wrap;
 }
 
+/* Eyebrow label */
+.eyebrow {
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  font-size: 0.85rem;
+  font-weight: 700;
+  color: #2e8bc0;
+  margin-bottom: 1rem;
+}
+
+/* Two-door Audience Router */
+.routerSection {
+  padding: 3rem 0;
+  background: var(--ifm-background-surface-color);
+}
+
+.routerGrid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2rem;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.routerDoor {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 2.5rem 2rem;
+  border-radius: 12px;
+  background: var(--ifm-background-color);
+  border: 2px solid var(--ifm-color-emphasis-200);
+  text-decoration: none;
+  color: inherit;
+  transition: all 0.3s ease;
+}
+
+.routerDoor:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
+  text-decoration: none;
+}
+
+.routerDoorLearn:hover {
+  border-color: #2e8bc0;
+  box-shadow: 0 8px 24px rgba(46, 139, 192, 0.3);
+}
+
+.routerDoorBuild:hover {
+  border-color: #9b59b6;
+  box-shadow: 0 8px 24px rgba(155, 89, 182, 0.3);
+}
+
+.routerIcon {
+  font-size: 2.5rem;
+  line-height: 1;
+  margin-bottom: 1rem;
+}
+
+.routerTitle {
+  margin-bottom: 0.75rem;
+}
+
+.routerDescription {
+  color: var(--ifm-color-emphasis-700);
+  margin-bottom: 1.5rem;
+  flex: 1;
+}
+
+.routerLink {
+  font-weight: 600;
+  color: #2e8bc0;
+}
+
+.routerDoorBuild .routerLink {
+  color: #9b59b6;
+}
+
 /* Building AI Section */
 .buildingAISection {
   padding: 3rem 0;
@@ -268,6 +348,53 @@
   text-align: center;
 }
 
+/* Playbook Teaser Section */
+.teaserSection {
+  padding: 4rem 0;
+  background: var(--ifm-background-surface-color);
+}
+
+.teaserGrid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.5rem;
+  max-width: 1000px;
+  margin: 0 auto 2rem;
+}
+
+.teaserCard {
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+  border-radius: 12px;
+  background: var(--ifm-background-color);
+  border-top: 4px solid #9b59b6;
+  text-decoration: none;
+  color: inherit;
+  transition: all 0.3s ease;
+}
+
+.teaserCard:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 8px 24px rgba(155, 89, 182, 0.3);
+  text-decoration: none;
+}
+
+.teaserCard h3 {
+  margin-bottom: 0.5rem;
+}
+
+.teaserCard p {
+  flex: 1;
+  color: var(--ifm-color-emphasis-700);
+  margin-bottom: 1rem;
+}
+
+.teaserLink {
+  font-weight: 600;
+  color: #9b59b6;
+}
+
 /* CTA Section */
 .ctaSection {
   padding: 4rem 0;
@@ -286,6 +413,17 @@
   margin: 0 auto 1rem;
 }
 
+.ctaSoft {
+  font-size: 1rem !important;
+  opacity: 0.9;
+  margin-top: 1.5rem !important;
+}
+
+.ctaSoft a {
+  color: white;
+  text-decoration: underline;
+}
+
 @media screen and (max-width: 996px) {
   .heroBanner {
     padding: 2rem;
@@ -293,5 +431,13 @@
 
   .buttons {
     flex-direction: column;
+  }
+
+  .routerGrid {
+    grid-template-columns: 1fr;
+  }
+
+  .teaserGrid {
+    grid-template-columns: 1fr;
   }
 }

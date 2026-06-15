@@ -505,7 +505,7 @@ Thinking models have matured rapidly since their introduction in late 2024:
 - **o3 / o3-mini (OpenAI):** Successor to o1; o3 targets deep, mission-critical reasoning with extended internal reasoning traces, while o3-mini offers a cost-optimized variant with faster throughput. GPT-5.2 achieves 100% on AIME 2025 mathematics benchmarks.
 - **Claude Opus 4.6 (Anthropic):** Extended thinking mode with leading performance in agentic coding (65.4% on Terminal-Bench 2.0) and enterprise knowledge work. Supports a 1M token context window (beta).
 - **Gemini 2.0 Flash Thinking / Gemini 3 Deep Think (Google):** Flash Thinking scores 73.3% on AIME 2024 and 74.2% on GPQA-Diamond. Gemini 3 Deep Think variant targeting even deeper reasoning is in development.
-- **DeepSeek-R1:** Open-weights model that generates explicit multi-step reasoning chains before answering. Research shows a "sweet spot" for reasoning depth — additional inference time beyond that point can paradoxically degrade output quality.
+- **DeepSeek-R1:** Open-weights model that generates explicit multi-step reasoning chains before answering. Research shows a "sweet spot" for reasoning depth, since additional inference time beyond that point can paradoxically degrade output quality.
 
 Key characteristics shared by mature reasoning models: auditable chain-of-thought traces, contextual stamina for large inputs, planning and self-verification, and tool integration for grounding logic in real-world data.
 
